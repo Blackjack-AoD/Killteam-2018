@@ -21,7 +21,7 @@
   <entryLinks>
     <entryLink id="006a-fc0b-6aae-9ef5" name="Elucia Vhane" hidden="false" collective="false" import="true" targetId="a859-19b1-7e47-58db" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="03d0-0381-376f-3cc3" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="03d0-0381-376f-3cc3" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0312-eeee-c6d1-4448" name="Voidsman Fire Team" hidden="false" collective="false" import="true" targetId="6493-19fb-6099-747e" type="selectionEntry">
@@ -33,12 +33,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="0ed3-553a-4023-a0e2" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="0ed3-553a-4023-a0e2" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6991-4036-0605-3655" name="Voidsmaster Nitsch" hidden="false" collective="false" import="true" targetId="7d6d-820e-9e83-75e0" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="9f30-c7b2-f238-f649" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="9f30-c7b2-f238-f649" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="1a8d-888f-598e-f7fd" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -58,7 +58,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="c53a-f257-f7a0-4f82" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="c53a-f257-f7a0-4f82" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3b76-3873-b181-faa9" name="Voidsman Gunner" hidden="false" collective="false" import="true" targetId="0902-1bcd-c021-d25a" type="selectionEntry">
@@ -70,7 +70,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="9a57-6ceb-3c40-10c9" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="9a57-6ceb-3c40-10c9" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1f0b-da93-d98b-ba07" name="Voidsman Nitsch" hidden="false" collective="false" import="true" targetId="7d6d-820e-9e83-75e0" type="selectionEntry">
@@ -82,7 +82,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="3ae4-c6a9-a51d-27fa" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="3ae4-c6a9-a51d-27fa" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="268b-f539-1522-465c" name="Aximillion" hidden="false" collective="false" import="true" targetId="5c99-d016-fc57-eca4" type="selectionEntry">
@@ -94,12 +94,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="391b-cdf5-7e0d-2f40" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="391b-cdf5-7e0d-2f40" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="c027-7c32-5e85-8db6" name="Voidsman" hidden="false" collective="false" import="true" targetId="f1d1-a492-e634-a2e3" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="0add-a4bd-afc8-1ba4" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="0add-a4bd-afc8-1ba4" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="3bd7-1cac-8cc6-748c" name="Specialism" hidden="false" collective="false" import="true">
@@ -116,7 +116,7 @@
     </entryLink>
     <entryLink id="d341-ee5d-13c7-93b1" name="Voidsman Gunner" hidden="false" collective="false" import="true" targetId="0902-1bcd-c021-d25a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="8d71-8791-dff7-890c" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="8d71-8791-dff7-890c" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5aae-7f18-2973-d479" name="Specialism" hidden="false" collective="false" import="true">
@@ -134,7 +134,7 @@
     </entryLink>
     <entryLink id="9c29-38ac-097d-4281" name="Voidsmaster Nitsch" hidden="false" collective="false" import="true" targetId="7d6d-820e-9e83-75e0" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="439f-1dc6-683b-bf23" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="439f-1dc6-683b-bf23" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f611-4f6c-73b2-d26f" name="Specialism" hidden="false" collective="false" import="true">
@@ -151,7 +151,7 @@
     </entryLink>
     <entryLink id="0e5e-4bf1-a182-9f21" name="Aximillion" hidden="false" collective="false" import="true" targetId="5c99-d016-fc57-eca4" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="63c1-e13b-0448-9d2c" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="63c1-e13b-0448-9d2c" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a428-50ac-a5a4-354b" name="Specialism" hidden="false" collective="false" import="true">
@@ -169,17 +169,17 @@
     </entryLink>
     <entryLink id="9442-d517-a80f-f9a6" name="Knosso Prond" hidden="false" collective="false" import="true" targetId="a262-7c59-fd4a-b906" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="9c76-ce5e-7285-fc18" name="New CategoryLink" hidden="false" targetId="181f-e47f-6ec3-2e9b" primary="true"/>
+        <categoryLink id="9c76-ce5e-7285-fc18" name="Specialist Retainer" hidden="false" targetId="181f-e47f-6ec3-2e9b" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="c151-944e-69c0-b46a" name="Larsen van der Grauss" hidden="false" collective="false" import="true" targetId="3345-09e9-80a9-73b4" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="f970-27d9-2186-49a9" name="New CategoryLink" hidden="false" targetId="181f-e47f-6ec3-2e9b" primary="true"/>
+        <categoryLink id="f970-27d9-2186-49a9" name="Specialist Retainer" hidden="false" targetId="181f-e47f-6ec3-2e9b" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4585-e912-a7a1-0b6a" name="Sanistasia Minst" hidden="false" collective="false" import="true" targetId="296d-fb70-6e48-50c3" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="8287-513e-7336-15b8" name="New CategoryLink" hidden="false" targetId="181f-e47f-6ec3-2e9b" primary="true"/>
+        <categoryLink id="8287-513e-7336-15b8" name="Specialist Retainer" hidden="false" targetId="181f-e47f-6ec3-2e9b" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

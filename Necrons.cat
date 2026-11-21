@@ -66,7 +66,7 @@
         <infoLink id="877e-2f82-b057-7992" name="Living Metal" hidden="false" targetId="00f0-2254-bd03-ffd1" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="a592-20aa-ab0c-d184" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="a592-20aa-ab0c-d184" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="4e60-1c93-46ef-8246" name="Faction: Necrons" hidden="false" targetId="3195-75bf-43ec-d189" primary="false"/>
         <categoryLink id="7a38-ed58-67fe-54f3" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="b445-059c-066a-f853" name="Overlord" hidden="false" targetId="eb11-46df-4f6e-40e3" primary="false"/>
@@ -248,7 +248,7 @@
         <infoLink id="f402-8863-4ce2-bb55" name="Living Metal" hidden="false" targetId="00f0-2254-bd03-ffd1" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7e4b-dd30-a288-4ee3" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="7e4b-dd30-a288-4ee3" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="7838-51e8-76bc-94fa" name="Faction: Necrons" hidden="false" targetId="3195-75bf-43ec-d189" primary="false"/>
         <categoryLink id="15b7-0670-7d10-0291" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="74a8-24ac-4ed7-2d5e" name="Chronomancer" hidden="false" targetId="13d5-bf80-9ada-3fa0" primary="false"/>
@@ -408,7 +408,7 @@
         <infoLink id="91c2-a927-39a9-3f71" name="Living Metal" hidden="false" targetId="00f0-2254-bd03-ffd1" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1614-057e-df3f-b30e" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="1614-057e-df3f-b30e" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="2fa0-c526-309e-2cbd" name="Faction: Necrons" hidden="false" targetId="3195-75bf-43ec-d189" primary="false"/>
         <categoryLink id="b1ab-d160-a40d-a0cd" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="888a-a1bf-16e4-8792" name="Royal Warden" hidden="false" targetId="92b2-c231-e955-d8b7" primary="false"/>
@@ -512,7 +512,7 @@
         <infoLink id="ac5b-c500-c93b-5e68" name="Living Metal" hidden="false" targetId="00f0-2254-bd03-ffd1" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ac98-976b-51ee-cf4a" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="ac98-976b-51ee-cf4a" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="344a-0782-f555-0415" name="Faction: Necrons" hidden="false" targetId="3195-75bf-43ec-d189" primary="false"/>
         <categoryLink id="0061-2112-b1bf-bac2" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="66a5-2781-1f3b-3764" name="Cryptek" hidden="false" targetId="d966-08f8-63d6-034f" primary="false"/>
@@ -607,7 +607,7 @@
         <infoLink id="6242-3b71-1205-2124" name="Living Metal" hidden="false" targetId="00f0-2254-bd03-ffd1" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f839-25fd-448e-7198" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="f839-25fd-448e-7198" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="6e47-f3f3-7cb8-b4ae" name="Faction: Necrons" hidden="false" targetId="3195-75bf-43ec-d189" primary="false"/>
         <categoryLink id="0377-14ac-fa7d-9cf8" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="7dd6-fd54-de2d-26d7" name="Cryptek" hidden="false" targetId="d966-08f8-63d6-034f" primary="false"/>
@@ -713,7 +713,7 @@
         <infoLink id="33f2-7259-67b4-be4e" name="Living Metal" hidden="false" targetId="00f0-2254-bd03-ffd1" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="edc9-9eb5-c4da-84d2" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="edc9-9eb5-c4da-84d2" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="8ce8-df23-a0ae-2609" name="Faction: Necrons" hidden="false" targetId="3195-75bf-43ec-d189" primary="false"/>
         <categoryLink id="443e-a09a-305a-0667" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="bcee-cb80-2011-3f4b" name="Cryptek" hidden="false" targetId="d966-08f8-63d6-034f" primary="false"/>
@@ -877,7 +877,7 @@
     </entryLink>
     <entryLink id="0b2d-e079-9652-ed4d" name="Deathmark" hidden="false" collective="false" import="true" targetId="e299-24fe-f16d-dd4c" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="a23d-33a7-e69a-a275" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="a23d-33a7-e69a-a275" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="149f-47fe-8698-7348" name="Specialism" hidden="false" collective="false" import="true">
@@ -896,7 +896,7 @@
     </entryLink>
     <entryLink id="4915-37ed-30a1-7174" name="Immortal" hidden="false" collective="false" import="true" targetId="040a-73a0-6c8d-2733" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="a8e5-5a1c-6992-0b27" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="a8e5-5a1c-6992-0b27" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="8102-fad6-a369-15a0" name="Specialism" hidden="false" collective="false" import="true">
@@ -914,7 +914,7 @@
     </entryLink>
     <entryLink id="de04-4e57-f4d7-d023" name="Necron Warrior" hidden="false" collective="false" import="true" targetId="0153-186d-0217-311c" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="e7d2-762f-97f8-235e" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="e7d2-762f-97f8-235e" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="35ec-c219-c00a-64fa" name="Specialism" hidden="false" collective="false" import="true">
@@ -931,7 +931,7 @@
     </entryLink>
     <entryLink id="1778-6a6a-4248-309e" name="Flayed One" hidden="false" collective="false" import="true" targetId="1096-6337-5521-2b3a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="992d-030f-d37a-ac93" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="992d-030f-d37a-ac93" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b2f8-3e8f-ed77-5298" name="Specialism" hidden="false" collective="false" import="true">
@@ -956,7 +956,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="7264-eceb-6eb2-aafa" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="7264-eceb-6eb2-aafa" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2330-710f-88bb-9a41" name="Flayed One Fire Team" hidden="false" collective="false" import="true" targetId="9844-2272-648a-4e72" type="selectionEntry">
@@ -968,7 +968,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="63e8-5eb7-50f8-69bb" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="63e8-5eb7-50f8-69bb" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6958-3f8d-3a78-246a" name="Immortal Fire Team" hidden="false" collective="false" import="true" targetId="345a-c10b-9a64-a3cd" type="selectionEntry">
@@ -980,7 +980,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="fea8-67e2-544d-5abe" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="fea8-67e2-544d-5abe" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="c99a-7ec8-5eb5-775d" name="Necron Warrior Fire Team" hidden="false" collective="false" import="true" targetId="9ef3-7544-bdde-9034" type="selectionEntry">
@@ -992,13 +992,13 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="89b9-e96f-7291-cb7b" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="89b9-e96f-7291-cb7b" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="578b-249a-6b43-4148" name="Overlord" hidden="false" collective="false" import="true" targetId="cb76-ae8e-a2af-f9b6" type="selectionEntry"/>
     <entryLink id="005c-c10c-1a4d-d677" name="Triarch Praetorian" hidden="false" collective="false" import="true" targetId="5166-8ff9-c66d-b073" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="bf38-6e42-9cb8-d9f4" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="bf38-6e42-9cb8-d9f4" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="24d4-9ced-becd-9ec2" name="Specialism" hidden="false" collective="false" import="true">
@@ -1049,7 +1049,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="6726-9b18-b999-f6b2" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="6726-9b18-b999-f6b2" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4f98-369f-6400-271c" name="Lychguard" hidden="false" collective="false" import="true" targetId="6277-b9ab-001c-b557" type="selectionEntry">
@@ -1079,7 +1079,7 @@
     </entryLink>
     <entryLink id="4754-c987-3478-404b" name="Lychguard" hidden="false" collective="false" import="true" targetId="6277-b9ab-001c-b557" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="4874-1881-3f68-2359" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="4874-1881-3f68-2359" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a103-fd79-2d5b-786a" name="Specialism" hidden="false" collective="false" import="true">
@@ -1105,7 +1105,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="b24f-be56-394c-93f0" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="b24f-be56-394c-93f0" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

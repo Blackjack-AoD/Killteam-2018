@@ -66,7 +66,7 @@
         <infoLink id="2333-d317-789f-9c2c" name="Canticles of the Omnissiah" hidden="false" targetId="da55-b94a-f55a-6538" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ae7e-3a67-7964-b428" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="ae7e-3a67-7964-b428" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
         <categoryLink id="19ba-4bcf-9723-cab6" name="Faction: Adeptus Mechanicus" hidden="false" targetId="5d67-ac66-1e97-ffb3" primary="false"/>
         <categoryLink id="38c8-aacd-29aa-87a2" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="65ff-dbd2-da81-8652" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
@@ -193,10 +193,10 @@
         <infoLink id="fc22-bd76-3919-3d41" name="Canticles of the Omnissiah" hidden="false" targetId="da55-b94a-f55a-6538" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="affd-50d4-31f7-f827" name="New CategoryLink" hidden="false" targetId="5d67-ac66-1e97-ffb3" primary="false"/>
+        <categoryLink id="affd-50d4-31f7-f827" name="Faction: Adeptus Mechanicus" hidden="false" targetId="5d67-ac66-1e97-ffb3" primary="false"/>
         <categoryLink id="e7e2-136c-f96e-f8f9" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="c50a-dd31-3f55-2c64" name="Cult Mechanicus" hidden="false" targetId="05de-77a8-d7f8-354a" primary="false"/>
-        <categoryLink id="a900-4d1f-5b49-f25d" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="a900-4d1f-5b49-f25d" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="c1d2-d07d-ce25-0b1f" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="0c60-34f5-f542-41de" name="Tech-priest" hidden="false" targetId="1955-96ab-adea-3e21" primary="false"/>
         <categoryLink id="369c-7714-37ce-d1bc" name="Daedalosus" hidden="false" targetId="39b3-b2ec-6701-903d" primary="false"/>
@@ -309,7 +309,7 @@
         <infoLink id="e36d-2e13-67d3-429c" name="Canticles of the Omnissiah" hidden="false" targetId="da55-b94a-f55a-6538" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="858d-e80b-df1a-ccd4" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="858d-e80b-df1a-ccd4" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="412c-3a3f-73d5-0973" name="Faction: Adeptus Mechanicus" hidden="false" targetId="5d67-ac66-1e97-ffb3" primary="false"/>
         <categoryLink id="9a46-451e-e34c-2c8d" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="288a-bb26-dacf-56a5" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
@@ -511,7 +511,7 @@
         <infoLink id="1da1-685e-9838-d408" name="Canticles of the Omnissiah" hidden="false" targetId="da55-b94a-f55a-6538" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="199b-d9ea-c0f3-358d" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="199b-d9ea-c0f3-358d" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="5f62-f28e-ea58-daa6" name="Faction: Adeptus Mechanicus" hidden="false" targetId="5d67-ac66-1e97-ffb3" primary="false"/>
         <categoryLink id="7814-8098-b86d-4627" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="34fa-0b6b-5297-03ee" name="Cult Mechanicus" hidden="false" targetId="05de-77a8-d7f8-354a" primary="false"/>
@@ -704,7 +704,7 @@
     </entryLink>
     <entryLink id="fffd-cec5-4c3a-322b" name="Skitarii Ranger" hidden="false" collective="false" import="true" targetId="013d-acd0-bf48-92f5" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="8eed-f06e-9dce-7cd9" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="8eed-f06e-9dce-7cd9" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5532-dd7b-aefe-0824" name="Specialism" hidden="false" collective="false" import="true">
@@ -778,7 +778,7 @@
     </entryLink>
     <entryLink id="5f83-5eb3-759b-ebc6" name="Skitarii Ranger Gunner" hidden="false" collective="false" import="true" targetId="52de-c98a-be07-fb83" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="def5-150a-9701-c29e" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="def5-150a-9701-c29e" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="ffbd-7aee-9406-7c4a" name="Specialism" hidden="false" collective="false" import="true">
@@ -805,12 +805,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="4dab-fd44-6986-5b76" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="4dab-fd44-6986-5b76" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ac33-cb70-6ed4-1dd5" name="Skitarii Vanguard" hidden="false" collective="false" import="true" targetId="bb05-e980-9005-15a4" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="7b9b-4bd5-e8c2-80ed" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="7b9b-4bd5-e8c2-80ed" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="677d-58b9-287b-ece8" name="Specialism" hidden="false" collective="false" import="true">
@@ -836,12 +836,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="e5fe-2a67-4ddf-a207" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="e5fe-2a67-4ddf-a207" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="73da-44ae-248a-eb76" name="Skitarii Vanguard Gunner" hidden="false" collective="false" import="true" targetId="669b-1926-9636-366b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="f56f-ff62-3bcf-70e5" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="f56f-ff62-3bcf-70e5" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c780-0e2b-9660-c40f" name="Specialism" hidden="false" collective="false" import="true">
@@ -868,12 +868,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="d2ce-676d-bcee-e271" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="d2ce-676d-bcee-e271" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="bde6-1fd6-b28a-245c" name="Skitarii Vanguard Alpha" hidden="false" collective="false" import="true" targetId="72cb-2c09-5b9f-21af" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="e912-3a42-7bfb-4212" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="e912-3a42-7bfb-4212" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="8f6a-510f-0d3f-e216" name="Specialism" hidden="false" collective="false" import="true">
@@ -892,7 +892,7 @@
     </entryLink>
     <entryLink id="f163-6313-0b22-5464" name="Skitarii Vanguard Alpha" hidden="false" collective="false" import="true" targetId="72cb-2c09-5b9f-21af" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="c184-e4c7-3c7b-09d5" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="c184-e4c7-3c7b-09d5" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8a31-f620-97fa-c89e" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -912,12 +912,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="44b8-2add-757a-f147" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="44b8-2add-757a-f147" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="51d5-9dec-789c-bf1c" name="Infiltrator Princeps" hidden="false" collective="false" import="true" targetId="6b0c-890c-f000-a374" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="acdd-95f9-e354-88e5" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="acdd-95f9-e354-88e5" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2888-a85e-6c19-0e9e" name="Specialism" hidden="false" collective="false" import="true">
@@ -937,7 +937,7 @@
     </entryLink>
     <entryLink id="886e-c13d-2f2b-fdf0" name="Infiltrator Princeps" hidden="false" collective="false" import="true" targetId="6b0c-890c-f000-a374" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="525d-a52b-a86b-3737" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="525d-a52b-a86b-3737" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4337-c96b-7a21-1893" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -957,12 +957,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="5044-49d1-0831-8030" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="5044-49d1-0831-8030" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2f90-6571-2122-08d7" name="Sicarian Infiltrator" hidden="false" collective="false" import="true" targetId="dccd-1449-1a93-a1ae" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="a12c-c09a-3c01-bbaa" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="a12c-c09a-3c01-bbaa" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="cfd7-e628-1eb0-b160" name="Specialism" hidden="false" collective="false" import="true">
@@ -989,7 +989,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="0261-9993-3e53-c60f" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="0261-9993-3e53-c60f" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f570-d5a8-9ced-6e30" name="Ruststalker Princeps" hidden="false" collective="false" import="true" targetId="35df-b7d9-84cc-bde1" type="selectionEntry">
@@ -1001,12 +1001,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="01d4-7cb5-6c4a-b4f7" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="01d4-7cb5-6c4a-b4f7" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a83e-13f0-8294-3d93" name="Ruststalker Princeps" hidden="false" collective="false" import="true" targetId="35df-b7d9-84cc-bde1" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="bf6e-57ae-a9e6-aa85" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="bf6e-57ae-a9e6-aa85" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="52e4-a848-646d-9344" name="Specialism" hidden="false" collective="false" import="true">
@@ -1026,7 +1026,7 @@
     </entryLink>
     <entryLink id="1e2e-d6d1-bf5d-df68" name="Ruststalker Princeps" hidden="false" collective="false" import="true" targetId="35df-b7d9-84cc-bde1" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="cd1a-4011-ba16-4c2f" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="cd1a-4011-ba16-4c2f" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4146-95ef-2429-5edb" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -1039,7 +1039,7 @@
     </entryLink>
     <entryLink id="b0f3-5c21-ca6f-d54d" name="Sicarian Ruststalker" hidden="false" collective="false" import="true" targetId="48c6-d344-2f5d-c5da" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6a72-f3ec-7334-27a0" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="6a72-f3ec-7334-27a0" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="56dd-ff04-5c12-da75" name="Specialism" hidden="false" collective="false" import="true">
@@ -1066,7 +1066,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="5130-b7d4-cdd1-2764" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="5130-b7d4-cdd1-2764" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="84fd-7b0e-bbd9-fbdd" name="Sicarian Ruststalker Fireteam" hidden="false" collective="false" import="true" targetId="7e72-6983-af8f-ebc4" type="selectionEntry">
@@ -1078,7 +1078,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="97dd-557d-2061-d0f7" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="97dd-557d-2061-d0f7" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3ea4-c393-e0a6-551d" name="Skitarii Ranger Fire Team" hidden="false" collective="false" import="true" targetId="5995-9790-c737-0e6d" type="selectionEntry">
@@ -1090,7 +1090,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="34b2-788d-fa24-dbfc" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="34b2-788d-fa24-dbfc" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2f09-7124-494e-a42a" name="Skitarii Vanguard Fireteam" hidden="false" collective="false" import="true" targetId="fe76-6fb8-a1dc-9020" type="selectionEntry">
@@ -1102,7 +1102,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="8aea-fba5-8008-551a" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="8aea-fba5-8008-551a" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="9b31-39ea-acfc-234a" name="Tech-priest Enginseer" hidden="false" collective="false" import="true" targetId="2052-7940-ce18-4464" type="selectionEntry"/>
@@ -1112,7 +1112,7 @@
     <entryLink id="90e3-7712-b050-0886" name="Tech-priest Manipulus" hidden="false" collective="false" import="true" targetId="0de9-a626-0ac5-1a4a" type="selectionEntry"/>
     <entryLink id="b478-e536-a3da-4cf6" name="Corpuscarii Electro-priest" hidden="false" collective="false" import="true" targetId="9975-5212-69da-5fa2" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="7efe-ca47-8584-2981" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="7efe-ca47-8584-2981" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4857-dd41-7328-62f6" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -1125,7 +1125,7 @@
     </entryLink>
     <entryLink id="616b-74c6-b72b-322f" name="Corpuscarii Electro-priest" hidden="false" collective="false" import="true" targetId="9975-5212-69da-5fa2" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="386f-3cd3-d652-8063" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="386f-3cd3-d652-8063" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="ac65-028a-331a-dc09" name="Specialism" hidden="false" collective="false" import="true">
@@ -1152,7 +1152,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="cdb6-a3aa-b51a-b05e" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="cdb6-a3aa-b51a-b05e" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3d5e-2eba-e2c6-3d31" name="Corpuscarii Electro-priest Fire Team" hidden="false" collective="false" import="true" targetId="a085-1857-a0fb-42c9" type="selectionEntry">
@@ -1164,12 +1164,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="a095-ce82-ad3d-78d4" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="a095-ce82-ad3d-78d4" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="309c-3356-9247-a418" name="Fulgurite Electro-priest" hidden="false" collective="false" import="true" targetId="3a31-de58-0f27-74d5" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="35f9-6d35-e44e-a991" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="35f9-6d35-e44e-a991" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="1047-1d4b-8e03-e7d6" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -1182,7 +1182,7 @@
     </entryLink>
     <entryLink id="7583-2b1b-9966-571f" name="Fulgurite Electro-priest" hidden="false" collective="false" import="true" targetId="3a31-de58-0f27-74d5" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="bf77-7857-84ac-e494" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="bf77-7857-84ac-e494" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="00a5-0854-aa64-a47f" name="Specialism" hidden="false" collective="false" import="true">
@@ -1209,7 +1209,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="b6c5-b69c-f41f-b4b9" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="b6c5-b69c-f41f-b4b9" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="102e-b4c6-0295-3bbd" name="Fulgurite Electro-priest Fire Team" hidden="false" collective="false" import="true" targetId="7955-bd26-266e-6151" type="selectionEntry">
@@ -1221,7 +1221,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="77e5-9582-8781-b060" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="77e5-9582-8781-b060" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="76ee-ad6c-7402-8a4b" name="Inquisitor Eisenhorn" hidden="false" collective="false" import="true" targetId="0fd3-65bd-a18e-1a30" type="selectionEntry"/>
@@ -1769,7 +1769,7 @@
         <categoryLink id="25f9-12fb-73ef-59a0" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="aabc-6491-3e14-1c62" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="efc1-5acb-d16c-2ad5" name="Skitarii" hidden="false" targetId="4b87-3b12-d261-3807" primary="false"/>
-        <categoryLink id="dbf7-6015-ba14-013e" name="Skitarii Ranger" hidden="false" targetId="5c18-9aa6-b638-6e17" primary="true"/>
+        <categoryLink id="dbf7-6015-ba14-013e" name="Skitarii Ranger" hidden="false" targetId="5c18-9aa6-b638-6e17" primary="false"/>
         <categoryLink id="3ad6-b534-dce8-098f" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
       </categoryLinks>
       <entryLinks>
@@ -1851,7 +1851,7 @@
         <categoryLink id="8a98-43e4-69e8-078d" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="9322-18fc-a5e7-0e35" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="a810-bfaf-1911-794f" name="Skitarii" hidden="false" targetId="4b87-3b12-d261-3807" primary="false"/>
-        <categoryLink id="2b78-4812-acd9-cdcf" name="Skitarii Ranger" hidden="false" targetId="5c18-9aa6-b638-6e17" primary="true"/>
+        <categoryLink id="2b78-4812-acd9-cdcf" name="Skitarii Ranger" hidden="false" targetId="5c18-9aa6-b638-6e17" primary="false"/>
         <categoryLink id="cad6-44d1-fe5c-3c42" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
@@ -1958,7 +1958,7 @@
         <categoryLink id="b742-301b-021b-b64f" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="a1fc-2a9b-8c21-a5a6" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="046f-0bfb-1318-5ec6" name="Skitarii" hidden="false" targetId="4b87-3b12-d261-3807" primary="false"/>
-        <categoryLink id="abc2-02e9-4c0d-3f09" name="Skitarii Ranger" hidden="false" targetId="5c18-9aa6-b638-6e17" primary="true"/>
+        <categoryLink id="abc2-02e9-4c0d-3f09" name="Skitarii Ranger" hidden="false" targetId="5c18-9aa6-b638-6e17" primary="false"/>
         <categoryLink id="b788-0fed-f203-261d" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
@@ -2024,7 +2024,7 @@
         <categoryLink id="f576-a82b-ea05-d90f" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="65d4-53c6-723a-5dfa" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="91b9-e1d1-111d-ed44" name="Skitarii" hidden="false" targetId="4b87-3b12-d261-3807" primary="false"/>
-        <categoryLink id="bca5-6452-8e7e-f316" name="New CategoryLink" hidden="false" targetId="fea9-19fc-c84f-f079" primary="true"/>
+        <categoryLink id="bca5-6452-8e7e-f316" name="Skitarii Vanguard" hidden="false" targetId="fea9-19fc-c84f-f079" primary="false"/>
         <categoryLink id="6a44-e070-a25f-aa52" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
@@ -2124,7 +2124,7 @@
         <categoryLink id="c10a-b642-61ee-5bc1" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="6331-0683-4ca8-eda9" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="3723-d48f-2ab6-0bed" name="Skitarii" hidden="false" targetId="4b87-3b12-d261-3807" primary="false"/>
-        <categoryLink id="b3ab-36c7-8d07-24ee" name="New CategoryLink" hidden="false" targetId="fea9-19fc-c84f-f079" primary="true"/>
+        <categoryLink id="b3ab-36c7-8d07-24ee" name="Skitarii Vanguard" hidden="false" targetId="fea9-19fc-c84f-f079" primary="false"/>
         <categoryLink id="f1fe-f999-05d1-cfe3" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
       </categoryLinks>
       <entryLinks>
@@ -2183,7 +2183,7 @@
         <categoryLink id="6e13-7c23-ff33-c75c" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="cbc6-03e3-fa46-68e5" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="a1af-18fc-94a7-975d" name="Skitarii" hidden="false" targetId="4b87-3b12-d261-3807" primary="false"/>
-        <categoryLink id="2f52-d0c2-44b3-018f" name="New CategoryLink" hidden="false" targetId="fea9-19fc-c84f-f079" primary="true"/>
+        <categoryLink id="2f52-d0c2-44b3-018f" name="Skitarii Vanguard" hidden="false" targetId="fea9-19fc-c84f-f079" primary="false"/>
         <categoryLink id="13a2-ec7b-c00b-e64c" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
@@ -2240,7 +2240,7 @@
         <categoryLink id="e94b-6fd7-4126-200c" name="Faction: Adeptus Mechanicus" hidden="false" targetId="5d67-ac66-1e97-ffb3" primary="false"/>
         <categoryLink id="ea6f-8fad-111f-58ed" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="b7c4-c5ac-02b4-dc76" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
-        <categoryLink id="0426-7d15-a828-e4e4" name="Sicarian Infiltrator" hidden="false" targetId="0a79-6f87-9978-a757" primary="true"/>
+        <categoryLink id="0426-7d15-a828-e4e4" name="Sicarian Infiltrator" hidden="false" targetId="0a79-6f87-9978-a757" primary="false"/>
         <categoryLink id="ecf6-bbd9-d912-d1e1" name="Skitarii" hidden="false" targetId="4b87-3b12-d261-3807" primary="false"/>
         <categoryLink id="45f6-5709-c081-3c0f" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
       </categoryLinks>
@@ -2346,7 +2346,7 @@
         <categoryLink id="b73a-fdd6-afaa-f8d8" name="Faction: Adeptus Mechanicus" hidden="false" targetId="5d67-ac66-1e97-ffb3" primary="false"/>
         <categoryLink id="b479-1ed9-a6b0-eeca" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="a545-822c-706b-6165" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
-        <categoryLink id="37a3-4dd2-a84c-b516" name="Sicarian Infiltrator" hidden="false" targetId="0a79-6f87-9978-a757" primary="true"/>
+        <categoryLink id="37a3-4dd2-a84c-b516" name="Sicarian Infiltrator" hidden="false" targetId="0a79-6f87-9978-a757" primary="false"/>
         <categoryLink id="d79c-efa7-e42b-ac24" name="Skitarii" hidden="false" targetId="4b87-3b12-d261-3807" primary="false"/>
         <categoryLink id="9284-d6b5-2fbe-50a1" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
       </categoryLinks>
@@ -2443,7 +2443,7 @@
         <categoryLink id="b6ea-b097-c521-0c0f" name="Faction: Adeptus Mechanicus" hidden="false" targetId="5d67-ac66-1e97-ffb3" primary="false"/>
         <categoryLink id="a0b4-3b4b-7255-2e22" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="1351-b347-0b1e-e640" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
-        <categoryLink id="9c4f-f153-6184-5bd5" name="New CategoryLink" hidden="false" targetId="c946-d2b5-8a95-2f61" primary="true"/>
+        <categoryLink id="9c4f-f153-6184-5bd5" name="Sicarian Ruststalker" hidden="false" targetId="c946-d2b5-8a95-2f61" primary="false"/>
         <categoryLink id="0fd8-526e-1084-d43e" name="Skitarii" hidden="false" targetId="4b87-3b12-d261-3807" primary="false"/>
         <categoryLink id="267f-ddaa-7482-28f8" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
       </categoryLinks>
@@ -2533,7 +2533,7 @@
         <categoryLink id="5f48-e2cf-11a6-b1ca" name="Faction: Adeptus Mechanicus" hidden="false" targetId="5d67-ac66-1e97-ffb3" primary="false"/>
         <categoryLink id="7dab-79b5-eedc-4005" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="6c7c-5773-38be-9689" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
-        <categoryLink id="3fe8-bb24-ea70-e99b" name="New CategoryLink" hidden="false" targetId="c946-d2b5-8a95-2f61" primary="true"/>
+        <categoryLink id="3fe8-bb24-ea70-e99b" name="Sicarian Ruststalker" hidden="false" targetId="c946-d2b5-8a95-2f61" primary="false"/>
         <categoryLink id="cc5b-f52f-eb9e-5564" name="Skitarii" hidden="false" targetId="4b87-3b12-d261-3807" primary="false"/>
         <categoryLink id="e40f-f0bd-8d1f-9276" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
       </categoryLinks>
@@ -2707,7 +2707,7 @@
         <categoryLink id="a74f-62a1-f7be-918f" name="Faction: Adeptus Mechanicus" hidden="false" targetId="5d67-ac66-1e97-ffb3" primary="false"/>
         <categoryLink id="86f7-dbf5-e69d-4b01" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="7a59-bc42-e469-2478" name="Cult Mechanicus" hidden="false" targetId="05de-77a8-d7f8-354a" primary="false"/>
-        <categoryLink id="8914-9070-c073-4b9e" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="8914-9070-c073-4b9e" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="bb17-035e-767e-89d5" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="6af8-c9b9-f6aa-ad9d" name="Tech-priest" hidden="false" targetId="1955-96ab-adea-3e21" primary="false"/>
         <categoryLink id="aff2-052d-a7d5-5993" name="Enginseer" hidden="false" targetId="3377-8f2f-c2ed-d2bb" primary="false"/>
@@ -2851,7 +2851,7 @@
         <categoryLink id="4c8d-e764-8331-1e85" name="Faction: Adeptus Mechanicus" hidden="false" targetId="5d67-ac66-1e97-ffb3" primary="false"/>
         <categoryLink id="d76f-a3fd-db2d-e1be" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="ccaf-c319-a048-2ce3" name="Cult Mechanicus" hidden="false" targetId="05de-77a8-d7f8-354a" primary="false"/>
-        <categoryLink id="ef4f-d05e-8a85-04c0" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="ef4f-d05e-8a85-04c0" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="8cc2-2b40-d478-5615" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="5637-c908-db54-655c" name="Tech-priest" hidden="false" targetId="1955-96ab-adea-3e21" primary="false"/>
         <categoryLink id="a89d-c842-12ae-5e73" name="Dominus" hidden="false" targetId="b434-3cfc-f7a4-7538" primary="false"/>
@@ -2997,7 +2997,7 @@
         <categoryLink id="4939-823b-00a5-21af" name="Imperial Robot" hidden="false" targetId="37f7-62fa-0450-7b55" primary="false"/>
         <categoryLink id="15dd-fb2f-f536-f723" name="UR-025" hidden="false" targetId="56cd-4b33-f0bf-bff9" primary="false"/>
         <categoryLink id="d68b-a3b8-65e0-7300" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
-        <categoryLink id="8b5b-9118-0e52-0414" name="New CategoryLink" hidden="false" targetId="181f-e47f-6ec3-2e9b" primary="true"/>
+        <categoryLink id="8b5b-9118-0e52-0414" name="Specialist Retainer" hidden="false" targetId="181f-e47f-6ec3-2e9b" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9593-38ac-20ec-e53b" name="Mk I assault cannon" hidden="false" collective="false" import="true" type="upgrade">

@@ -17,7 +17,7 @@
   <entryLinks>
     <entryLink id="7a8e-6bde-a12d-0062" name="Rubric Marine" hidden="false" collective="false" import="true" targetId="8f6f-6cd3-fe43-a89d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="c92f-9864-6d5e-3b25" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="c92f-9864-6d5e-3b25" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2306-3c85-d811-437f" name="Specialisms" hidden="false" collective="false" import="true">
@@ -35,7 +35,7 @@
     </entryLink>
     <entryLink id="da55-4e03-72bb-e67b" name="Rubric Marine Gunner" hidden="false" collective="false" import="true" targetId="a8ad-53cd-c639-802f" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="bc2b-f396-fed3-6fe0" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="bc2b-f396-fed3-6fe0" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="de4d-4024-b8ad-cedb" name="Specialisms" hidden="false" collective="false" import="true">
@@ -54,7 +54,7 @@
     </entryLink>
     <entryLink id="4fb8-efbc-ce4a-aebc" name="Aspiring Sorcerer" hidden="false" collective="false" import="true" targetId="dc39-84a4-ecc2-9eab" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="21cd-428d-9b9f-5aa5" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="21cd-428d-9b9f-5aa5" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="0fe6-90da-8589-1058" name="Specialisms" hidden="false" collective="false" import="true">
@@ -72,7 +72,7 @@
     </entryLink>
     <entryLink id="82d5-dccf-e337-eab9" name="Tzaangor" hidden="false" collective="false" import="true" targetId="b38d-f559-8aaf-983a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="f6b9-2ce7-f34c-53dc" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="f6b9-2ce7-f34c-53dc" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9517-0c02-f468-75d8" name="Specialisms" hidden="false" collective="false" import="true">
@@ -104,7 +104,7 @@
     </entryLink>
     <entryLink id="7847-2b0b-4555-4bbf" name="Twistbray" hidden="false" collective="false" import="true" targetId="87bf-3b79-0379-44e4" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="0fe1-16ad-af8e-8bc1" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="0fe1-16ad-af8e-8bc1" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="fe9f-1322-abe6-42db" name="Specialisms" hidden="false" collective="false" import="true">
@@ -124,7 +124,7 @@
     </entryLink>
     <entryLink id="31ab-451a-19b3-60c5" name="Aspiring Sorcerer" hidden="false" collective="false" import="true" targetId="dc39-84a4-ecc2-9eab" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="d611-aa4e-6a66-7d84" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="d611-aa4e-6a66-7d84" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="41f6-6589-5f0a-dd25" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -144,7 +144,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="9b16-8bce-22b1-3a2b" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="9b16-8bce-22b1-3a2b" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="768f-0a49-87f8-8205" name="Tzaangor Fire Team" hidden="false" collective="false" import="true" targetId="8545-f3b5-5fba-f75c" type="selectionEntry">
@@ -156,7 +156,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="40d8-edee-e475-ae53" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="40d8-edee-e475-ae53" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0420-3d24-0538-a6e5" name="Rubric Marine" hidden="false" collective="false" import="true" targetId="8f6f-6cd3-fe43-a89d" type="selectionEntry">
@@ -168,7 +168,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="6401-963a-0969-6100" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="6401-963a-0969-6100" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="76e5-066e-781e-50a7" name="Aspiring Sorcerer" hidden="false" collective="false" import="true" targetId="dc39-84a4-ecc2-9eab" type="selectionEntry">
@@ -180,7 +180,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="9476-b705-87b6-8e25" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="9476-b705-87b6-8e25" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="865c-efcc-12b1-a202" name="Rubric Marine Gunner" hidden="false" collective="false" import="true" targetId="a8ad-53cd-c639-802f" type="selectionEntry">
@@ -192,7 +192,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="9744-64f6-7301-76b5" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="9744-64f6-7301-76b5" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="acd2-5a71-6f93-9daf" name="Twistbray" hidden="false" collective="false" import="true" targetId="87bf-3b79-0379-44e4" type="selectionEntry">
@@ -204,7 +204,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="05ee-2ea2-ed38-5988" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="05ee-2ea2-ed38-5988" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7e0a-ba71-1493-1bc1" name="Tzaangor" hidden="false" collective="false" import="true" targetId="b38d-f559-8aaf-983a" type="selectionEntry">
@@ -216,12 +216,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="19c4-dab6-466c-b11f" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="19c4-dab6-466c-b11f" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="89a3-4372-520b-a3c4" name="Twistbray" hidden="false" collective="false" import="true" targetId="87bf-3b79-0379-44e4" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="59bd-4f6d-be0f-b6e5" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="59bd-4f6d-be0f-b6e5" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="80e1-2c29-88cb-e565" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -244,12 +244,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="3ca3-4d23-836f-4cfd" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="3ca3-4d23-836f-4cfd" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="16d1-1e86-55f3-472d" name="Scarab Occult Terminator" hidden="false" collective="false" import="true" targetId="a1e0-83e0-9e56-2842" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="beca-01dc-aee8-ed7f" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="beca-01dc-aee8-ed7f" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="993a-ded0-8bf4-f2e0" name="Specialisms" hidden="false" collective="false" import="true">
@@ -274,12 +274,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="b8e0-2c8e-a08a-6361" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="b8e0-2c8e-a08a-6361" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="959d-2310-2350-e52a" name="Scarab Occult Gunner" hidden="false" collective="false" import="true" targetId="98d4-51f3-1bfa-dc03" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="cd06-7f2b-f04c-54f0" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="cd06-7f2b-f04c-54f0" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="af43-3d1b-21dd-1435" name="Specialisms" hidden="false" collective="false" import="true">
@@ -305,7 +305,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="2d8f-e7bf-b589-6f7d" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="2d8f-e7bf-b589-6f7d" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e62c-56d6-a914-d4f6" name="Scarab Occult Sorcerer" hidden="false" collective="false" import="true" targetId="6e3b-99e3-d2b7-7764" type="selectionEntry">
@@ -317,12 +317,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="6010-9a7a-2762-4107" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="6010-9a7a-2762-4107" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="efd4-7abb-4631-7363" name="Scarab Occult Sorcerer" hidden="false" collective="false" import="true" targetId="6e3b-99e3-d2b7-7764" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="283a-abf1-7827-7411" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="283a-abf1-7827-7411" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="53d6-c298-639e-df35" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -335,7 +335,7 @@
     </entryLink>
     <entryLink id="4daf-5d70-4f1a-22b1" name="Scarab Occult Sorcerer" hidden="false" collective="false" import="true" targetId="6e3b-99e3-d2b7-7764" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="a565-1ebf-a57c-c9ef" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="a565-1ebf-a57c-c9ef" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="63c3-1446-ad7b-b76d" name="Specialisms" hidden="false" collective="false" import="true">
@@ -879,7 +879,7 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3220-830a-4da6-7648" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="3b20-0375-a9c3-7596" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="3b20-0375-a9c3-7596" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="971b-1854-aeca-1d5b" name="Models" hidden="false" collective="false" import="true">
@@ -1125,7 +1125,7 @@
         <categoryLink id="7b63-7020-4931-cf56" name="Chaos" hidden="false" targetId="5c8a-0750-e7af-2761" primary="false"/>
         <categoryLink id="5e49-3038-a5b9-9a7e" name="Tzeentch" hidden="false" targetId="ae7f-dd57-6f92-4087" primary="false"/>
         <categoryLink id="37d1-77cb-c025-7fce" name="Heretic Astartes" hidden="false" targetId="a2ee-c1c7-735f-f678" primary="false"/>
-        <categoryLink id="778a-7152-290a-d344" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="778a-7152-290a-d344" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="08ca-8ddd-d9db-ec92" name="Sorcerer" hidden="false" targetId="5204-5bfd-d167-a5d5" primary="false"/>
         <categoryLink id="d914-d233-3717-190f" name="Psyker" hidden="false" targetId="9b50-1372-5ee7-b0d9" primary="false"/>
         <categoryLink id="9f19-1010-fadd-4535" name="Cavalry" hidden="false" targetId="a4be-2fde-a2e8-2715" primary="false"/>
@@ -1304,7 +1304,7 @@
         <categoryLink id="8921-0ca9-4feb-a71c" name="Chaos" hidden="false" targetId="5c8a-0750-e7af-2761" primary="false"/>
         <categoryLink id="4d0a-e08b-6e99-7447" name="Tzeentch" hidden="false" targetId="ae7f-dd57-6f92-4087" primary="false"/>
         <categoryLink id="8f01-485c-c05c-6dee" name="Heretic Astartes" hidden="false" targetId="a2ee-c1c7-735f-f678" primary="false"/>
-        <categoryLink id="37ae-93e3-ac07-9ad9" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="37ae-93e3-ac07-9ad9" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="9152-31f8-5cba-165f" name="Cavalry" hidden="false" targetId="a4be-2fde-a2e8-2715" primary="false"/>
         <categoryLink id="0819-84a0-1742-213d" name="Daemon" hidden="false" targetId="d5e7-b1b5-4e6a-c394" primary="false"/>
         <categoryLink id="dc67-0393-81d4-6660" name="Tzaangor" hidden="false" targetId="1eaf-47ca-d17e-14b9" primary="false"/>

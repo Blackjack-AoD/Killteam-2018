@@ -25,7 +25,7 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="77ae-b88c-ef0b-8df7" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="31e7-b0b5-8830-b533" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="31e7-b0b5-8830-b533" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="e8e5-e2de-1b3f-ad70" name="Models" hidden="false" collective="false" import="true">
@@ -59,7 +59,7 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3da7-d303-299e-cbc2" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="0e41-13f3-209c-1c68" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="0e41-13f3-209c-1c68" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2844-377c-af98-098e" name="Models" hidden="false" collective="false" import="true">
@@ -93,7 +93,7 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="267c-90c7-ad56-d4fc" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="1d69-8d6b-3e05-ae48" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="1d69-8d6b-3e05-ae48" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2062-e062-a5bf-03eb" name="Models" hidden="false" collective="false" import="true">
@@ -127,7 +127,7 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e6ec-ff4d-65a9-e511" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="f598-d0a7-a213-c92e" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="f598-d0a7-a213-c92e" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="780b-ef49-41f4-fcc0" name="Models" hidden="false" collective="false" import="true">
@@ -160,12 +160,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="3136-1253-cbad-4a62" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="3136-1253-cbad-4a62" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0c0e-af86-7fbf-91ad" name="Bloodletter" hidden="false" collective="false" import="true" targetId="c058-5ee5-febb-85ea" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="a761-0bc9-1a34-103c" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="a761-0bc9-1a34-103c" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2595-56c7-ed8f-57ab" name="Specialism" hidden="false" collective="false" import="true">
@@ -189,12 +189,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="784b-92b5-be9a-85d4" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="784b-92b5-be9a-85d4" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="df8c-c818-3150-b7e5" name="Bloodletter Hornblower" hidden="false" collective="false" import="true" targetId="aa55-f453-08c3-6a0e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="8ddc-4f11-40f9-fe1d" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="8ddc-4f11-40f9-fe1d" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="05d9-3c9f-6521-ac35" name="Specialism" hidden="false" collective="false" import="true">
@@ -212,7 +212,7 @@
     </entryLink>
     <entryLink id="d56b-24f1-8115-9e10" name="Bloodletter Icon Bearer" hidden="false" collective="false" import="true" targetId="baa6-401e-57e8-3207" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="0cf6-744e-7f78-4714" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="0cf6-744e-7f78-4714" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="026f-6d27-73c1-feca" name="Specialism" hidden="false" collective="false" import="true">
@@ -230,7 +230,7 @@
     </entryLink>
     <entryLink id="eb98-c573-6bdd-169f" name="Bloodreaper" hidden="false" collective="false" import="true" targetId="57e9-6e4d-9463-83de" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="fd30-5c07-fa3f-367a" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="fd30-5c07-fa3f-367a" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="3911-df4f-c972-58a8" name="Specialism" hidden="false" collective="false" import="true">
@@ -254,7 +254,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="e948-0def-168b-9f9b" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="e948-0def-168b-9f9b" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e826-7174-09a5-2d98" name="Bloodreaper" hidden="false" collective="false" import="true" targetId="57e9-6e4d-9463-83de" type="selectionEntry">
@@ -266,12 +266,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="3f1c-c692-c74a-abda" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="3f1c-c692-c74a-abda" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="594f-7b39-50c5-14d7" name="Bloodreaper" hidden="false" collective="false" import="true" targetId="57e9-6e4d-9463-83de" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="e645-8d6c-d40b-2fef" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="e645-8d6c-d40b-2fef" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="69a6-0e9d-962c-2751" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -284,7 +284,7 @@
     </entryLink>
     <entryLink id="b2ff-bb9c-ef7b-cb56" name="Daemonette" hidden="false" collective="false" import="true" targetId="737a-3a7b-defa-b7c9" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="0517-7aa2-1d2a-26a6" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="0517-7aa2-1d2a-26a6" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b4e2-b801-2011-bdb7" name="Specialism" hidden="false" collective="false" import="true">
@@ -309,12 +309,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="5403-c7c8-1074-6ccd" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="5403-c7c8-1074-6ccd" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6a35-704e-864c-05a8" name="Daemonette Hornblower" hidden="false" collective="false" import="true" targetId="156f-e491-3393-4fd8" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="b50a-fbb7-babd-2bb6" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="b50a-fbb7-babd-2bb6" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="134d-b682-6f3b-b563" name="Specialism" hidden="false" collective="false" import="true">
@@ -340,7 +340,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="ebeb-7d97-fa30-bd83" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="ebeb-7d97-fa30-bd83" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4538-e8ed-f5ea-266b" name="Daemonette Icon Bearer" hidden="false" collective="false" import="true" targetId="2960-d0a6-7757-794b" type="selectionEntry">
@@ -352,12 +352,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="fba5-14e6-a3fe-a266" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="fba5-14e6-a3fe-a266" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="0a13-3ce2-2247-c421" name="Daemonette Icon Bearer" hidden="false" collective="false" import="true" targetId="2960-d0a6-7757-794b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="2a62-3803-dc45-437a" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="2a62-3803-dc45-437a" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="e408-04a2-998b-dd90" name="Specialism" hidden="false" collective="false" import="true">
@@ -376,7 +376,7 @@
     </entryLink>
     <entryLink id="0774-b4a6-57e0-8b43" name="Alluress" hidden="false" collective="false" import="true" targetId="f7c9-5497-4c6b-89cd" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="42c7-de41-5330-3337" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="42c7-de41-5330-3337" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="1941-c3cf-901b-bc5f" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -396,12 +396,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="8136-48f4-c87c-0671" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="8136-48f4-c87c-0671" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3b85-d364-4b15-e6d0" name="Alluress" hidden="false" collective="false" import="true" targetId="f7c9-5497-4c6b-89cd" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="14ee-575d-71bf-9af8" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="14ee-575d-71bf-9af8" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="bdd0-671d-21ed-5fb4" name="Specialism" hidden="false" collective="false" import="true">
@@ -419,7 +419,7 @@
     </entryLink>
     <entryLink id="762e-c4d8-c069-087c" name="Pink Horror" hidden="false" collective="false" import="true" targetId="6efa-5ec7-fe87-1c03" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="43db-b8a8-7c83-d70f" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="43db-b8a8-7c83-d70f" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="640a-b08c-8d36-0637" name="Specialism" hidden="false" collective="false" import="true">
@@ -443,12 +443,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="80d6-df08-135a-0055" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="80d6-df08-135a-0055" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="cc30-c990-208d-fc2e" name="Pink Horror Hornblower" hidden="false" collective="false" import="true" targetId="3bf0-6645-babc-0d5f" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="519c-44e8-fd92-2184" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="519c-44e8-fd92-2184" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="eb96-f59f-7920-c83b" name="Specialism" hidden="false" collective="false" import="true">
@@ -473,7 +473,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="d0d1-d074-b8dc-00d0" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="d0d1-d074-b8dc-00d0" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a9c7-2ab8-6b5c-b162" name="Pink Horror Icon Bearer" hidden="false" collective="false" import="true" targetId="c861-e455-2746-56e7" type="selectionEntry">
@@ -485,12 +485,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="f017-8654-edee-32e9" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="f017-8654-edee-32e9" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="305e-5e87-6c36-89d8" name="Pink Horror Icon Bearer" hidden="false" collective="false" import="true" targetId="c861-e455-2746-56e7" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="c912-9606-3b83-837b" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="c912-9606-3b83-837b" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="ac4e-6525-225b-8d79" name="Specialism" hidden="false" collective="false" import="true">
@@ -508,7 +508,7 @@
     </entryLink>
     <entryLink id="650f-216b-06bf-c7bd" name="Iridescent Horror" hidden="false" collective="false" import="true" targetId="d9fc-bf49-5e9a-a943" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="9f1e-4f40-d148-17d0" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="9f1e-4f40-d148-17d0" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8604-4720-df02-464f" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -528,12 +528,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="5e21-df08-710f-856e" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="5e21-df08-710f-856e" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a210-ffc7-3dc0-ac4e" name="Iridescent Horror" hidden="false" collective="false" import="true" targetId="d9fc-bf49-5e9a-a943" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="cbc0-9423-d552-e6df" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="cbc0-9423-d552-e6df" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b165-f4d9-c510-823d" name="Specialism" hidden="false" collective="false" import="true">
@@ -550,7 +550,7 @@
     </entryLink>
     <entryLink id="6e24-f625-5f41-7f09" name="Plaguebearer" hidden="false" collective="false" import="true" targetId="03f3-36eb-4ca6-1606" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="4f1b-8256-ca7d-1752" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="4f1b-8256-ca7d-1752" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="602b-ac30-d3b7-c605" name="Specialism" hidden="false" collective="false" import="true">
@@ -574,12 +574,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="95e9-88ac-3714-314d" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="95e9-88ac-3714-314d" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="d7ef-9439-5125-868b" name="Plagueridden" hidden="false" collective="false" import="true" targetId="0078-3abc-7038-7476" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="b557-c4bc-a1c7-e95f" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="b557-c4bc-a1c7-e95f" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="18bf-957f-1ce1-b258" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -599,12 +599,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="6080-35cc-140b-ad1f" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="6080-35cc-140b-ad1f" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="dcf4-837f-75f1-5466" name="Plagueridden" hidden="false" collective="false" import="true" targetId="0078-3abc-7038-7476" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="c64f-e385-39c5-7f51" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="c64f-e385-39c5-7f51" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5d54-e559-6cfc-8304" name="Specialism" hidden="false" collective="false" import="true">
@@ -621,7 +621,7 @@
     </entryLink>
     <entryLink id="91e8-1669-0e50-cb4a" name="Plaguebearer Hornblower" hidden="false" collective="false" import="true" targetId="c86a-8c11-e3e1-bbf1" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="1b9e-0b18-0836-65f9" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="1b9e-0b18-0836-65f9" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="dac3-caca-5f47-f335" name="Specialism" hidden="false" collective="false" import="true">
@@ -646,7 +646,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="aca7-f318-489b-e616" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="aca7-f318-489b-e616" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="d89e-d7d2-386d-3c8a" name="Plaguebearer Icon Bearer" hidden="false" collective="false" import="true" targetId="f894-4ee0-0fe8-c2e1" type="selectionEntry">
@@ -658,12 +658,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="a3bf-68b5-1cd1-7665" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="a3bf-68b5-1cd1-7665" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1f83-f91f-e143-2740" name="Plaguebearer Icon Bearer" hidden="false" collective="false" import="true" targetId="f894-4ee0-0fe8-c2e1" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="cb56-58ac-d602-57b3" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="cb56-58ac-d602-57b3" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="df33-e5e0-a58f-2318" name="Specialism" hidden="false" collective="false" import="true">

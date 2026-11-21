@@ -20,12 +20,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="ce33-fd9a-bbc6-1894" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="ce33-fd9a-bbc6-1894" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="d6f9-846f-8777-76a8" name="Player" hidden="false" collective="false" import="true" targetId="853e-b6de-ea60-b17e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="479e-66f3-7099-9bd2" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="479e-66f3-7099-9bd2" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d832-7253-ad22-a0fc" name="Specialism" hidden="false" collective="false" import="true">
@@ -45,7 +45,7 @@
     </entryLink>
     <entryLink id="6c66-d215-99ed-de46" name="Player" hidden="false" collective="false" import="true" targetId="853e-b6de-ea60-b17e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="2a22-544c-d318-b66f" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="2a22-544c-d318-b66f" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3c28-9098-2dec-3014" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -65,7 +65,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="30ae-5624-9d8f-b0d0" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="30ae-5624-9d8f-b0d0" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7270-9d1e-9fcb-0b61" name="Troupe Master" hidden="false" collective="false" import="true" targetId="ab2e-c78c-e6ed-fe1c" type="selectionEntry"/>
@@ -542,7 +542,7 @@
       <categoryLinks>
         <categoryLink id="6c15-8da6-9474-1df0" name="Faction: Harlequins" hidden="false" targetId="d2ad-ef6f-1b5f-2d50" primary="false"/>
         <categoryLink id="0f60-2234-47b3-1171" name="Aeldari" hidden="false" targetId="435f-8dce-6770-d39a" primary="false"/>
-        <categoryLink id="6eb5-c340-75db-4bc0" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="6eb5-c340-75db-4bc0" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="e26c-5f3f-7252-a865" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="cb2a-812d-9a98-e9af" name="Troupe Master" hidden="false" targetId="84f1-4be2-e1c7-0203" primary="false"/>
         <categoryLink id="7a7b-9bbe-65ae-8e8b" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
@@ -700,7 +700,7 @@
       <categoryLinks>
         <categoryLink id="a05a-e79b-686d-dfb0" name="Faction: Harlequins" hidden="false" targetId="d2ad-ef6f-1b5f-2d50" primary="false"/>
         <categoryLink id="406c-ae53-e306-6110" name="Aeldari" hidden="false" targetId="435f-8dce-6770-d39a" primary="false"/>
-        <categoryLink id="a1dc-f36f-ec27-77d9" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="a1dc-f36f-ec27-77d9" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="e2a0-b3e5-0930-0ae7" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="9f1a-49a7-1885-8ba9" name="Psyker" hidden="false" targetId="9b50-1372-5ee7-b0d9" primary="false"/>
         <categoryLink id="5fa7-5bb7-9c68-a669" name="Shadowseer" hidden="false" targetId="1cea-84d8-4f34-c43d" primary="false"/>
@@ -850,7 +850,7 @@
       <categoryLinks>
         <categoryLink id="abf4-e9a5-2b9b-b9fe" name="Faction: Harlequins" hidden="false" targetId="d2ad-ef6f-1b5f-2d50" primary="false"/>
         <categoryLink id="507d-933d-3eb9-09f5" name="Aeldari" hidden="false" targetId="435f-8dce-6770-d39a" primary="false"/>
-        <categoryLink id="e98d-7e11-811c-bcc4" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="e98d-7e11-811c-bcc4" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="62cc-43c4-56d8-89f4" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="5cc1-4256-4f75-8f88" name="Death Jester" hidden="false" targetId="e7f2-ba07-2cfb-003b" primary="false"/>
         <categoryLink id="a456-86d6-e9fc-a75e" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>

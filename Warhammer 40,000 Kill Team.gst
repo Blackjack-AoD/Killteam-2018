@@ -342,7 +342,7 @@
     <entryLink id="5c5e-a332-5578-705f" name="List Configuration" hidden="false" collective="false" import="true" targetId="24de-9906-6401-a20e" type="selectionEntry"/>
     <entryLink id="e434-af92-70de-fd2f" name="Resources" hidden="false" collective="false" import="true" targetId="64a1-f2d5-7917-1155" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="04b3-0e07-77a4-7d22" name="New CategoryLink" hidden="false" targetId="f868-bdfd-567c-3eac" primary="true"/>
+        <categoryLink id="04b3-0e07-77a4-7d22" name="Configuration" hidden="false" targetId="f868-bdfd-567c-3eac" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -8706,7 +8706,7 @@
         <categoryLink id="5f9a-8cdd-f73f-0ff4" name="Faction: Adeptus Mechanicus" hidden="false" targetId="5d67-ac66-1e97-ffb3" primary="false"/>
         <categoryLink id="66df-fcaf-6393-39cb" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="0290-e0c7-3f4a-c1d6" name="Astra Cartographica" hidden="false" targetId="b499-f764-fb99-c4e9" primary="false"/>
-        <categoryLink id="5455-3ec9-5243-c894" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="5455-3ec9-5243-c894" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="a234-99dd-2f36-2b50" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="3cb9-f8da-4382-da26" name="Rogue Trader" hidden="false" targetId="aa62-e352-d145-8e72" primary="false"/>
         <categoryLink id="53e7-ad3b-e96f-d555" name="Janus Draik" hidden="false" targetId="e7f5-09f4-86d3-cfb0" primary="false"/>
@@ -9010,7 +9010,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="e4b9-b12b-6e67-cdc1" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="e4b9-b12b-6e67-cdc1" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="da9b-267e-3e38-6545" name="Faction: Adeptus Astartes" hidden="false" targetId="f0ef-d104-7cde-57ed" primary="false"/>
         <categoryLink id="e2dc-7470-1aa9-9b6d" name="Faction: Astra Militarum" hidden="false" targetId="96ae-2ec0-4de4-b4d7" primary="false"/>
         <categoryLink id="34aa-f429-79e2-be74" name="Faction: Adeptus Mechanicus" hidden="false" targetId="5d67-ac66-1e97-ffb3" primary="false"/>
@@ -9192,7 +9192,7 @@
         <categoryLink id="eabe-f417-8c34-a309" name="Faction: Adeptus Mechanicus" hidden="false" targetId="5d67-ac66-1e97-ffb3" primary="false"/>
         <categoryLink id="88ce-be05-ca59-f729" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="a20c-d9fa-0ea2-2183" name="Astra Cartographica" hidden="false" targetId="b499-f764-fb99-c4e9" primary="false"/>
-        <categoryLink id="d766-16b7-380f-a645" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="d766-16b7-380f-a645" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="37fd-da29-ac21-907e" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="f48b-9e0b-1466-f823" name="Rogue Trader" hidden="false" targetId="aa62-e352-d145-8e72" primary="false"/>
         <categoryLink id="b1fb-f208-2430-07df" name="Neyam Shai Murad" hidden="false" targetId="306d-58df-88c7-bad3" primary="false"/>
@@ -9294,8 +9294,8 @@
         <infoLink id="7527-6ae5-53c7-7061" name="Advisor" hidden="false" targetId="b8b2-8366-8773-40bb" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0c9d-2d36-285b-cdb8" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
-        <categoryLink id="905a-a7c6-723f-fa14" name="New CategoryLink" hidden="false" targetId="995d-d712-dbb7-1ba1" primary="false"/>
+        <categoryLink id="0c9d-2d36-285b-cdb8" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="905a-a7c6-723f-fa14" name="Faction: Adepta Sororitas" hidden="false" targetId="995d-d712-dbb7-1ba1" primary="false"/>
         <categoryLink id="1c90-61df-2883-268b" name="Faction: Astra Militarum" hidden="false" targetId="96ae-2ec0-4de4-b4d7" primary="false"/>
         <categoryLink id="0f90-2ef0-0cda-680e" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="c9b7-9487-9a71-bb4a" name="Adeptus Ministorum" hidden="false" targetId="6460-c782-f2dc-6f95" primary="false"/>
@@ -9423,7 +9423,7 @@
         <infoLink id="a187-17e0-b845-e31c" name="Advisor" hidden="false" targetId="b8b2-8366-8773-40bb" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ff2d-b6ba-13e1-a030" name="New CategoryLink" hidden="false" targetId="181f-e47f-6ec3-2e9b" primary="true"/>
+        <categoryLink id="ff2d-b6ba-13e1-a030" name="Specialist Retainer" hidden="false" targetId="181f-e47f-6ec3-2e9b" primary="true"/>
         <categoryLink id="6226-6847-e039-ba25" name="Faction: Adepta Sororitas" hidden="false" targetId="995d-d712-dbb7-1ba1" primary="false"/>
         <categoryLink id="34c4-a9eb-37ac-98e9" name="Faction: Astra Militarum" hidden="false" targetId="96ae-2ec0-4de4-b4d7" primary="false"/>
         <categoryLink id="ab4c-a363-62a5-c384" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
@@ -9532,7 +9532,7 @@
         <infoLink id="6d12-e0d8-5d82-ac98" name="Advisor" hidden="false" targetId="b8b2-8366-8773-40bb" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5dc0-c0f6-cfb6-7848" name="New CategoryLink" hidden="false" targetId="181f-e47f-6ec3-2e9b" primary="true"/>
+        <categoryLink id="5dc0-c0f6-cfb6-7848" name="Specialist Retainer" hidden="false" targetId="181f-e47f-6ec3-2e9b" primary="true"/>
         <categoryLink id="eccf-7fed-ab22-f50e" name="Faction: Adepta Sororitas" hidden="false" targetId="995d-d712-dbb7-1ba1" primary="false"/>
         <categoryLink id="4b92-c809-f59e-0748" name="Faction: Astra Militarum" hidden="false" targetId="96ae-2ec0-4de4-b4d7" primary="false"/>
         <categoryLink id="7fb5-a88e-88b1-3c6c" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>

@@ -10,7 +10,7 @@
   <entryLinks>
     <entryLink id="8951-9192-4ce3-abd0" name="Battle Sister" publicationId="69e0-b697-c118-d32d" hidden="false" collective="false" import="true" targetId="fec1-0fa3-951f-f82e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="9b89-b77d-c46d-d28e" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="9b89-b77d-c46d-d28e" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b77c-ab5a-b7d6-48c4" name="Specialism" publicationId="69e0-b697-c118-d32d" hidden="false" collective="false" import="true">
@@ -38,12 +38,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="a8e3-fbf2-bc95-2fff" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="a8e3-fbf2-bc95-2fff" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7cb4-7242-7572-2274" name="Battle Sister Gunner" publicationId="69e0-b697-c118-d32d" hidden="false" collective="false" import="true" targetId="ef5f-e0ca-ea93-4eec" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6b76-fdf1-2ae5-7d65" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="6b76-fdf1-2ae5-7d65" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="4edb-0847-e8de-3144" name="Specialism" publicationId="69e0-b697-c118-d32d" hidden="false" collective="false" import="true">
@@ -77,7 +77,7 @@
     </entryLink>
     <entryLink id="c6f0-0304-d7c5-493b" name="Sister Superior" publicationId="69e0-b697-c118-d32d" hidden="false" collective="false" import="true" targetId="7d51-432e-a870-9415" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="0fc5-b7f0-6645-14d3" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="0fc5-b7f0-6645-14d3" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5984-31b0-6ef3-1f6c" name="Specialism" publicationId="69e0-b697-c118-d32d" hidden="false" collective="false" import="true">
@@ -110,7 +110,7 @@
     </entryLink>
     <entryLink id="3aaa-41ea-21f4-7aad" name="Sister Superior" hidden="false" collective="false" import="true" targetId="7d51-432e-a870-9415" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="9c32-a7cd-6b55-ab2b" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="9c32-a7cd-6b55-ab2b" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="1907-1b03-e5a2-d117" name="Leader" publicationId="69e0-b697-c118-d32d" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -130,12 +130,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="ab2a-f8db-3dab-775a" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="ab2a-f8db-3dab-775a" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2d6f-8c61-51fa-aa59" name="Sister Repentia" publicationId="69e0-b697-c118-d32d" hidden="false" collective="false" import="true" targetId="eac7-a317-d01b-29f0" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="d71d-fa00-f3cd-5783" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="d71d-fa00-f3cd-5783" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="501a-843c-84e5-87fa" name="Specialism" publicationId="69e0-b697-c118-d32d" hidden="false" collective="false" import="true">
@@ -153,12 +153,12 @@
     </entryLink>
     <entryLink id="8ffa-402d-2455-0b7f" name="Sister Repentia" publicationId="69e0-b697-c118-d32d" hidden="false" collective="false" import="true" targetId="eac7-a317-d01b-29f0" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="ad62-73e0-54f3-7e50" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="ad62-73e0-54f3-7e50" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="204f-a872-2359-b11d" name="Sister Repentia" publicationId="69e0-b697-c118-d32d" hidden="false" collective="false" import="true" targetId="eac7-a317-d01b-29f0" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6038-fb8b-bfbd-187d" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="6038-fb8b-bfbd-187d" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="dd25-015e-d4f9-94c7" name="Leader" publicationId="69e0-b697-c118-d32d" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -171,7 +171,7 @@
     </entryLink>
     <entryLink id="b416-f444-ca96-2da0" name="Arco-Flagellant" publicationId="69e0-b697-c118-d32d" hidden="false" collective="false" import="true" targetId="9f1e-1b50-98e1-192f" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6097-49cc-3422-d863" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="6097-49cc-3422-d863" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f4e5-f9a7-7737-3982" name="Zealot" publicationId="69e0-b697-c118-d32d" hidden="false" collective="false" import="true" targetId="d2c4-34ca-f2cf-d2b2" type="selectionEntry">
@@ -191,7 +191,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="fa49-df95-07ac-3855" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="fa49-df95-07ac-3855" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="49c3-9b3c-fe15-3b98" name="Endurant" publicationId="69e0-b697-c118-d32d" hidden="false" collective="false" import="true" targetId="ddf6-cd55-e57a-f529" type="selectionEntry">
@@ -203,12 +203,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="01b4-216e-3d42-74b8" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="01b4-216e-3d42-74b8" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f2eb-1d06-3e84-b026" name="Endurant" publicationId="69e0-b697-c118-d32d" hidden="false" collective="false" import="true" targetId="ddf6-cd55-e57a-f529" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="b189-fb99-ab19-6ff6" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="b189-fb99-ab19-6ff6" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="37c0-81d8-05ad-910e" name="Zealot" publicationId="69e0-b697-c118-d32d" hidden="false" collective="false" import="true" targetId="d2c4-34ca-f2cf-d2b2" type="selectionEntry">
@@ -228,7 +228,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="7b6f-4736-f8fc-242a" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="7b6f-4736-f8fc-242a" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="352e-d7d4-63de-d363" name="Canoness" publicationId="69e0-b697-c118-d32d" hidden="false" collective="false" import="true" targetId="cd5b-0e5a-e8c9-bcfe" type="selectionEntry"/>
@@ -842,7 +842,7 @@
         <infoLink id="c49f-3946-46ac-9035" name="Shield of Faith" publicationId="69e0-b697-c118-d32d" hidden="false" targetId="529a-db86-4d87-da61" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ae95-d1a9-1c15-ced6" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="ae95-d1a9-1c15-ced6" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="360d-8163-12c0-fafe" name="Faction: Adepta Sororitas" hidden="false" targetId="995d-d712-dbb7-1ba1" primary="false"/>
         <categoryLink id="c94f-d5f7-8b32-5d0a" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="5907-ea14-3376-8a33" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
@@ -1096,7 +1096,7 @@
         <infoLink id="86b3-d26c-e375-3edf" name="Shield of Faith" publicationId="69e0-b697-c118-d32d" hidden="false" targetId="529a-db86-4d87-da61" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="63df-f781-ca51-baa4" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="63df-f781-ca51-baa4" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="2272-1106-c198-b18c" name="Faction: Adepta Sororitas" hidden="false" targetId="995d-d712-dbb7-1ba1" primary="false"/>
         <categoryLink id="4e66-96a9-fc97-150c" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="5f5a-9cc5-e7a8-d499" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>

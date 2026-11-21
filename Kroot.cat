@@ -8,7 +8,7 @@
   <entryLinks>
     <entryLink id="3663-e89c-1785-7576" name="Kroot Carnivore" hidden="false" collective="false" import="true" targetId="36c9-84e1-2296-8655" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6b40-fe4e-b68e-2d92" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="6b40-fe4e-b68e-2d92" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
         <categoryLink id="9fb4-6b3f-e848-08fd" name="Faction: Kroot" hidden="false" targetId="00b3-11bb-cc4f-ec1a" primary="false"/>
       </categoryLinks>
       <entryLinks>

@@ -35,7 +35,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="7915-57ff-755a-fc6b" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="7915-57ff-755a-fc6b" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
         <categoryLink id="0efb-e66d-48df-d774" name="Faction: Unaligned" hidden="false" targetId="e7d7-ea02-2259-1bb1" primary="false"/>
         <categoryLink id="6cb5-f537-37ea-1b09" name="Monster" hidden="false" targetId="e897-7f3c-8dce-de36" primary="false"/>
         <categoryLink id="3730-33a5-9c6f-01da" name="Ambull" hidden="false" targetId="cb9e-85a2-daab-37c1" primary="false"/>
@@ -93,7 +93,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="03c0-853f-d87a-ddce" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="03c0-853f-d87a-ddce" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ba88-4a05-6f5d-95e5" name="Vicious jaws" hidden="false" collective="false" import="true" type="upgrade">
@@ -148,7 +148,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="6032-a386-6a84-c774" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="6032-a386-6a84-c774" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
         <categoryLink id="e00d-e173-d4a8-f857" name="Faction: Unaligned" hidden="false" targetId="e7d7-ea02-2259-1bb1" primary="false"/>
         <categoryLink id="5f9e-3082-7999-acae" name="Monster" hidden="false" targetId="e897-7f3c-8dce-de36" primary="false"/>
         <categoryLink id="dd9d-2c0e-b055-1d75" name="The Archivist" hidden="false" targetId="80b9-3741-d3d1-d1f5" primary="false"/>

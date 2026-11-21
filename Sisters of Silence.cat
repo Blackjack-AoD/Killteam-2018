@@ -23,7 +23,7 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f94-2cb2-5066-3012" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="a3cb-6812-e67e-617a" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="a3cb-6812-e67e-617a" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f42b-afbd-3643-7fc0" name="Models" hidden="false" collective="false" import="true">
@@ -71,7 +71,7 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebe2-2844-cc00-4db0" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="e9af-af9d-2dd9-a908" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="e9af-af9d-2dd9-a908" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5e59-2f5a-3266-8a00" name="Models" hidden="false" collective="false" import="true">
@@ -119,7 +119,7 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="721d-fd3e-b709-e20e" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="cbac-ed8c-c579-683a" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="cbac-ed8c-c579-683a" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="ba8b-389a-1ed7-cbf4" name="Models" hidden="false" collective="false" import="true">
@@ -166,12 +166,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="60c2-8536-6c94-8289" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="60c2-8536-6c94-8289" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b86a-c0d4-6778-2a5f" name="Witchseeker Superior" hidden="false" collective="false" import="true" targetId="5c3b-d7ee-dcb8-9fe6" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="347c-1e3d-772d-efef" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="347c-1e3d-772d-efef" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="639f-5e1f-ca0f-4c3f" name="Specialism" hidden="false" collective="false" import="true">
@@ -197,12 +197,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="da58-2542-798b-12aa" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="da58-2542-798b-12aa" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="8b8c-857a-7c44-6ea9" name="Witchseeker" hidden="false" collective="false" import="true" targetId="b044-5642-0a19-8777" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="1227-dacf-0d89-4d24" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="1227-dacf-0d89-4d24" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="89fc-4edf-64dc-e240" name="Specialism" hidden="false" collective="false" import="true">
@@ -221,7 +221,7 @@
     </entryLink>
     <entryLink id="1160-590c-0b3a-c1ed" name="Witchseeker Superior" hidden="false" collective="false" import="true" targetId="5c3b-d7ee-dcb8-9fe6" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="3ae4-4931-0b75-e018" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="3ae4-4931-0b75-e018" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="34a4-6371-2a28-f2e2" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -241,12 +241,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="ea03-5acd-8609-f463" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="ea03-5acd-8609-f463" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f605-8d2b-4be1-bb68" name="Vigilator" hidden="false" collective="false" import="true" targetId="65cd-a946-2d72-cf28" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6b62-63e5-dce5-3c00" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="6b62-63e5-dce5-3c00" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="46e8-1ca7-e61a-a16b" name="Specialism" hidden="false" collective="false" import="true">
@@ -265,7 +265,7 @@
     </entryLink>
     <entryLink id="4894-48e9-30aa-5660" name="Vigilator Superior" hidden="false" collective="false" import="true" targetId="3648-5bda-d423-e048" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="5686-fd89-c15f-ab6d" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="5686-fd89-c15f-ab6d" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4778-1d8f-8615-a628" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -285,12 +285,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="102e-673a-ddaa-f158" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="102e-673a-ddaa-f158" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="86a3-428d-4f26-993a" name="Vigilator Superior" hidden="false" collective="false" import="true" targetId="3648-5bda-d423-e048" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="ec7a-612a-a070-fdda" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="ec7a-612a-a070-fdda" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="ebaa-c861-37dd-312c" name="Specialism" hidden="false" collective="false" import="true">
@@ -316,12 +316,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="e568-a9eb-e955-5e9d" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="e568-a9eb-e955-5e9d" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="8967-51f3-67c9-15be" name="Prosecutor" hidden="false" collective="false" import="true" targetId="6fef-be23-3351-cc78" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="f901-8619-5c2f-1f28" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="f901-8619-5c2f-1f28" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="58ec-b0c8-603c-3798" name="Specialism" hidden="false" collective="false" import="true">
@@ -340,7 +340,7 @@
     </entryLink>
     <entryLink id="6fd5-5da4-b3cd-36d3" name="Prosecutor Superior" hidden="false" collective="false" import="true" targetId="9e1f-3d05-d4bc-2162" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="5d3c-4a80-32c0-e85c" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="5d3c-4a80-32c0-e85c" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0df5-cc3f-4ca8-de30" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -360,12 +360,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="f74d-56c6-81fe-58e8" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="f74d-56c6-81fe-58e8" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a453-fd74-868c-c136" name="Prosecutor Superior" hidden="false" collective="false" import="true" targetId="9e1f-3d05-d4bc-2162" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="42f0-d43c-d700-48b6" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="42f0-d43c-d700-48b6" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="4860-5dcf-28b9-a66e" name="Specialism" hidden="false" collective="false" import="true">

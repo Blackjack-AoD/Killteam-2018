@@ -66,7 +66,7 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="59e6-049b-87de-2323" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="59e6-049b-87de-2323" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="9e3b-b996-0441-0ec3" name="Faction: Orks" hidden="false" targetId="3630-39cf-f986-6209" primary="false"/>
         <categoryLink id="22f4-48b1-d33f-ba23" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="408f-3755-7d7c-68d2" name="Gretchin" hidden="false" targetId="9154-0e71-6fa2-2234" primary="false"/>
@@ -172,7 +172,7 @@
         <infoLink id="0b4a-9e53-5b87-a26d" name="&apos;Ere We Go" hidden="false" targetId="643c-ab4a-a943-c268" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0a02-aa6e-af22-8a58" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="0a02-aa6e-af22-8a58" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="24eb-0e58-f8b4-717c" name="Faction: Orks" hidden="false" targetId="3630-39cf-f986-6209" primary="false"/>
         <categoryLink id="17b1-0384-1435-110e" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="ed32-e642-74b9-856e" name="Warboss" hidden="false" targetId="5d66-dc73-817b-ccd4" primary="false"/>
@@ -326,7 +326,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="7635-acec-804c-c6ce" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="7635-acec-804c-c6ce" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="c248-d147-e76f-1b8c" name="Burna Spanner" hidden="false" collective="false" import="true" targetId="026a-c710-eb0b-06f3" type="selectionEntry">
@@ -338,12 +338,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="c971-3c78-308c-03a4" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="c971-3c78-308c-03a4" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="514b-b433-d4ea-c19b" name="Gretchin" hidden="false" collective="false" import="true" targetId="92c6-fec5-4112-23bf" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="11a4-b52e-2970-cddc" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="11a4-b52e-2970-cddc" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="eb55-d743-1487-97f5" name="Scout" hidden="false" collective="false" import="true" targetId="1d42-7d93-e0a4-330b" type="selectionEntry">
@@ -363,7 +363,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="da60-454e-1fc4-a96c" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="da60-454e-1fc4-a96c" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e664-4453-f6ec-ae6c" name="Ork Boy" hidden="false" collective="false" import="true" targetId="613e-9476-9f7f-8225" type="selectionEntry">
@@ -375,7 +375,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="4313-c9cc-164b-16c6" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="4313-c9cc-164b-16c6" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4471-0641-b98e-2964" name="Boss Nob (Boyz)" hidden="false" collective="false" import="true" targetId="f673-5da0-38c6-bfb6" type="selectionEntry">
@@ -387,7 +387,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="a34f-4f06-1455-9fd5" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="a34f-4f06-1455-9fd5" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ea6f-9bf5-d396-735e" name="Kommando" hidden="false" collective="false" import="true" targetId="a133-fad0-c433-6bc8" type="selectionEntry">
@@ -399,7 +399,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="247a-79c9-6586-49ba" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="247a-79c9-6586-49ba" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="06d4-2ab8-70f9-d7b6" name="Kommando Boss Nob" hidden="false" collective="false" import="true" targetId="62c7-08ab-4aa7-a123" type="selectionEntry">
@@ -411,7 +411,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="a78d-9bd1-d633-f574" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="a78d-9bd1-d633-f574" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="180a-b58e-319b-f49a" name="Loota" hidden="false" collective="false" import="true" targetId="6b76-a43f-6105-5e03" type="selectionEntry">
@@ -423,7 +423,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="d9bf-474c-31df-1dfd" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="d9bf-474c-31df-1dfd" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="69a0-4859-fcdb-c6b4" name="Loota Spanner" hidden="false" collective="false" import="true" targetId="ed83-4b83-7f92-099b" type="selectionEntry">
@@ -435,7 +435,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="56ed-73ab-1a03-d4e9" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="56ed-73ab-1a03-d4e9" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b8ac-2155-051e-a3e2" name="Gretchin" hidden="false" collective="false" import="true" targetId="92c6-fec5-4112-23bf" type="selectionEntry">
@@ -447,7 +447,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="7295-63f7-11e5-c9d8" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="7295-63f7-11e5-c9d8" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="864a-562a-d496-d98b" name="Gretchin" hidden="false" collective="false" import="true" targetId="92c6-fec5-4112-23bf" type="selectionEntry">
@@ -465,7 +465,7 @@
     </entryLink>
     <entryLink id="9571-30e2-a72f-4bcc" name="Boss Nob (Boyz)" hidden="false" collective="false" import="true" targetId="f673-5da0-38c6-bfb6" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="cfe9-bbaf-1e40-c0e9" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="cfe9-bbaf-1e40-c0e9" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9e45-5950-ebfd-6dc5" name="Specialism" hidden="false" collective="false" import="true">
@@ -483,7 +483,7 @@
     </entryLink>
     <entryLink id="d3ab-a166-9220-35c3" name="Boss Nob (Boyz)" hidden="false" collective="false" import="true" targetId="f673-5da0-38c6-bfb6" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6e03-64ed-d804-07ee" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="6e03-64ed-d804-07ee" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="fdc3-0baf-2f77-9ee5" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -496,7 +496,7 @@
     </entryLink>
     <entryLink id="c593-775f-6f94-3429" name="Burna Boy" hidden="false" collective="false" import="true" targetId="6f0a-a880-0cbc-22f2" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="402e-3295-0ac3-2743" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="402e-3295-0ac3-2743" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="4a64-d66e-85c8-6d09" name="Specialism" hidden="false" collective="false" import="true">
@@ -515,7 +515,7 @@
     </entryLink>
     <entryLink id="411d-1991-f5e2-40ba" name="Burna Boy" hidden="false" collective="false" import="true" targetId="6f0a-a880-0cbc-22f2" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="ee46-8552-b971-06a1" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="ee46-8552-b971-06a1" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8660-9cc7-5c09-4731" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -528,7 +528,7 @@
     </entryLink>
     <entryLink id="a027-b1d2-2013-78b4" name="Burna Spanner" hidden="false" collective="false" import="true" targetId="026a-c710-eb0b-06f3" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6fb8-de93-3b52-7025" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="6fb8-de93-3b52-7025" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="bbde-f5f3-6ba1-6522" name="Specialism" hidden="false" collective="false" import="true">
@@ -548,7 +548,7 @@
     </entryLink>
     <entryLink id="a336-f25f-6519-cb7b" name="Burna Spanner" hidden="false" collective="false" import="true" targetId="026a-c710-eb0b-06f3" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="746e-f61b-4830-0808" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="746e-f61b-4830-0808" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="73fc-c44b-5297-6707" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -561,7 +561,7 @@
     </entryLink>
     <entryLink id="b7d2-dba7-2e68-94e8" name="Kommando" hidden="false" collective="false" import="true" targetId="a133-fad0-c433-6bc8" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="c02c-6b7e-60d5-8bf5" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="c02c-6b7e-60d5-8bf5" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="144c-99e4-2f09-16f2" name="Specialism" hidden="false" collective="false" import="true">
@@ -580,7 +580,7 @@
     </entryLink>
     <entryLink id="9f46-bb4b-88d5-1537" name="Kommando Boss Nob" hidden="false" collective="false" import="true" targetId="62c7-08ab-4aa7-a123" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="45af-b628-4a91-c5a7" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="45af-b628-4a91-c5a7" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="dfce-faf3-0ca1-3f1f" name="Specialism" hidden="false" collective="false" import="true">
@@ -599,7 +599,7 @@
     </entryLink>
     <entryLink id="65ec-5193-c76f-5652" name="Kommando Boss Nob" hidden="false" collective="false" import="true" targetId="62c7-08ab-4aa7-a123" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="08dd-71d3-ccba-8fdb" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="08dd-71d3-ccba-8fdb" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="546d-1fa1-fe00-f4cc" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -612,7 +612,7 @@
     </entryLink>
     <entryLink id="34a4-f291-ab8f-8478" name="Loota" hidden="false" collective="false" import="true" targetId="6b76-a43f-6105-5e03" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="d87c-b397-3daa-41d6" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="d87c-b397-3daa-41d6" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="99cd-01d8-341d-bfce" name="Specialism" hidden="false" collective="false" import="true">
@@ -631,7 +631,7 @@
     </entryLink>
     <entryLink id="aa18-11f0-20f6-5ab2" name="Loota" hidden="false" collective="false" import="true" targetId="6b76-a43f-6105-5e03" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="aeda-b7ba-c835-f5fb" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="aeda-b7ba-c835-f5fb" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3733-616a-9610-845c" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -644,7 +644,7 @@
     </entryLink>
     <entryLink id="e1f3-b4cc-1d1d-d9f8" name="Loota Spanner" hidden="false" collective="false" import="true" targetId="ed83-4b83-7f92-099b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="ae70-259b-6263-d89c" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="ae70-259b-6263-d89c" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="71b5-3875-b495-74e3" name="Specialism" hidden="false" collective="false" import="true">
@@ -664,7 +664,7 @@
     </entryLink>
     <entryLink id="cff8-8ddf-23d2-b304" name="Loota Spanner" hidden="false" collective="false" import="true" targetId="ed83-4b83-7f92-099b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="4f11-c055-2c1c-ebeb" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="4f11-c055-2c1c-ebeb" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="b8f9-90a0-ce40-f312" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -677,7 +677,7 @@
     </entryLink>
     <entryLink id="ec7b-9914-6787-1f3a" name="Ork Boy" hidden="false" collective="false" import="true" targetId="613e-9476-9f7f-8225" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="f1b5-0b44-accf-b5de" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="f1b5-0b44-accf-b5de" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b3d2-bac0-0ed2-6474" name="Specialism" hidden="false" collective="false" import="true">
@@ -695,7 +695,7 @@
     </entryLink>
     <entryLink id="685c-8c96-00c5-77fb" name="Ork Boy Gunner" hidden="false" collective="false" import="true" targetId="b607-ad76-1669-9052" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="4186-09f3-e90f-7b7f" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="4186-09f3-e90f-7b7f" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6438-54f2-ad28-e5bd" name="Specialism" hidden="false" collective="false" import="true">
@@ -721,7 +721,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="0ac4-d5d3-38ea-072f" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="0ac4-d5d3-38ea-072f" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e554-6a7f-6edd-bfb3" name="Gretchin Fire Team" hidden="false" collective="false" import="true" targetId="5da3-cc64-b9df-e63c" type="selectionEntry">
@@ -733,7 +733,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="137b-c8c2-614b-c3e4" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="137b-c8c2-614b-c3e4" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="cab7-1ccb-1adc-0433" name="Kommando Fire Team" hidden="false" collective="false" import="true" targetId="854a-71ba-dc0f-7e47" type="selectionEntry">
@@ -745,7 +745,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="e8e3-f381-973e-3d27" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="e8e3-f381-973e-3d27" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4daa-9c85-d243-d519" name="Loota Fire Team" hidden="false" collective="false" import="true" targetId="5e39-99df-8b2c-24d2" type="selectionEntry">
@@ -757,7 +757,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="da3b-a633-223a-1dd4" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="da3b-a633-223a-1dd4" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3ac3-327a-4529-0f5d" name="Ork Boy Fire Team" hidden="false" collective="false" import="true" targetId="a7f8-a08d-3167-9ce7" type="selectionEntry">
@@ -769,7 +769,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="96b5-60ef-209c-6d8a" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="96b5-60ef-209c-6d8a" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7189-fdd2-1e3e-73c6" name="Big Mek" hidden="false" collective="false" import="true" targetId="70b5-fe8b-19b8-48a9" type="selectionEntry"/>
@@ -777,7 +777,7 @@
     <entryLink id="a71d-582d-cc13-3698" name="Warboss" hidden="false" collective="false" import="true" targetId="203d-5b8c-d669-c101" type="selectionEntry"/>
     <entryLink id="a4b3-6c55-7eb3-b2ab" name="Nob" hidden="false" collective="false" import="true" targetId="b5a8-c094-9144-6849" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="ad9a-c548-1ef0-01c2" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="ad9a-c548-1ef0-01c2" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="da2c-207c-95a5-245a" name="Specialism" hidden="false" collective="false" import="true">
@@ -803,12 +803,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="14d8-7c8d-5c6d-904c" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="14d8-7c8d-5c6d-904c" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="91b4-dbb9-911c-ec83" name="Boss Nob (Nobs)" hidden="false" collective="false" import="true" targetId="13b3-8dd9-14c2-8732" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="225f-8a96-bc6b-cf88" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="225f-8a96-bc6b-cf88" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f512-fe84-a2e8-0b36" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -821,7 +821,7 @@
     </entryLink>
     <entryLink id="1c5a-8e6a-10e6-6b28" name="Boss Nob (Nobs)" hidden="false" collective="false" import="true" targetId="13b3-8dd9-14c2-8732" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="25f4-bdf6-8c27-0a91" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="25f4-bdf6-8c27-0a91" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c4fa-1718-6ff5-3302" name="Specialism" hidden="false" collective="false" import="true">
@@ -847,7 +847,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="2497-cf8a-c35d-b67e" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="2497-cf8a-c35d-b67e" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3b64-b641-2820-1864" name="Ammo Runt" hidden="false" collective="false" import="true" targetId="67b3-323e-b1dd-c72a" type="selectionEntry">
@@ -859,7 +859,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="973b-7ce9-b22a-c2c9" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="973b-7ce9-b22a-c2c9" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="bc93-bace-d87f-3ffe" name="Nob Fire Team" hidden="false" collective="false" import="true" targetId="f4aa-aa83-7c77-cb77" type="selectionEntry">
@@ -871,12 +871,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="dc8b-a4bb-79e9-e05d" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="dc8b-a4bb-79e9-e05d" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5a5f-e1a1-00e9-9794" name="Meganob" hidden="false" collective="false" import="true" targetId="0e59-018b-4a73-9792" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="3dae-a640-2567-7a72" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="3dae-a640-2567-7a72" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="94dc-1d57-641e-d7e6" name="Specialism" hidden="false" collective="false" import="true">
@@ -902,12 +902,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="b9d7-735a-f7c7-0174" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="b9d7-735a-f7c7-0174" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1729-8eb9-0cf1-88fc" name="Boss Meganob" hidden="false" collective="false" import="true" targetId="4ce3-7a64-9063-ef4e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="74eb-0038-1480-312a" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="74eb-0038-1480-312a" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="c351-7d19-b0cc-f8bd" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -920,7 +920,7 @@
     </entryLink>
     <entryLink id="41ad-97c5-ee29-337f" name="Boss Meganob" hidden="false" collective="false" import="true" targetId="4ce3-7a64-9063-ef4e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="3743-0c14-ffd5-fb46" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="3743-0c14-ffd5-fb46" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6d5e-6786-13e8-bc19" name="Specialism" hidden="false" collective="false" import="true">
@@ -946,12 +946,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="6116-1b32-fdb9-d1ed" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="6116-1b32-fdb9-d1ed" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1af9-72a5-06e9-ae53" name="Flash Git" hidden="false" collective="false" import="true" targetId="0d4b-2cf8-324f-f759" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="2711-7ec3-a8ae-b80d" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="2711-7ec3-a8ae-b80d" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5686-a469-e348-b24c" name="Specialism" hidden="false" collective="false" import="true">
@@ -978,12 +978,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="4e62-6f8c-4437-fd27" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="4e62-6f8c-4437-fd27" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="d571-31a0-143f-5e71" name="Kaptin" hidden="false" collective="false" import="true" targetId="8392-8be7-7d4f-4879" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="2ddd-882f-162e-8fc4" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="2ddd-882f-162e-8fc4" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="a45b-7742-a204-26a0" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -996,7 +996,7 @@
     </entryLink>
     <entryLink id="5368-e7dd-7c26-005e" name="Kaptin" hidden="false" collective="false" import="true" targetId="8392-8be7-7d4f-4879" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="a059-06a6-ac85-1eaa" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="a059-06a6-ac85-1eaa" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f807-1361-e8ce-f587" name="Specialism" hidden="false" collective="false" import="true">
@@ -1023,7 +1023,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="91f5-27e8-1213-8e40" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="91f5-27e8-1213-8e40" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ee47-fb8d-0efe-6277" name="Flash Gitz  Fire Team" hidden="false" collective="false" import="true" targetId="fd45-bd7b-b41f-b463" type="selectionEntry">
@@ -1035,7 +1035,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="0833-97b7-e5d0-5b4f" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="0833-97b7-e5d0-5b4f" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="38ee-1e8b-a1dd-bee7" name="Meganob Fire Team" hidden="false" collective="false" import="true" targetId="bc34-1cf4-bb1f-14e5" type="selectionEntry">
@@ -1047,7 +1047,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="466d-0b26-bd72-9a52" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="466d-0b26-bd72-9a52" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2966-d841-f505-eebb" name="Boss Snikrot" hidden="false" collective="false" import="true" targetId="177b-0582-4ebb-4a42" type="selectionEntry"/>
@@ -3328,7 +3328,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="07d8-64e1-972d-8c22" name="Faction: Orks" hidden="false" targetId="3630-39cf-f986-6209" primary="false"/>
-        <categoryLink id="1fc8-9f36-d3f8-0960" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="1fc8-9f36-d3f8-0960" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="ee52-40e6-8f92-de26" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="dea6-e7db-72b5-d730" name="Kommando" hidden="false" targetId="5512-42ad-65db-312e" primary="false"/>
         <categoryLink id="6aee-3549-d8a1-0dfd" name="Boss Snikrot" hidden="false" targetId="4676-b1b4-203e-ac26" primary="false"/>

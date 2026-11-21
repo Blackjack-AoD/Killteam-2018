@@ -465,7 +465,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="37d2-8b9f-0d35-474a" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
-        <categoryLink id="5a59-d6a7-eaee-37f1" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="5a59-d6a7-eaee-37f1" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="6d25-7a95-7973-1655" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="2866-5e24-73ec-f358" name="Primaris" hidden="false" targetId="8274-fe6e-50c7-c8ac" primary="false"/>
         <categoryLink id="1d94-47aa-b0ec-cba0" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
@@ -690,7 +690,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ab19-3406-bdd2-201c" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
-        <categoryLink id="5fef-7563-6961-a4ff" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="5fef-7563-6961-a4ff" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="cecf-bb1f-c2df-d323" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="0e59-7d17-d356-5aaf" name="Primaris" hidden="false" targetId="8274-fe6e-50c7-c8ac" primary="false"/>
         <categoryLink id="09f6-8f30-e26b-25ec" name="Captain" hidden="false" targetId="3320-1c26-1def-a58e" primary="false"/>
@@ -846,7 +846,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7fae-cb3d-f3ae-1ef7" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
-        <categoryLink id="764b-616e-7821-7ca7" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="764b-616e-7821-7ca7" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="1295-7dc0-12f0-5306" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="9219-4be2-2464-f218" name="Primaris" hidden="false" targetId="8274-fe6e-50c7-c8ac" primary="false"/>
         <categoryLink id="8370-0a6a-56c7-2e5b" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
@@ -999,7 +999,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="da94-eb69-3d81-ab1d" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
-        <categoryLink id="5e24-8bed-e504-5c1c" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="5e24-8bed-e504-5c1c" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="fa31-1e1c-ff0b-a08d" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="d0b7-7207-9cdc-f7ba" name="Terminator" hidden="false" targetId="1ec0-dd6e-9680-2288" primary="false"/>
         <categoryLink id="9fd7-f4a2-efe0-fd9e" name="Psyker" hidden="false" targetId="9b50-1372-5ee7-b0d9" primary="false"/>
@@ -1296,7 +1296,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2145-23cb-d0df-bf84" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
-        <categoryLink id="f54e-1329-0c3b-ca5b" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="f54e-1329-0c3b-ca5b" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="565f-67c5-9c72-0b77" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="3303-c98e-9ea6-0086" name="Terminator" hidden="false" targetId="1ec0-dd6e-9680-2288" primary="false"/>
         <categoryLink id="a5e7-624e-047a-71e6" name="Chaplain" hidden="false" targetId="cfe3-aa39-7886-891c" primary="false"/>
@@ -1437,7 +1437,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6171-cf2f-b27f-9f6b" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
-        <categoryLink id="84e8-3a4e-6e2e-12e7" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="84e8-3a4e-6e2e-12e7" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="e5ad-f252-cc78-c1ae" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="47f8-3bd3-3f8c-a718" name="Terminator" hidden="false" targetId="1ec0-dd6e-9680-2288" primary="false"/>
         <categoryLink id="db30-149f-198b-2aed" name="Captain" hidden="false" targetId="3320-1c26-1def-a58e" primary="false"/>
@@ -6322,7 +6322,7 @@ The Primed Haywire Mine is represented by the Primed Haywire Mine model, but doe
         <infoLink id="ca57-28bd-27e5-b39e" name="Transhuman Physiology" hidden="false" targetId="01fd-b8b9-3c51-53db" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7c18-b1b7-4a50-2b1f" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="7c18-b1b7-4a50-2b1f" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="7563-f33f-8d96-84d1" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="930f-ca28-7706-078b" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="7f53-468b-dc5b-78de" name="Primaris" hidden="false" targetId="8274-fe6e-50c7-c8ac" primary="false"/>
@@ -6475,7 +6475,7 @@ The Primed Haywire Mine is represented by the Primed Haywire Mine model, but doe
         <infoLink id="c78e-588b-bdf3-38c7" name="Iron Halo" hidden="false" targetId="a4e3-98de-1418-8431" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="fb3c-4c7a-0ddf-230d" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="fb3c-4c7a-0ddf-230d" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="09d1-c416-23a4-90e2" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="3ffd-6b44-9b80-5fe0" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="0cf5-06f5-aa04-3af1" name="Primaris" hidden="false" targetId="8274-fe6e-50c7-c8ac" primary="false"/>
@@ -6616,7 +6616,7 @@ The Primed Haywire Mine is represented by the Primed Haywire Mine model, but doe
         <infoLink id="6a14-ed1c-d8ad-a24f" name="Transhuman Physiology" hidden="false" targetId="01fd-b8b9-3c51-53db" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ff9b-45c0-f292-2f70" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="ff9b-45c0-f292-2f70" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="7483-593a-d34c-efd5" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="7eef-ded4-fb81-5b07" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="477e-b585-9033-fa53" name="Primaris" hidden="false" targetId="8274-fe6e-50c7-c8ac" primary="false"/>
@@ -6750,7 +6750,7 @@ The Primed Haywire Mine is represented by the Primed Haywire Mine model, but doe
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ef81-d1f9-93f9-852e" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
-        <categoryLink id="6930-8ae2-0f9a-84a5" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="6930-8ae2-0f9a-84a5" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="506c-0a84-1c94-6074" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="f04b-53e0-336b-1e11" name="Captain" hidden="false" targetId="3320-1c26-1def-a58e" primary="false"/>
         <categoryLink id="3559-2244-5493-0dd4" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
@@ -7012,7 +7012,7 @@ The Primed Haywire Mine is represented by the Primed Haywire Mine model, but doe
       </infoLinks>
       <categoryLinks>
         <categoryLink id="83d2-1c37-ec8d-223d" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
-        <categoryLink id="7c5e-e3cf-dc28-de47" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="7c5e-e3cf-dc28-de47" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="d315-462a-4591-7524" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="c3b7-cafa-98d1-aa8e" name="Lieutenant" hidden="false" targetId="3634-f76f-42f8-7b23" primary="false"/>
         <categoryLink id="895e-257f-d274-b4de" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
@@ -7347,7 +7347,7 @@ The Primed Haywire Mine is represented by the Primed Haywire Mine model, but doe
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e1ba-fa5c-3717-3cec" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
-        <categoryLink id="0adb-02b7-e33b-2f83" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="0adb-02b7-e33b-2f83" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="472e-61b2-37e4-bfab" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="8801-d835-a629-0c21" name="Chaplain" hidden="false" targetId="cfe3-aa39-7886-891c" primary="false"/>
         <categoryLink id="c106-04d9-918d-0cc1" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
@@ -7474,7 +7474,7 @@ The Primed Haywire Mine is represented by the Primed Haywire Mine model, but doe
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3107-fa80-7d1a-d7b9" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
-        <categoryLink id="d6c8-2ee6-bf7c-5278" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="d6c8-2ee6-bf7c-5278" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="4bb5-e1b3-2d22-a938" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="3032-a7e2-6947-d73a" name="Psyker" hidden="false" targetId="9b50-1372-5ee7-b0d9" primary="false"/>
         <categoryLink id="2eaa-9094-0beb-f37c" name="Librarian" hidden="false" targetId="d778-e774-3b07-1b67" primary="false"/>
@@ -7716,7 +7716,7 @@ The Primed Haywire Mine is represented by the Primed Haywire Mine model, but doe
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc32-50bb-0ca5-64d6" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="b185-d078-f0f9-a86b" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="b185-d078-f0f9-a86b" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="e7c3-ba4e-e8fa-ec3b" name="Models" hidden="false" collective="false" import="true">
@@ -8097,7 +8097,7 @@ The Primed Haywire Mine is represented by the Primed Haywire Mine model, but doe
         <infoLink id="7309-725b-24de-4bbe" name="Terror Troops" hidden="false" targetId="cee9-b4b7-f6cd-40bc" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9c49-7348-12c4-e417" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="9c49-7348-12c4-e417" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="76c5-4d8c-eb6c-d06f" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
         <categoryLink id="7d17-af44-732a-3fad" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="4147-2c3b-c88e-ec49" name="Phobos" hidden="false" targetId="9c92-7f60-82bf-33ba" primary="false"/>

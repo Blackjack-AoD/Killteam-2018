@@ -218,12 +218,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="becd-dc7b-f8f7-779d" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="becd-dc7b-f8f7-779d" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="354d-319f-a38e-9d17" name="Termagant" hidden="false" collective="false" import="true" targetId="cf37-0d24-cf30-6e28" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="f95b-83e1-c1a6-c189" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="f95b-83e1-c1a6-c189" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="944c-bb1c-72a3-3596" name="Specialism" hidden="false" collective="false" import="true">
@@ -240,7 +240,7 @@
     </entryLink>
     <entryLink id="4e3f-594f-9516-c176" name="Hormagaunt" hidden="false" collective="false" import="true" targetId="73d9-f8ce-61fb-28e6" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="8b93-a115-4880-82a6" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="8b93-a115-4880-82a6" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5a00-6189-0d10-c37a" name="Specialism" hidden="false" collective="false" import="true">
@@ -265,12 +265,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="3125-3c7d-fe58-b5f4" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="3125-3c7d-fe58-b5f4" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="99da-8e5e-2273-309f" name="Lictor" hidden="false" collective="false" import="true" targetId="da53-00a4-1b5e-0b6e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="3805-07f9-7974-2e64" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="3805-07f9-7974-2e64" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5632-4e90-f77b-ead7" name="Specialism" hidden="false" collective="false" import="true">
@@ -296,12 +296,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="e386-b636-113b-1304" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="e386-b636-113b-1304" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7f9f-70ee-0a42-4722" name="Lictor" hidden="false" collective="false" import="true" targetId="da53-00a4-1b5e-0b6e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="94a7-fa61-7520-e98f" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="94a7-fa61-7520-e98f" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="237f-8f23-a61d-a972" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -314,7 +314,7 @@
     </entryLink>
     <entryLink id="42ed-cb77-04c7-9fa8" name="Tyranid Warrior" hidden="false" collective="false" import="true" targetId="6947-41ad-2ab4-512d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="b4a5-b396-8731-931a" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="b4a5-b396-8731-931a" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="df3e-c98d-33bc-bb6c" name="Specialism" hidden="false" collective="false" import="true">
@@ -339,12 +339,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="6fc9-6cb7-312d-a12c" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="6fc9-6cb7-312d-a12c" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6f96-726e-8a0a-1fc3" name="Tyranid Warrior" hidden="false" collective="false" import="true" targetId="6947-41ad-2ab4-512d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="3c05-c068-e993-343a" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="3c05-c068-e993-343a" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="4f94-7199-5efb-d698" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -357,7 +357,7 @@
     </entryLink>
     <entryLink id="6fb5-96ae-3c60-e559" name="Tyranid Warrior Gunner" hidden="false" collective="false" import="true" targetId="17ab-6279-0136-93e4" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="45b7-edb9-8482-0606" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="45b7-edb9-8482-0606" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="481f-ae4b-1e01-f063" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -370,7 +370,7 @@
     </entryLink>
     <entryLink id="d460-e712-7a6c-2cac" name="Tyranid Warrior Gunner" hidden="false" collective="false" import="true" targetId="17ab-6279-0136-93e4" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6e2e-b79e-1fb8-0260" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="6e2e-b79e-1fb8-0260" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f4e9-b308-a221-5b82" name="Specialism" hidden="false" collective="false" import="true">
@@ -396,12 +396,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="3935-5636-e212-e22f" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="3935-5636-e212-e22f" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e484-9ec3-b5fb-284b" name="Genestealer" hidden="false" collective="false" import="true" targetId="4922-ebd4-7ad4-1cd2" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="bf1d-3b17-8d4d-6c9f" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="bf1d-3b17-8d4d-6c9f" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="42e5-c208-470c-f4b7" name="Specialism" hidden="false" collective="false" import="true">
@@ -426,12 +426,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="d2a4-74e0-1ee8-73a4" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="d2a4-74e0-1ee8-73a4" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5334-d16b-402e-65b2" name="Genestealer" hidden="false" collective="false" import="true" targetId="4922-ebd4-7ad4-1cd2" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6f0b-28fa-1589-9063" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="6f0b-28fa-1589-9063" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="b6ec-62e9-46be-ce41" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -451,7 +451,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="61c6-f086-c8d6-fc1a" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="61c6-f086-c8d6-fc1a" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="bd69-9594-5083-0327" name="Hormagaunt Fire Team" hidden="false" collective="false" import="true" targetId="b873-1040-adc0-2e82" type="selectionEntry">
@@ -463,7 +463,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="7744-cbdb-0c6e-ce14" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="7744-cbdb-0c6e-ce14" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b968-d459-b80b-4f94" name="Lictor Fire Team" hidden="false" collective="false" import="true" targetId="ee59-b022-fc52-daac" type="selectionEntry">
@@ -475,7 +475,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="5153-ce15-667d-829c" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="5153-ce15-667d-829c" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="cc33-6503-ae50-3115" name="Termagant Fire Team" hidden="false" collective="false" import="true" targetId="7823-05db-c8ab-5c11" type="selectionEntry">
@@ -487,7 +487,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="781a-6516-32d5-f8ff" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="781a-6516-32d5-f8ff" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="cd52-29dc-5b00-f916" name="Tyranid Warrior Fire Team" hidden="false" collective="false" import="true" targetId="10bd-6400-c0b2-d959" type="selectionEntry">
@@ -499,7 +499,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="93fd-19f9-2955-b34e" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="93fd-19f9-2955-b34e" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ea88-1d7b-c179-184d" name="Tyranid Prime" hidden="false" collective="false" import="true" targetId="bed5-a6a8-064e-20a3" type="selectionEntry"/>
@@ -507,7 +507,7 @@
     <entryLink id="e4aa-2ade-07b0-6377" name="Deathleaper" hidden="false" collective="false" import="true" targetId="dd3b-d53c-f65a-0fb6" type="selectionEntry"/>
     <entryLink id="fd4b-e531-f86d-37ac" name="Tyrant Guard" hidden="false" collective="false" import="true" targetId="3836-450d-4083-484e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="af1e-d2db-83dd-b4e5" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="af1e-d2db-83dd-b4e5" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2c8f-4c9c-aa63-e720" name="Specialism" hidden="false" collective="false" import="true">
@@ -532,7 +532,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="9729-0b95-550c-958c" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="9729-0b95-550c-958c" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="10cf-8df9-5feb-67da" name="Tyrant Guard Fire Team" hidden="false" collective="false" import="true" targetId="3cec-425c-09b4-a8f4" type="selectionEntry">
@@ -544,7 +544,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="34b0-414b-8593-a39a" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="34b0-414b-8593-a39a" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="bc95-c7c8-604d-a444" name="Hive Guard" hidden="false" collective="false" import="true" targetId="207f-dd1c-2144-1362" type="selectionEntry">
@@ -556,12 +556,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="5f8b-34f5-4c36-b945" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="5f8b-34f5-4c36-b945" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7e3c-c837-410b-d6dc" name="Hive Guard" hidden="false" collective="false" import="true" targetId="207f-dd1c-2144-1362" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6c58-974f-1b89-55b3" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="6c58-974f-1b89-55b3" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="669e-445c-02f3-8d11" name="Specialism" hidden="false" collective="false" import="true">
@@ -586,7 +586,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="cba3-1afe-af92-ba82" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="cba3-1afe-af92-ba82" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="82e7-8228-ff8c-2197" name="Ravener" hidden="false" collective="false" import="true" targetId="54fd-9084-2af0-4d4b" type="selectionEntry">
@@ -598,12 +598,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="a3c6-b794-130b-b6c4" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="a3c6-b794-130b-b6c4" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ab49-97ea-6363-7352" name="Ravener" hidden="false" collective="false" import="true" targetId="54fd-9084-2af0-4d4b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="0c06-bbe6-4206-fa58" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="0c06-bbe6-4206-fa58" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="7971-7789-33c4-71f6" name="Specialism" hidden="false" collective="false" import="true">
@@ -628,7 +628,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="e7f2-5834-05da-d3dc" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="e7f2-5834-05da-d3dc" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -2019,7 +2019,7 @@
       </profiles>
       <categoryLinks>
         <categoryLink id="b9c5-90a9-c779-7bd8" name="Faction: Tyranids" hidden="false" targetId="e01f-4e2b-0d04-efec" primary="false"/>
-        <categoryLink id="eb07-eae2-471e-49d1" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="eb07-eae2-471e-49d1" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="b2e3-5484-4bcc-08fa" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="6c5e-e157-f352-9dc1" name="Lictor" hidden="false" targetId="ac21-4659-a32c-cd9a" primary="false"/>
         <categoryLink id="69bf-178a-b5f5-140a" name="Deathleaper" hidden="false" targetId="30ff-5d3a-b377-449c" primary="false"/>

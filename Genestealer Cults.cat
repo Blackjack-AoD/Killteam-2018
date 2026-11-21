@@ -253,7 +253,7 @@
         <infoLink id="3e3d-3d7b-f5db-2153" name="Cult Ambush" hidden="false" targetId="98c8-4914-2a6e-f0c1" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1184-3064-fbd4-a514" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="1184-3064-fbd4-a514" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="e400-c136-e492-0150" name="Faction: Genestealer Cults" hidden="false" targetId="16ea-4a0d-7bd4-55da" primary="false"/>
         <categoryLink id="5b83-104e-534a-dce9" name="Tyranids" hidden="false" targetId="1d17-d234-f022-8762" primary="false"/>
         <categoryLink id="3c54-5c8c-f847-0beb" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
@@ -410,7 +410,7 @@
   <entryLinks>
     <entryLink id="1f47-5b15-ef03-990e" name="Genestealer" hidden="false" collective="false" import="true" targetId="0370-09e0-183b-da4d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="eb11-438c-82c8-dbda" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="eb11-438c-82c8-dbda" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0260-3bd6-3dd4-ee15" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -430,12 +430,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="eac1-c99f-046b-dbd4" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="eac1-c99f-046b-dbd4" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="962d-b7a3-3a02-452e" name="Genestealer" hidden="false" collective="false" import="true" targetId="0370-09e0-183b-da4d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="f137-9358-7270-aa77" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="f137-9358-7270-aa77" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6efd-dafe-501f-8623" name="Specialism" hidden="false" collective="false" import="true">
@@ -460,7 +460,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="d7da-6a3f-f86a-8099" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="d7da-6a3f-f86a-8099" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="f219-b319-503f-747e" name="Metamorph Leader" hidden="false" collective="false" import="true" targetId="667a-858f-bc90-cfa2" type="selectionEntry">
@@ -472,7 +472,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="4832-7b53-6790-2ac6" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="4832-7b53-6790-2ac6" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="8bba-5b3d-3f22-dd4b" name="Neophyte Gunner" hidden="false" collective="false" import="true" targetId="efe0-94fc-2e13-7059" type="selectionEntry">
@@ -484,7 +484,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="24f7-75e5-34dd-3939" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="24f7-75e5-34dd-3939" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="058a-1a67-5f71-b8b2" name="Neophyte Hybrid" hidden="false" collective="false" import="true" targetId="a4c8-76b6-4811-43ac" type="selectionEntry">
@@ -496,7 +496,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="50a2-225e-087a-1965" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="50a2-225e-087a-1965" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1c9e-1878-bfea-10fb" name="Hybrid Metamorph" hidden="false" collective="false" import="true" targetId="ee17-4554-4fdc-da38" type="selectionEntry">
@@ -508,7 +508,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="b307-9598-f420-3704" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="b307-9598-f420-3704" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a8f2-7d21-43ed-3033" name="Neophyte Leader" hidden="false" collective="false" import="true" targetId="6a1b-0a78-120d-c595" type="selectionEntry">
@@ -520,7 +520,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="44aa-8002-5ca2-55b5" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="44aa-8002-5ca2-55b5" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="16c9-9c5a-9216-b960" name="Acolyte Hybrid" hidden="false" collective="false" import="true" targetId="acd2-684f-bca3-d9fe" type="selectionEntry">
@@ -532,7 +532,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="392c-cfb8-0613-fa34" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="392c-cfb8-0613-fa34" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="cc3d-e85e-15f8-3712" name="Acolyte Fighter" hidden="false" collective="false" import="true" targetId="d7c0-fe6b-a1e0-92ac" type="selectionEntry">
@@ -544,7 +544,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="4323-277c-65b3-e6ba" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="4323-277c-65b3-e6ba" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="17dc-19fc-32cd-2618" name="Acolyte Leader" hidden="false" collective="false" import="true" targetId="9537-d63b-3e9c-465e" type="selectionEntry">
@@ -556,7 +556,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="5050-f03a-1124-35a4" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="5050-f03a-1124-35a4" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2956-667c-ec82-6a04" name="Aberrant" hidden="false" collective="false" import="true" targetId="17d6-7260-b4f1-a0fd" type="selectionEntry">
@@ -568,12 +568,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="fe76-59f2-d798-926f" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="fe76-59f2-d798-926f" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="d25d-f676-1a81-4234" name="Aberrant" hidden="false" collective="false" import="true" targetId="17d6-7260-b4f1-a0fd" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="84cd-361d-87b8-91f7" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="84cd-361d-87b8-91f7" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="77d1-9fc5-8682-2375" name="Specialism" hidden="false" collective="false" import="true">
@@ -623,7 +623,7 @@
     </entryLink>
     <entryLink id="c214-b4a8-52bd-cf35" name="Acolyte Hybrid" hidden="false" collective="false" import="true" targetId="acd2-684f-bca3-d9fe" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="f155-7d9c-3ad9-9008" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="f155-7d9c-3ad9-9008" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a29f-b741-985c-592b" name="Specialism" hidden="false" collective="false" import="true">
@@ -641,7 +641,7 @@
     </entryLink>
     <entryLink id="d6df-2f86-44b5-0193" name="Acolyte Leader" hidden="false" collective="false" import="true" targetId="9537-d63b-3e9c-465e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="dde5-c7b4-922d-4ce8" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="dde5-c7b4-922d-4ce8" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="ab38-b5be-083a-c089" name="Specialism" hidden="false" collective="false" import="true">
@@ -659,7 +659,7 @@
     </entryLink>
     <entryLink id="c541-8681-62e6-73a2" name="Acolyte Leader" hidden="false" collective="false" import="true" targetId="9537-d63b-3e9c-465e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="870e-8896-21b5-2aaf" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="870e-8896-21b5-2aaf" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="ac3b-0390-c9b2-78c2" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -672,7 +672,7 @@
     </entryLink>
     <entryLink id="0645-a268-c1d8-a165" name="Hybrid Metamorph" hidden="false" collective="false" import="true" targetId="ee17-4554-4fdc-da38" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="1cb3-902a-5ebd-b579" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="1cb3-902a-5ebd-b579" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="09ba-319e-7b58-eb4c" name="Specialism" hidden="false" collective="false" import="true">
@@ -691,7 +691,7 @@
     </entryLink>
     <entryLink id="8f9d-3ff8-5142-85d9" name="Metamorph Leader" hidden="false" collective="false" import="true" targetId="667a-858f-bc90-cfa2" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="eeff-5454-fde8-a164" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="eeff-5454-fde8-a164" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b0d6-bf58-cc81-2130" name="Specialism" hidden="false" collective="false" import="true">
@@ -710,7 +710,7 @@
     </entryLink>
     <entryLink id="b520-3051-e69c-9e23" name="Metamorph Leader" hidden="false" collective="false" import="true" targetId="667a-858f-bc90-cfa2" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="b9e1-b091-5878-c464" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="b9e1-b091-5878-c464" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="54d4-0599-6d30-d4b4" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -723,7 +723,7 @@
     </entryLink>
     <entryLink id="7cd0-9c97-d2c2-712e" name="Neophyte Gunner" hidden="false" collective="false" import="true" targetId="efe0-94fc-2e13-7059" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="e5d3-74ca-b02c-af6a" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="e5d3-74ca-b02c-af6a" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="7da4-bc38-725a-f784" name="Specialism" hidden="false" collective="false" import="true">
@@ -743,7 +743,7 @@
     </entryLink>
     <entryLink id="8789-8e5b-7d0d-3a72" name="Neophyte Hybrid" hidden="false" collective="false" import="true" targetId="a4c8-76b6-4811-43ac" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="1aab-af76-f14d-6efa" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="1aab-af76-f14d-6efa" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a236-61a8-5695-53b0" name="Specialism" hidden="false" collective="false" import="true">
@@ -762,7 +762,7 @@
     </entryLink>
     <entryLink id="5621-7eeb-8805-6b69" name="Neophyte Leader" hidden="false" collective="false" import="true" targetId="6a1b-0a78-120d-c595" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="25c0-af99-5239-261c" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="25c0-af99-5239-261c" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2881-a7a8-3955-baca" name="Specialism" hidden="false" collective="false" import="true">
@@ -781,7 +781,7 @@
     </entryLink>
     <entryLink id="880d-ce04-1eff-d636" name="Neophyte Leader" hidden="false" collective="false" import="true" targetId="6a1b-0a78-120d-c595" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="41b3-e4df-95f3-133f" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="41b3-e4df-95f3-133f" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="5270-bac1-9ce3-5329" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -801,7 +801,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="952f-f55b-2f40-466e" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="952f-f55b-2f40-466e" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3b3e-48d1-b332-9bae" name="Hybrid Metamorph Fire Team" hidden="false" collective="false" import="true" targetId="2cf7-d7b7-6a4e-4350" type="selectionEntry">
@@ -813,7 +813,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="939c-7128-3b38-cfcd" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="939c-7128-3b38-cfcd" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="8438-538a-1a22-8a7e" name="Acolyte Hybrid Fire Team" hidden="false" collective="false" import="true" targetId="fb9c-da2f-5af1-823d" type="selectionEntry">
@@ -825,7 +825,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="eed7-f663-7682-d18e" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="eed7-f663-7682-d18e" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2e45-7347-fb1c-6bca" name="Aberrant Fire Team" hidden="false" collective="false" import="true" targetId="b2ec-271b-aa4d-0fdf" type="selectionEntry">
@@ -837,7 +837,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="caeb-c3ef-65d2-8180" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="caeb-c3ef-65d2-8180" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="cc25-1207-23b4-80eb" name="Magus" hidden="false" collective="false" import="true" targetId="410c-7886-4656-e069" type="selectionEntry"/>
@@ -3321,7 +3321,7 @@
         <categoryLink id="d8e8-7e97-1e46-3395" name="Faction: Genestealer Cults" hidden="false" targetId="16ea-4a0d-7bd4-55da" primary="false"/>
         <categoryLink id="5b3a-20cc-7e20-e799" name="Tyranids" hidden="false" targetId="1d17-d234-f022-8762" primary="false"/>
         <categoryLink id="82a8-a78b-f412-c72e" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
-        <categoryLink id="a668-5ffa-d06b-aba0" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="a668-5ffa-d06b-aba0" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="ef92-d4c0-8c0f-9762" name="Kelermorph" hidden="false" targetId="aec9-30b6-3fd2-035c" primary="false"/>
         <categoryLink id="a8bf-d121-ef45-edbf" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
       </categoryLinks>
@@ -3452,7 +3452,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="259e-8d77-8c93-47ff" name="Faction: Genestealer Cults" hidden="false" targetId="16ea-4a0d-7bd4-55da" primary="false"/>
-        <categoryLink id="9b0f-c962-5bcd-4dc0" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="9b0f-c962-5bcd-4dc0" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="35d0-4f55-a2b4-cf40" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="fdec-7d4f-1461-80e9" name="Sanctus" hidden="false" targetId="5b52-dcbe-fbd9-5ac1" primary="false"/>
         <categoryLink id="8cc1-975d-8696-9142" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
@@ -3600,7 +3600,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2ea3-bb92-e8cc-17bc" name="Faction: Genestealer Cults" hidden="false" targetId="16ea-4a0d-7bd4-55da" primary="false"/>
-        <categoryLink id="b5d7-22d2-45e4-adb0" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="b5d7-22d2-45e4-adb0" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="2d08-6e13-79a3-aba3" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="9995-c53e-f089-a1b3" name="Nexus" hidden="false" targetId="6439-c44e-cb97-a2bb" primary="false"/>
         <categoryLink id="065d-6002-deeb-85ed" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
@@ -3683,7 +3683,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="384d-c06b-dc09-c82f" name="Faction: Genestealer Cults" hidden="false" targetId="16ea-4a0d-7bd4-55da" primary="false"/>
-        <categoryLink id="7bf6-cb7f-d20c-f73e" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="7bf6-cb7f-d20c-f73e" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="40af-2ef5-f365-28b9" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="e755-0e1f-5862-06a2" name="Biophagus" hidden="false" targetId="3fcd-6b5f-4801-9b95" primary="false"/>
         <categoryLink id="b6b8-cc43-ccca-4a99" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
@@ -3808,7 +3808,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3210-5ee9-2ce3-a000" name="Faction: Genestealer Cults" hidden="false" targetId="16ea-4a0d-7bd4-55da" primary="false"/>
-        <categoryLink id="a0ff-c0de-16d5-8731" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="a0ff-c0de-16d5-8731" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="4055-954c-c5cd-f9d7" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="ed26-79e9-654b-170f" name="Locus" hidden="false" targetId="67af-c62e-6a4f-d3db" primary="false"/>
         <categoryLink id="f9dd-e5dc-975a-2f7a" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
@@ -3924,7 +3924,7 @@
         <categoryLink id="442f-2ed5-2bb1-11db" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="d281-e442-5592-42fd" name="Familiar" hidden="false" targetId="7a42-ce12-ab98-203e" primary="false"/>
         <categoryLink id="5a84-1520-92a2-8ef1" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>
-        <categoryLink id="e0e9-ade8-d823-3c8e" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="e0e9-ade8-d823-3c8e" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="d1a7-d07f-642c-e7a0" name="Cult" hidden="false" collective="false" import="true" targetId="a5c9-044c-643d-e80b" type="selectionEntryGroup"/>
@@ -3991,7 +3991,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0c7f-a60f-b2cd-a713" name="Faction: Genestealer Cults" hidden="false" targetId="16ea-4a0d-7bd4-55da" primary="false"/>
-        <categoryLink id="761d-bb71-14ad-3c13" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="761d-bb71-14ad-3c13" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="a825-ddcc-8a90-944f" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="9ec3-2898-dd69-0723" name="Clamavus" hidden="false" targetId="e0ed-76ee-5755-4786" primary="false"/>
         <categoryLink id="cd64-958a-2def-59e2" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>

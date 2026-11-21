@@ -29,7 +29,7 @@
     </entryLink>
     <entryLink id="6359-1cd7-3989-c19b" name="Custodian Guard" hidden="false" collective="false" import="true" targetId="8f81-71d1-bb20-a3eb" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="0bfa-f48f-93a7-53d6" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="0bfa-f48f-93a7-53d6" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0fa9-d611-a0d4-d431" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -49,7 +49,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="1fe9-33c4-7db9-60ee" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="1fe9-33c4-7db9-60ee" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="8f72-e5c7-e191-4e5f" name="Custodian Guard Fire Team" hidden="false" collective="false" import="true" targetId="77fb-bd86-a771-ade1" type="selectionEntry">
@@ -61,7 +61,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="3293-848d-8909-e6f7" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="3293-848d-8909-e6f7" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="037a-9441-faf6-6861" name="Allarus Custodian" hidden="false" collective="false" import="true" targetId="8b95-f1a0-60a4-e61d" type="selectionEntry">
@@ -73,12 +73,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="a5b2-1d05-7548-7f81" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="a5b2-1d05-7548-7f81" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a542-460e-35d8-ada2" name="Allarus Custodian" hidden="false" collective="false" import="true" targetId="8b95-f1a0-60a4-e61d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="5f46-c2bc-2bfb-d481" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="5f46-c2bc-2bfb-d481" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="3608-599a-52fb-da63" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -118,7 +118,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="9d3c-97ca-049c-5a02" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="9d3c-97ca-049c-5a02" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -182,7 +182,7 @@
       <categoryLinks>
         <categoryLink id="ca7d-c07e-42b0-28c4" name="Faction: Adeptus Custodes" hidden="false" targetId="37d8-f20c-a4fe-2db1" primary="false"/>
         <categoryLink id="b7f8-31b4-e492-e235" name="Imperium" hidden="false" targetId="8d6d-8c4b-f475-e74a" primary="false"/>
-        <categoryLink id="d8a6-ae15-5948-b5f1" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="d8a6-ae15-5948-b5f1" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="c42a-2db9-e5bb-0694" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="13f6-0b59-ae54-6f86" name="Shield-Captain" hidden="false" targetId="d62a-0498-8cf6-c058" primary="false"/>
         <categoryLink id="6534-4d15-a8b1-d021" name="Model" hidden="false" targetId="50dd-a755-e02d-1c30" primary="false"/>

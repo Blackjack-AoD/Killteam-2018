@@ -18,7 +18,7 @@
   <entryLinks>
     <entryLink id="476a-8c62-c1cf-030e" name="Gnasher-Screamer" hidden="false" collective="false" import="true" targetId="6ceb-ab72-7a43-f671" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="24c1-657c-473b-ee11" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="24c1-657c-473b-ee11" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="f884-4159-1b8a-a060" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -31,7 +31,7 @@
     </entryLink>
     <entryLink id="64c2-bd48-cdd0-a89a" name="Gnasher-Screamer" hidden="false" collective="false" import="true" targetId="6ceb-ab72-7a43-f671" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="3946-a557-038d-a588" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="3946-a557-038d-a588" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="4e08-294a-4f05-21fc" name="Specialism" hidden="false" collective="false" import="true">
@@ -56,7 +56,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="d69f-419c-83f9-6387" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="d69f-419c-83f9-6387" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="8799-0337-ce46-7f06" name="Nightmare Hulk Fire Team" hidden="false" collective="false" import="true" targetId="8cae-0c95-3377-c952" type="selectionEntry">
@@ -68,12 +68,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="a349-e604-0dd5-cef4" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="a349-e604-0dd5-cef4" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e7aa-8b91-e056-e534" name="Nightmare Hulk" hidden="false" collective="false" import="true" targetId="7e83-7a37-79ec-47a6" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="5503-da7d-7173-4a4d" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="5503-da7d-7173-4a4d" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="4116-8228-ed5b-0495" name="Specialism" hidden="false" collective="false" import="true">
@@ -98,7 +98,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="a3fd-2348-8ac2-dafe" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="a3fd-2348-8ac2-dafe" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1b30-0ebc-b010-2def" name="Gellerpox Mutant" hidden="false" collective="false" import="true" targetId="e165-e81c-69b7-1ed2" type="selectionEntry">
@@ -110,12 +110,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="4446-dbf5-60ea-3758" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="4446-dbf5-60ea-3758" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e0ef-40db-3575-a246" name="Gellerpox Mutant" hidden="false" collective="false" import="true" targetId="e165-e81c-69b7-1ed2" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="8bb9-d037-bfbc-01fe" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="8bb9-d037-bfbc-01fe" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5b45-b802-a181-1197" name="Specialism" hidden="false" collective="false" import="true">
@@ -135,7 +135,7 @@
     </entryLink>
     <entryLink id="8e5b-3926-15e0-3211" name="Gellerpox Mutant" hidden="false" collective="false" import="true" targetId="e165-e81c-69b7-1ed2" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="5518-47b4-4d8b-4791" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="5518-47b4-4d8b-4791" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="55a0-0aea-5bca-92fc" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -148,7 +148,7 @@
     </entryLink>
     <entryLink id="a29e-0948-3982-5779" name="Eyestinger Swarm" hidden="false" collective="false" import="true" targetId="15e0-7a1c-2312-2ba2" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="e77c-62de-8e4d-1496" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="e77c-62de-8e4d-1496" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3b4f-fa37-0167-3afe" name="Glitchling" hidden="false" collective="false" import="true" targetId="e5dd-a44e-7cc9-103f" type="selectionEntry">
@@ -160,12 +160,12 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="0473-adc0-ae57-1aee" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="0473-adc0-ae57-1aee" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="804b-6535-582e-f6e7" name="Glitchling" hidden="false" collective="false" import="true" targetId="e5dd-a44e-7cc9-103f" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="2805-23b9-ee04-8200" name="New CategoryLink" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
+        <categoryLink id="2805-23b9-ee04-8200" name="Specialist" hidden="false" targetId="29e7-d60f-5acd-4d99" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="0e9e-bd96-cd15-87a9" name="Specialism" hidden="false" collective="false" import="true">
@@ -190,17 +190,17 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="2890-998d-2ecb-31a1" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="2890-998d-2ecb-31a1" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="96bb-34f5-2974-139f" name="Cursemite" hidden="false" collective="false" import="true" targetId="35eb-1699-0306-0e03" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="5d40-b585-6dc6-126f" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="5d40-b585-6dc6-126f" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="366f-e041-6501-72d7" name="Sludge-grub" hidden="false" collective="false" import="true" targetId="09f5-5f00-c197-962b" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="45c1-fcc7-d16e-3df6" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="45c1-fcc7-d16e-3df6" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7553-e031-e037-ff7a" name="Vulgrar Thrice-cursed" hidden="false" collective="false" import="true" targetId="cd9d-8b37-0a1d-3554" type="selectionEntry"/>
@@ -213,7 +213,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="39d6-6e21-bff3-15a8" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="39d6-6e21-bff3-15a8" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

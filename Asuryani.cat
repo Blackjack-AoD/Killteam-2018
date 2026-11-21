@@ -71,7 +71,7 @@
     </entryLink>
     <entryLink id="e292-a696-0b4d-ed96" name="Heavy Weapons Platform" hidden="false" collective="false" import="true" targetId="50aa-37f7-ff1c-c4fb" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6e7d-46c2-6d2c-581c" name="New CategoryLink" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
+        <categoryLink id="6e7d-46c2-6d2c-581c" name="Non-specialist" hidden="false" targetId="79c6-76fc-47ee-c005" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="31a6-585d-99c5-efe0" name="Storm Guardian Gunner" hidden="false" collective="false" import="true" targetId="4910-17dd-356a-4a7b" type="selectionEntry">
@@ -198,7 +198,7 @@
     </entryLink>
     <entryLink id="0856-fcc2-f0e8-920f" name="Dire Avenger Exarch" hidden="false" collective="false" import="true" targetId="7b4b-2371-1c46-e837" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="9d19-8a64-72dc-cc05" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="9d19-8a64-72dc-cc05" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="afeb-3b62-fe31-ee14" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -490,7 +490,7 @@
     </entryLink>
     <entryLink id="e2db-3f79-5d51-6836" name="Striking Scorpion Exarch" hidden="false" collective="false" import="true" targetId="69b9-d1bc-9133-0d11" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="8d04-9a72-53cd-e9a9" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="8d04-9a72-53cd-e9a9" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="7ac0-78ac-7b3c-cedc" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -534,7 +534,7 @@
     </entryLink>
     <entryLink id="cbd2-0dc6-9e02-e042" name="Howling Banshee Exarch" hidden="false" collective="false" import="true" targetId="57a9-51be-0cc3-32d8" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="60b9-1b25-a3e8-1488" name="New CategoryLink" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
+        <categoryLink id="60b9-1b25-a3e8-1488" name="Leader" hidden="false" targetId="ade4-0710-e40e-be3f" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="7a86-3d41-cf3d-800b" name="Leader" hidden="false" collective="false" import="true" targetId="2abd-70f4-e7e8-4d18" type="selectionEntry">
@@ -2065,7 +2065,7 @@
         <categoryLink id="de4d-b750-8b9e-94c3" name="Faction: Asuryani" hidden="false" targetId="6125-42d9-d2d0-697c" primary="false"/>
         <categoryLink id="a148-1eea-6ebb-0061" name="Aeldari" hidden="false" targetId="435f-8dce-6770-d39a" primary="false"/>
         <categoryLink id="f52f-4624-f6cf-a0e5" name="Warhost" hidden="false" targetId="efd1-273e-3910-f3e8" primary="false"/>
-        <categoryLink id="3498-bcab-3ca7-2cc2" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="3498-bcab-3ca7-2cc2" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="a274-8b12-ff6d-431e" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="5e85-1f06-dd10-420e" name="Ranger" hidden="false" targetId="9365-94f5-a354-b27e" primary="false"/>
         <categoryLink id="144c-9da9-151e-00a3" name="Amallyn Shadowguide" hidden="false" targetId="9885-c4c3-9305-f5cf" primary="false"/>
@@ -2171,7 +2171,7 @@
         <categoryLink id="dd17-d765-5e96-10de" name="Faction: Asuryani" hidden="false" targetId="6125-42d9-d2d0-697c" primary="false"/>
         <categoryLink id="5e0f-8370-83b0-a843" name="Aeldari" hidden="false" targetId="435f-8dce-6770-d39a" primary="false"/>
         <categoryLink id="ce0e-32b3-b40e-425b" name="Spirit Host" hidden="false" targetId="f354-e173-a6cb-2bba" primary="false"/>
-        <categoryLink id="6065-a605-3743-a4e1" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="6065-a605-3743-a4e1" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="8cfc-a766-c76b-0b75" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="5e19-2437-253e-f960" name="Psyker" hidden="false" targetId="9b50-1372-5ee7-b0d9" primary="false"/>
         <categoryLink id="0dbe-93fa-9e47-16a0" name="Spiritseer" hidden="false" targetId="e9cf-4c22-c034-f592" primary="false"/>
@@ -2279,7 +2279,7 @@
         <categoryLink id="2694-02d9-d9b6-5b8a" name="Aeldari" hidden="false" targetId="435f-8dce-6770-d39a" primary="false"/>
         <categoryLink id="2393-66e7-4169-90b7" name="Warhost" hidden="false" targetId="efd1-273e-3910-f3e8" primary="false"/>
         <categoryLink id="0da6-e348-6695-90b5" name="Alaitoc" hidden="false" targetId="34bb-10c3-3129-3290" primary="false"/>
-        <categoryLink id="1442-c13a-de44-a9a3" name="New CategoryLink" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
+        <categoryLink id="1442-c13a-de44-a9a3" name="Commander" hidden="false" targetId="6c25-5825-9054-44a7" primary="true"/>
         <categoryLink id="1d0f-104b-ab2a-c83a" name="Infantry" hidden="false" targetId="96c1-32dc-d9dc-4678" primary="false"/>
         <categoryLink id="4adf-bc23-4a76-e1c6" name="Ranger" hidden="false" targetId="9365-94f5-a354-b27e" primary="false"/>
         <categoryLink id="5071-f286-c1ee-fddf" name="Illic Nightspear" hidden="false" targetId="cbfe-f6e0-f9c3-b6c0" primary="false"/>
