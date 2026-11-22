@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="a467-5f42-d24c-6e5b" name="Warhammer 40,000: Kill Team (2018)" revision="47" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="a467-5f42-d24c-6e5b" name="Warhammer 40,000: Kill Team (2018)" revision="48" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="a467-5f42-pubN89361" name="Core Manual"/>
     <publication id="a467-5f42-pubN90767" name="Rogue Trader"/>
@@ -11456,7 +11456,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Leader</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Leader + Level 1</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you pick a Leader from your kill team to fight in the Fight phase. Choose another friendly model within 3&quot; of them that is eligible to fight. You can fight with each of these models, in an order of your choice, before the next player’s turn.</characteristic>
       </characteristics>
     </profile>
@@ -11464,7 +11464,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Leader</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Leader + Level 2</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you pick a Leader of Level 2 or higher from your kill team to shoot in the Shooting phase. Choose another friendly model within 3&quot; of them that is eligible to shoot. You can make a shooting attack with each of these models, in an order of your choice, before the next player’s turn.</characteristic>
       </characteristics>
     </profile>
@@ -11472,7 +11472,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Leader</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Leader + Level 3</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the battle round, if a Leader of Level 3 or higher from your kill team is on the battlefield and not shaken. In this battle round, your kill team does not suffer the penalty for being broken.</characteristic>
       </characteristics>
     </profile>
@@ -11480,7 +11480,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Combat</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Combat + Level 1</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic in the Fight phase, after attacking with a model from your kill team. Pick a Combat specialist from your kill team that has not yet attacked this phase: you can choose this model to fight next, before another player chooses a model to fight.</characteristic>
       </characteristics>
     </profile>
@@ -11488,7 +11488,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Combat</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Combat + Level 2</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Fight phase. Pick a Combat specialist of Level 2 or higher from your kill team. Until the end of the phase, you must subtract 2 from that model’s Attacks characteristic (to a minimum of 1), but your opponent(s) must re-roll successful hit rolls made against that model.</characteristic>
       </characteristics>
     </profile>
@@ -11496,7 +11496,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Combat</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Combat + Level 3</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a Combat specialist of Level 3 or higher from your kill team finishes a charge move within 1&quot; of an enemy model. Roll a D6; on a 5+ that enemy model suffers 1 mortal wound.</characteristic>
       </characteristics>
     </profile>
@@ -11504,7 +11504,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Morale</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Comms</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Comms + Level 1</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic in the Morale phase before taking any Nerve tests. Until the end of the phase you can subtract 1 from Nerve tests for models from your kill team as though the Comms specialist was within 2&quot; of them.</characteristic>
       </characteristics>
     </profile>
@@ -11512,7 +11512,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Comms</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Comms + Level 2</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you pick a model from your kill team that is within 6&quot; of a friendly Comms specialist of Level 2 or higher to shoot in the Shooting phase. That model can target an enemy model that is not visible to them. If they do so, a 6 is required for a successful hit roll irrespective of the model’s Ballistic Skill or any other modifiers, even if that weapon would normally hit automatically. The target is treated as obscured.</characteristic>
       </characteristics>
     </profile>
@@ -11520,7 +11520,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Comms</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Comms + Level 3</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Pick a model from your kill team within 12&quot; of a friendly Comms specialist of Level 3 or higher. Ready that model.</characteristic>
       </characteristics>
     </profile>
@@ -11528,7 +11528,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Demolitions</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Demolitions + Level 1</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you pick a Demolitions specialist from your kill team to shoot in the Shooting phase. You can add 1 to wound rolls for that model’s ranged weapons in this phase.</characteristic>
       </characteristics>
     </profile>
@@ -11536,7 +11536,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Demolitions</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Demolitions + Level 2</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase. Pick a Demolitions specialist of Level 2 or higher from your kill team. Roll a D6 each time that model loses a wound in this phase; on a 5+ that wound is not lost.</characteristic>
       </characteristics>
     </profile>
@@ -11544,7 +11544,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Demolitions</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Demolitions + Level 3</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you pick a Demolitions specialist of Level 3 or higher from your kill team to shoot in the Shooting phase. In this Shooting phase, they can only shoot a single weapon, and that weapon can only fire 1 shot (even if it would normally fire more). However, that weapon’s Damage characteristic is increased by 2. You cannot use this Tactic in the same battle round as the Custom Ammo Tactic.</characteristic>
       </characteristics>
     </profile>
@@ -11552,7 +11552,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Heavy</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Heavy + Level 1</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you pick a Heavy specialist from your kill team to shoot in the Shooting phase. You can add 1 to the number of shots fired by that model’s ranged weapons, with the exception of weapons that would otherwise fire 1 shot (e.g. an Assault 2 weapon would fire 3 shots, but a Rapid Fire 1 weapon at long range would fire 1 shot) in this Shooting phase.</characteristic>
       </characteristics>
     </profile>
@@ -11560,7 +11560,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Heavy</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Heavy + Level 2</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you pick a Heavy specialist of Level 2 or higher from your kill team to shoot in the Shooting phase. That model can shoot twice in this Shooting phase; after they have shot a first time, immediately shoot with them again. You cannot use this Tactic in the same battle round as the More Bullets Tactic.</characteristic>
       </characteristics>
     </profile>
@@ -11568,7 +11568,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Morale</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Heavy</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Heavy + Level 3</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of your turn in the Morale phase. Pick a Heavy specialist of Level 3 or higher from your kill team that has one or more flesh wounds. Remove one of that model’s flesh wounds.</characteristic>
       </characteristics>
     </profile>
@@ -11576,7 +11576,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Medic</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Medic + Level 1</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase. Pick a model from your kill team within 2&quot; of a friendly Medic specialist that is not shaken. You can add 1 to Advance rolls and charge rolls for that model, and add 1 to that model’s Attacks characteristic until the end of the battle round.</characteristic>
       </characteristics>
     </profile>
@@ -11584,7 +11584,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Medic</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Medic + Level 2</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Pick a model from your kill team within 2&quot; of a friendly Medic specialist of Level 2 or higher that is not shaken. Add 2 to that model’s Toughness characteristic until the end of the battle round.</characteristic>
       </characteristics>
     </profile>
@@ -11592,7 +11592,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Medic</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Medic + Level 3</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a Medic specialist of Level 3 or higher from your kill team that is not shaken is within 2&quot; of another model from your kill team that suffers an Out of Action Injury roll result. That model suffers a Flesh Wound result instead.</characteristic>
       </characteristics>
     </profile>
@@ -11600,7 +11600,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Scout</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Scout + Level 1</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you pick a Scout specialist from your kill team to move in the Movement phase. Increase the model’s Move characteristic by 2&quot; this phase.</characteristic>
       </characteristics>
     </profile>
@@ -11608,7 +11608,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Scout</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Scout + Level 2</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase. Pick an enemy model within 6&quot; of a Scout specialist of Level 2 or higher from your kill team that is not shaken. You can re-roll hit rolls of 1 for shooting attacks made by models in your kill team that target that enemy model until the end of the phase.</characteristic>
       </characteristics>
     </profile>
@@ -11616,7 +11616,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Scout</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Scout + Level 3</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of your turn in the Movement phase. Pick a Scout specialist of Level 3 or higher from your kill team that is not shaken. Remove that model from the battlefield and set it up again anywhere within 18&quot; of its previous position and more than 3&quot; from any enemy models. It is considered to have Advanced.</characteristic>
       </characteristics>
     </profile>
@@ -11624,7 +11624,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Sniper</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Sniper + Level 1</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a Sniper specialist from your kill team to shoot in the Shooting phase. You can add 1 to hit rolls for that model until the end of the phase.</characteristic>
       </characteristics>
     </profile>
@@ -11632,7 +11632,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Sniper</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Sniper + Level 2</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you pick a Sniper specialist of Level 2 or higher from your kill team to shoot in the Shooting phase. Until the end of the phase, when that model shoots at obscured targets they are considered not to be obscured.</characteristic>
       </characteristics>
     </profile>
@@ -11640,7 +11640,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Sniper</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Sniper + Level 3</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you pick a Sniper specialist of Level 3 or higher from your kill team to shoot in the Shooting phase. In this Shooting phase, double the number of shots fired by that model’s ranged weapons (e.g. an Assault 2 weapon would fire 4 shots), but subtract 1 from hit rolls for that model. You cannot use this Tactic in the same battle round as the Headshot Tactic.</characteristic>
       </characteristics>
     </profile>
@@ -11648,7 +11648,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Initiative</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Veteran</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Veteran + Level 1</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the first battle round, but before the Initiative phase. Pick a Veteran specialist from your kill team. They can make a normal move or Advance. You can only use this Tactic once per battle.</characteristic>
       </characteristics>
     </profile>
@@ -11656,7 +11656,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Veteran</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Veteran + Level 2</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of your turn in the Shooting phase. Pick a Veteran specialist of Level 2 or higher from your kill team. Ready them unless they are within 1&quot; of an enemy. They can shoot in that phase as if they had not moved in the Movement phase.</characteristic>
       </characteristics>
     </profile>
@@ -11664,7 +11664,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Veteran</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Veteran + Level 3</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic during your opponent’s turn in the Shooting phase. Pick a Veteran specialist of Level 3 or higher from your kill team that has been Injured, before your opponent makes the Injury roll. Your opponent can only roll a single dice for that Injury roll.</characteristic>
       </characteristics>
     </profile>
@@ -11672,7 +11672,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Zealot</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Zealot + Level 1</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you pick a Zealot specialist from your kill team to fight in the Fight phase. Until the end of the phase, each time you make a hit roll of 6+ for that model you can make an additional attack with the same weapon against the same target. These attacks cannot themselves generate any further attacks.</characteristic>
       </characteristics>
     </profile>
@@ -11680,7 +11680,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Zealot</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Zealot + Level 2</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a Zealot specialist of Level 2 or higher from your kill team loses their last wound, before any player rolls on the Injury table. You may immediately shoot with one of its weapons as if it were the Shooting phase, or pile in and make one attack as if it were the Fight phase.</characteristic>
       </characteristics>
     </profile>
@@ -11688,7 +11688,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Morale</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Zealot</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Zealot + Level 3</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Morale phase. Pick a Zealot specialist of Level 3 or higher from your kill team that took an enemy model out of action in the preceding Fight phase. Each enemy model within 6&quot; of the Zealot must take a Nerve test. If the test is failed the model is shaken.</characteristic>
       </characteristics>
     </profile>
@@ -11696,7 +11696,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Ferocity</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Ferocity + Level 1</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when it is your turn to move in the Movement phase. A Ferocity specialist from your kill team that is not shaken can make a charge attempt against an enemy model within 15&quot; of them, and you can add D3 to their charge roll.</characteristic>
       </characteristics>
     </profile>
@@ -11704,7 +11704,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Morale</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Ferocity</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Ferocity + Level 2</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Morale phase. In this phase, your opponent(s) must re-roll successful Nerve tests taken for enemy models within 6&quot; of a Ferocity specialist of Level 2 or higher from your kill team that is not shaken.</characteristic>
       </characteristics>
     </profile>
@@ -11712,7 +11712,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Ferocity</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Ferocity + Level 3</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic in the Fight phase, before attacking with a Ferocity specialist of Level 3 or higher from your kill team. Add 1 to Injury rolls you make when resolving attacks for this model in this phase.</characteristic>
       </characteristics>
     </profile>
@@ -11720,7 +11720,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Fortitude</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Fortitude + Level 1</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when an opponent makes an Injury roll for a model from your kill team that is within 3&quot; of a friendly Fortitude specialist (use this Tactic before the Injury roll is made). Subtract 1 from all dice rolled as part of that Injury roll.</characteristic>
       </characteristics>
     </profile>
@@ -11728,7 +11728,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Morale</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Fortitude</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Fortitude + Level 2</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Morale phase. Roll a D6 for each flesh wound that a Fortitude specialist of Level 2 or higher from your kill team has suffered. On a 5+, that flesh wound is removed.</characteristic>
       </characteristics>
     </profile>
@@ -11736,7 +11736,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Fortitude</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Fortitude + Level 3</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when your opponent makes an Injury roll for a Fortitude specialist of Level 3 or higher from your kill team (use the Tactic before the Injury roll is made). Apply a -2 modifier to that Injury roll.</characteristic>
       </characteristics>
     </profile>
@@ -11744,7 +11744,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Leadership</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Leadership + Level 1</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the battle round. Until the end of the battle round, your kill team’s Leader can use any of your Commander’s Aura Tactics. When they do so, they are the model that gains the aura ability, rather than your Commander.</characteristic>
       </characteristics>
     </profile>
@@ -11752,7 +11752,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Leadership</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Leadership + Level 2</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase. Pick an enemy model that is visible to a Leadership specialist of Level 2 or higher from your kill team. You can re-roll hit rolls of 1 for friendly models’ attacks made in this phase that target the model you picked.</characteristic>
       </characteristics>
     </profile>
@@ -11760,7 +11760,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Morale</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Leadership</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Leadership + Level 3</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Morale phase. As long as a Leadership specialist of Level 3 or higher from your kill team is on the battlefield and not shaken, all friendly models on the battlefield automatically pass Nerve tests made in this phase.</characteristic>
       </characteristics>
     </profile>
@@ -11768,7 +11768,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Initiative</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Logistics</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Logistics + Level 1</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the first battle round, before the Initiative phase. Pick a model from your kill team. For the duration of the battle, that model never suffers falling damage, and never falls on another model. If it would, instead place that model as close as possible to the point where it would have landed. This can bring it within 1&quot; of an enemy model.</characteristic>
       </characteristics>
     </profile>
@@ -11776,7 +11776,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Logistics</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Logistics + Level 2</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic in the Shooting phase when a Logistics specialist of Level 2 or higher from your kill team makes a shooting attack with an Assault, Rapid Fire, Heavy or Pistol weapon. When resolving the attacks, increase the weapon’s Strength characteristic by 1, and improve its AP by 1 (e.g. AP0 becomes AP-1).</characteristic>
       </characteristics>
     </profile>
@@ -11784,7 +11784,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Initiative</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Logistics</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Logistics + Level 3</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the first battle round, before the Initiative phase. Pick a model from your kill team; for the duration of the battle, that model has a 5+ invulnerable save.</characteristic>
       </characteristics>
     </profile>
@@ -11792,7 +11792,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Melee</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Melee + Level 1</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a Melee specialist from your kill team makes an attack that targets an enemy model in the Fight phase (use the Tactic before the hit roll is made). If that attack hits (whether or not the wound roll is successful), your opponent must subtract 1 from that model’s hit rolls for the rest of the battle round.</characteristic>
       </characteristics>
     </profile>
@@ -11800,7 +11800,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Melee</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Melee + Level 2</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a Melee specialist of Level 2 or higher from your kill team makes an attack that targets an enemy model in the Fight phase (use the Tactic before the hit roll is made). If that attack is successful, any damage inflicted is doubled.</characteristic>
       </characteristics>
     </profile>
@@ -11808,7 +11808,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Melee</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Melee + Level 3</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when an enemy model makes any attacks that target a Melee specialist of Level 3 or higher from your kill team in the Fight phase (use the Tactic before any hit rolls are made). For the rest of the battle round, the enemy model’s controlling player must subtract 2 from hit rolls for that model’s attacks.</characteristic>
       </characteristics>
     </profile>
@@ -11816,7 +11816,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1-2</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Psychic</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Psyker</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Psyker + Level 1</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic after a manifesting the Psybolt psychic power with a Psyker specialist from your kill team. You can attempt to manifest Psybolt a second time this phase. This Tactic costs 1 Command Point unless the specialist can normally attempt to manifest only one psychic power in each Psychic phase, in which case it costs 2 Command Points instead.</characteristic>
       </characteristics>
     </profile>
@@ -11824,7 +11824,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Psychic</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Psyker</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Psyker + Level 2</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Psychic phase. You can exchange one psychic power that a Psyker specialist of Level 2 or higher from your kill team knows (other than Psybolt) for a new power generated from the Psychic Powers list.</characteristic>
       </characteristics>
     </profile>
@@ -11832,7 +11832,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Psychic</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Psyker</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Psyker + Level 3</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a Psyker specialist of Level 3 or higher from your kill team to manifest a psychic power in the Psychic phase. That model can attempt to manifest one additional psychic power in this phase that it has not already attempted to manifest in this phase.</characteristic>
       </characteristics>
     </profile>
@@ -11840,7 +11840,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Shooting + Level 1</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase to immediately Ready a Shooting specialist from your kill team that is neither shaken nor within 1&quot; of an enemy model.</characteristic>
       </characteristics>
     </profile>
@@ -11848,7 +11848,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Shooting + Level 2</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a Shooting specialist of Level 2 or higher from your kill team makes an attack that hits an enemy model in the Shooting phase (use the Tactic before the wound roll is made). Do not make a wound roll – it is automatically successful.</characteristic>
       </characteristics>
     </profile>
@@ -11856,7 +11856,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Shooting + Level 3</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a Shooting specialist of Level 3 or higher from your kill team makes an attack that targets an enemy model in the Shooting phase (use the Tactic before the hit roll is made). Do not make a hit roll – it is automatically successful. You cannot use this Tactic in the same battle round as the Lucky Hit Tactic.</characteristic>
       </characteristics>
     </profile>
@@ -11864,7 +11864,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Initiative</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Stealth</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Stealth + Level 1</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the first battle round, before the Initiative phase. A Stealth specialist from your kill team can immediately make a normal move as if it were the Movement phase. You can only use this Tactic once per battle.</characteristic>
       </characteristics>
     </profile>
@@ -11872,7 +11872,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Stealth</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Stealth + Level 2</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase if a Stealth specialist of Level 2 or higher from your kill team is within 2&quot; of any terrain feature. The specialist is considered to be obscured from all enemy models until the end of the phase.</characteristic>
       </characteristics>
     </profile>
@@ -11880,7 +11880,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Stealth</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Stealth + Level 3</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic in the Fight phase when a Stealth specialist of Level 3 or higher from your kill team makes an attack against a target that is within 1&quot; of any other friendly model (before the hit roll). If the attack hits, the specialist inflicts a number of mortal wounds on the target equal to the weapon’s Damage characteristic – the attack sequence then ends.</characteristic>
       </characteristics>
     </profile>
@@ -11888,7 +11888,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Initiative</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Strategist</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Strategist + Level 1</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the first battle round, before the Initiative phase. Roll a D3; you can remove up to that number of models from your kill team from the battlefield and set them up again, following any restrictions described in the mission (e.g. that they must be set up in your deployment zone). You can only use this Tactic once per battle.</characteristic>
       </characteristics>
     </profile>
@@ -11896,7 +11896,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Strategist</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Strategist + Level 2</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic after you have used a Tactic from the Command Points and Tactics section of the Kill Team Core Manual. You can use that Tactic again this phase.</characteristic>
       </characteristics>
     </profile>
@@ -11904,7 +11904,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Strategist</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Strategist + Level 3</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic after your opponent has spent Command Points to use a Tactic. Your opponent must spend 1 additional Command Point to use that Tactic. If they choose not to (or they cannot) their Command Points are refunded but the Tactic they attempted to use is not resolved and cannot be attempted again this phase.</characteristic>
       </characteristics>
     </profile>
@@ -11912,7 +11912,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Strength</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Strength + Level 1</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a Strength specialist from your kill team ends a charge move within 1&quot; of any enemy models. Roll a D6 for each enemy model within 1&quot; of that Strength specialist; on a 6, that enemy model suffers 1 mortal wound.</characteristic>
       </characteristics>
     </profile>
@@ -11920,7 +11920,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Strength</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Strength + Level 2</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a Strength specialist of Level 2 or higher from your kill team makes an attack that targets an enemy model in the Fight phase (use the Tactic before the hit roll is made). If the attack hits, this specialist inflicts 1 mortal wound on the target – the attack sequence then ends.</characteristic>
       </characteristics>
     </profile>
@@ -11928,7 +11928,7 @@
       <characteristics>
         <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
         <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
-        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Strength</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Strength + Level 3</characteristic>
         <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model in an opposing kill team has to take a Falling test whilst within 1&quot; of a Strength specialist of Level 3 or higher from your kill team that is not shaken and does not have to take a Falling test. Instead of taking the Falling test in the normal fashion, the controlling player for each model rolls a D6 and adds their model’s Strength characteristic to the result. If your score equals or beats your opponent’s, the Falling test is failed, otherwise it is passed.</characteristic>
       </characteristics>
     </profile>
