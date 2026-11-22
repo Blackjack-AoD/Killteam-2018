@@ -10,9 +10,15 @@ November 2026.
 ## Adding tactics
 
 BSData's files never included tactics. The game system now has a **Tactic** profile type
-(`CP`, `Phase`, `Description`), so they can be added by hand from the books.
+(`CP`, `Phase`, `Requires`, `Description`), so they can be added by hand from the books.
 [Muster](https://github.com/Blackjack-AoD/Muster) shows them from each force's **Tactics** button
-(the book icon): the game system's generic tactics first, then the faction's own.
+(the book icon): the game system's generic tactics first, then the faction's own. They're also on the army sheet and
+in share links.
+
+**Requires** (optional) limits a tactic to lists that hold something: the name of a unit or model
+(`Tech-priest Dominus`), a selection such as a specialism (`Combat`), or a category (`Commander`). Give several
+separated by commas or "or" (`Tech-priest Dominus or Archmagos`). Leave it out, or put `-`, for a tactic any list can
+use. Muster lists only the tactics a list can use, with a switch to show the rest.
 
 Where they go:
 
@@ -31,6 +37,7 @@ One tactic, to copy and fill in. Give each profile its own `id` (any unused `xxx
   <characteristics>
     <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
     <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+    <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Combat</characteristic>
     <characteristic name="Description" typeId="03f9-a9e3-0178-543f">What the tactic does.</characteristic>
   </characteristics>
 </profile>
