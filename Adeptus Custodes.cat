@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="419c-04e4-1bb5-3f36" name="Adeptus Custodes" revision="9" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="419c-04e4-1bb5-3f36" name="Adeptus Custodes" revision="10" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme></readme>
   <categoryEntries>
     <categoryEntry id="fd32-3cc0-f4c3-c5e1" name="Custodian Guard" hidden="false"/>
@@ -586,6 +586,144 @@
     <profile id="d9ce-f040-90c9-d0d9" name="Superior Transhuman Physiology" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
       <characteristics>
         <characteristic name="Description" typeId="b373-019d-503a-1124">Ignore the penalty to this model&apos;s hit rolls from flesh wounds.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f7fc-f810-9c32-3621" name="Ever Vigilant" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase when an opponent sets up a model within 12&quot; of a model from your kill team that is not shaken. Your model can immediately shoot at the enemy model as if it were the Shooting phase, but you must subtract 1 from the resulting hit rolls.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b608-5223-e321-3810" name="Inspire Fear" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Morale</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the beginning of the Morale phase. Choose a model from your kill team that is not shaken. Opponents must add 1 to Nerve tests taken for enemy models within 3&quot; of that model in this phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5737-da8c-7471-8889" name="From Golden Light" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Choose up to three TERMINATOR models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5&quot; away from any enemy models.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1137-fe66-4329-3e59" name="Unflinching" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when an opponent chooses a model from your kill team that is not shaken as a target of a charge. When that model fires Overwatch in this phase, they successfully hit on a roll of 5 or 6.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a504-f782-4283-d2c0" name="Spark of Divinity" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when an enemy PSYKER manifests a psychic power within 12&quot; of a model from your kill team that is not shaken. You can take a Deny the Witch test for that model as if it were a PSYKER.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d927-bb39-30c0-eea9" name="Concussion Grenades" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose an ALLARUS CUSTODIAN from your kill team to shoot with a balistus grenade launcher in the Shooting phase. Until the end of the battle round, that weapon has an AP characteristic of 0, but models that suffer any hits from that weapon cannot attack in the Shooting phase, and your opponent must subtract 1 from hit rolls made for those models in the Fight phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1988-2404-1e5d-7ecd" name="Piercing Strike" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of the phase, add 1 to wound rolls for attacks made by that model using a guardian spear.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="82a5-6a70-24e9-6582" name="Inescapable Vengeance" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose an ALLARUS CUSTODIAN from your kill team to shoot in the Shooting phase. Until the end of that phase, you can re-roll wound rolls for attacks made by that model that target an enemy COMMANDER.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a67a-61a8-af33-ec53" name="Swift in Thought and Action" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic after a COMMANDER from your kill team makes a normal move. That model is Readied.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ff23-cfe3-83d2-dfab" name="Aquila Commander" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">3</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of a battle round if a COMMANDER from your kill team (other than a shaken model) is on the battlefield, and a roll is to be made to determine if the battle continues or ends.
+Before the roll is made, choose one: add 1 to the result or subtract 1 from the result.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="033e-74cd-3cc7-62c5" name="Even in Death" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a COMMANDER from your kill team is taken out of action. Do not remove that model from the battlefield. Your opponent should finish resolving any attacks that target other models. Then, the Commander can immediately shoot as if it were the Shooting phase, or fight as if it were the Fight phase. Then, remove the Commander from the battlefield.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2907-be8f-5a16-430d" name="From Golden Light" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Choose up to three TERMINATOR models from your kill team that were set up in Reserve, and set them up anywhere on the battlefield that is more than 5&quot; away from any enemy models.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d186-a182-03f5-2e52" name="Avenge the Fallen" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of the phase, increase the Attacks characteristic of that model by D3 if at least one model from your kill team is out of action.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c3c1-4ba8-cd51-1dc3" name="Sentinel Storm" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase. Choose a model from your kill team armed with a sentinel blade that is within 1&quot; of an enemy model. Until the end of that phase, change that weapon’s profile to Pistol 4.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f300-db0d-c87f-6d42" name="Tanglefoot Grenade" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase. Choose an enemy model within 12&quot; of a model (other than a shaken model) from your kill team, and roll a D6. Until the end of the phase, that model’s controlling player must reduce that model’s Move characteristic and charge rolls by the result. Units with the FLY keyword are not affected.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a35a-0b82-a1c4-de75" name="Emperor’s Justice" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of that phase, you can re-roll wound rolls for attacks made by that model that target an enemy HERETIC ASTARTES model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0a79-84d0-b1af-546b" name="Inspirational Fighter" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Shield-Captain</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Fight phase if your kill team includes a SHIELD-CAPTAIN. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, you can re-roll hit rolls of 1 for friendly models within 6&quot; of this model.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

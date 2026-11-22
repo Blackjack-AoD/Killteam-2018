@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fbb3-685c-8a71-89ff" name="Elucidian Starstriders" revision="5" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fbb3-685c-8a71-89ff" name="Elucidian Starstriders" revision="6" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme></readme>
   <publications>
     <publication id="fbb3-685c-pubN66443" name="Rogue Trader"/>
@@ -1004,6 +1004,71 @@
     <profile id="3188-9255-fac6-531f" name="Loyal Retainer" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
       <characteristics>
         <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to the Leadership characteristic of this model whilst it is within 6&quot; of ELUCIA VHANE.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9bdf-78cf-88a0-b353" name="Combat Medicine" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic after using SANISTASIA MINSTS Healing Serum ability (whether or not the ability was successful). You can immediately use that ability for a second time this phase, either on a different model or the same model again.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c50b-b4a8-8d97-f35d" name="Priority Objective Identified" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase if LARSEN VAN DER GRAUSS is within 3&quot; of an objective marker and not shaken. Until the end of the battle round, add 1 to his saving throws and Attacks characteristic.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5dbe-021e-3f54-5a01" name="Killing Strikes" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic before KNOSSO PROND is chosen to fight with in the Fight phase. Until the end of the phase, the Damage characteristic of her power blade is increased to D3.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="12a2-bda4-5dd5-f711" name="Voltagheist Transference" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic in the Movement phase before making a normal move with LARSEN VAN DER GRAUSS. Remove this model from the battlefield, then set it up anywhere that is more than 4&quot; from any enemy models. He cannot move further this phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2f17-2594-cb85-ac95" name="Executioner Shell" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic before Voidmaster Nitsch is chosen to shoot with in the Shooting phase. Only make a single hit roll with his artificer shotgun this phase, but add 3 to the result; if the hit roll is successful, the enemy model suffers 1 mortal wound and the attack sequence ends.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b5a9-4c19-4a88-be3f" name="Voltagheist Field" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic before LARSEN VAN DER GRAUSS is chosen to shoot with in the Shooting phase. He can do one of the following instead of shooting normally: open or close a door as if he were within 1&quot; of it, scan a terrain feature for traps (your opponent(s) must tell you if that terrain feature has been trapped or not), or ignore penalties to his hit rolls for the target model being obscured when shooting with his voltaic pistol this phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="036e-24f2-b3a3-187d" name="Multi-spectral Auspicator" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Elucia Vhane</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase. ELUCIA VHANE gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, re-roll hit rolls of 1 for attacks made by friendly ELUCIDIAN STARSTRIDERS models within 6&quot; of it.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c8c0-46ed-c28b-456f" name="Digital Laser Regalia" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Elucia Vhane</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic immediately after fighting with ELUCIA VHANE. Make an additional hit roll against an enemy model within 1” of her; if the hit roll is successful, the enemy model suffers 1 mortal wound and the attack sequence ends.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

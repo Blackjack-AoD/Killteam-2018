@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0737-c237-2604-a08c" name="Chaos Daemons" revision="7" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0737-c237-2604-a08c" name="Chaos Daemons" revision="8" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme></readme>
   <categoryEntries>
     <categoryEntry id="29a4-cdb6-08ba-6f7e" name="Tzeentch" hidden="false"/>
@@ -1712,6 +1712,54 @@ Blue Horrors and Pairs of Brimstone Horrors are not treated as part of your kill
     <profile id="cb88-f8c8-41d4-b182" name="Ephemeral Daemons" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
       <characteristics>
         <characteristic name="Description" typeId="b373-019d-503a-1124">This model has an invulnerable save of 4+. Blue Horrors instead have an invulnerable save of 5+. Pairs of Brimstone Horrors instead have an invulnerable save of 6+.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="287c-04a4-25e8-5399" name="Reality Blinks" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">3</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a CHAOS DAEMONS model (other than a HORROR model) from your kill team is taken out of action. Roll one D6. On a 4+ that injury roll is ignored and the model is restored to 1 wound.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3012-3687-535c-4e59" name="Pestilential Aura" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of any battle round. Pick one PLAGUEBEARER model from your kill team. If this model is obscured, attacks that target this model suffer an additional -1 modifier to their hit rolls, until the end of the battle round.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6d49-71af-eb76-1d6c" name="Deadly Dance" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic before making a charge roll for a DAEMONETTE model from your kill team. You can roll 3D6 and pick which two rolls to use when determining this model’s charge distance in this battle round.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b70d-fe3a-3e01-a0ce" name="Mutating Fire" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you pick a HORROR model from your kill team to attack in the Shooting phase. Until the end of the phase, change the Armour Piercing characteristic of this model’s Coruscating Flames to -3.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="58ed-ca2a-8971-e52c" name="Cleaving Blow" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you pick a BLOODLETTER model from your kill team to attack in the Fight phase. Add 1 to the Damage characteristic of that model’s Hellblade, until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6dd3-c34a-78c7-e0f6" name="Warp-spawned Terror" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Morale</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Morale phase. Add 1 to Nerve tests for enemy models that are within 3&quot; of any CHAOS DAEMONS models from your kill team.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

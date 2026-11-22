@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="369f-8d9a-1b69-00dc" name="Death Guard" revision="16" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="369f-8d9a-1b69-00dc" name="Death Guard" revision="17" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="0d05-3565-7b60-3c0f" name="Plague Marine" hidden="false"/>
     <categoryEntry id="1bc8-a924-22a9-e69a" name="Poxwalker" hidden="false"/>
@@ -2430,6 +2430,155 @@
         <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
         <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
         <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">You can re-roll wound rolls of 1 for this weapon. This weapon automatically hits its target.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4117-ebf7-ad89-e457" name="Putrid Splatter" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team loses a wound in the Fight phase. Roll a D6 for each enemy model within 1&quot; of that model. On a 6 that enemy model suffers 1 mortal wound after all of its attacks have been resolved.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5852-e529-9c78-d5fd" name="Veterans of the Long War" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a PLAGUE MARINE or TERMINATOR model from your kill team is chosen to attack in the Shooting or Fight phase. You can add 1 to wound rolls for the model’s attacks that target IMPERIUM models, until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3d50-aa99-67e5-7d42" name="Nurgling Infestation" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Pick an enemy model within 1&quot; of your Leader and roll a D6. On a 4+ that enemy model suffers 1 mortal wound.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3d10-531c-0474-eab4" name="Cloud of Flies" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Pick a model from your kill team. Until the end of the battle round, enemy models can only shoot that model if it is the closest target visible to them.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f233-436d-502e-44fb" name="Grandfather’s Blessing" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the first battle round. Pick a model from your kill team and roll a D6. On a 1, that model is found unworthy and suffers D3 mortal wounds. On a 2+ add 1 to hit and wound rolls for the model until the end of the battle. You can only use this Tactic once per battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="95a0-62ce-7070-a771" name="Nurgle’s Gift" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic after a POXWALKER from your kill team takes an enemy model out of action in the Fight phase. Roll a D6. On a 4+ you may set up a new Poxwalker within 1&quot; of the Poxwalker that made the attack. The new Poxwalker is treated as a member of your kill team, but is not part of a fire team and is not added to your command roster.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1cdd-cfdb-9b57-0de8" name="Teleport Strike" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Choose up to three TERMINATOR models from your kill team that were set up in Reserve, and set them up anywhere on the battlefield that is more than 5&quot; away from any enemy models.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c01f-7d73-04c2-cc88" name="Death March" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase. Until the end of that phase, increase the Move characteristic of all models in your kill team by 2&quot;. However, until the end of that phase, models from your kill team may not Fall Back, Advance or charge.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7f5a-4ed0-f1a2-fa16" name="Grandfather’s Tally" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of a Shooting phase or Fight phase, if exactly 7 enemy models have been taken out of action during the course of the battle. Until the end of that phase, re-roll failed wound rolls for attacks made by models from your kill team.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c2a2-30fd-9b57-837a" name="Leaking Brain-fluid" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a POXWALKER from your kill team suffers a flesh wound. For the rest of the battle, you do not have to take Nerve tests for that model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="94b7-0b0e-d4ab-1b94" name="The Three-eyed Fly" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">3</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the battle round, when you control exactly three objectives.
+Until the end of the battle round, add 1 to rolls you make for the Disgustingly Resilient ability for models from your kill team that are within 3&quot; of any of those three objectives.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fdfc-c7e7-dd3e-87a3" name="Grasping Tentacles" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase. Choose a model (other than a shaken model) from your kill team that is within 1&quot; of one or more enemy models, and choose one of those enemy models. Neither of the models chosen can make a Fall Back move in this phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ef0b-2daf-0c91-72c0" name="Inured to Pain" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team suffers a flesh wound. Ignore any penalties to hit from flesh wounds for attacks made by that model for the rest of the battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6a0b-8bdf-6493-1d51" name="Revolting Stench" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Foul Blightspawn</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Fight phase, if your kill team includes a FOUL BLIGHTSPAWN. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, enemy models that charged this turn, and are within 3&quot; of this model at the start of the Fight phase, cannot be chosen to fight in the Hammer of Wrath section of the Fight phase, but can be chosen to fight in the Fight For Your Lives section instead. This ability also affects models that have abilities that would enable them to fight in the Hammer of Wrath section as if they had charged.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4bac-aef6-6ac7-f88c" name="Festering Zealot" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Tallyman</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Fight phase, if your kill team includes a TALLYMAN. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, you can re-roll failed hit rolls in the Fight phase for friendly models within 7&quot; of this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="531a-c438-e500-6a45" name="Blight Racks" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Biologus Putrifier</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Fight phase, if your kill team includes a BIOLOGUS PUTRIFIER. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, increase the Strength and Damage characteristics of all blight grenades carried by friendly DEATH GUARD models by 1, whilst they are within 3&quot; of this model. In addition, whilst a friendly model is within 3&quot; of this model, each wound roll of 6+ made for that model when it attacks with a blight grenade inflicts a mortal wound on the target, in addition to any other damage.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5ed3-ea29-bfe3-c812" name="Tainted Narthecium" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Plague Surgeon</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Fight phase, if your kill team includes a PLAGUE SURGEON. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, you may re-roll any Disgustingly Resilient rolls of 1 made for friendly models within 3&quot; of this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="65f9-f5d3-2f4e-6b89" name="Vector of Contagion" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Lord of Contagion</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the battle round, if your kill team includes a LORD OF CONTAGION that is not shaken. Roll a dice for each enemy model that is within 1&quot; of any model from your kill team that is within 3&quot; of that LORD OF CONTAGION; on a 4+ that enemy model suffers a mortal wound.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

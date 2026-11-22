@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="172b-ef0f-f86e-1837" name="Sisters of Silence" revision="5" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="172b-ef0f-f86e-1837" name="Sisters of Silence" revision="6" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme></readme>
   <publications>
     <publication id="0621-0a84-d1db-3c49" name="White Dwarf Issue 454"/>
@@ -709,6 +709,40 @@
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="cb2e-ad76-ad46-bd47" name="Unsettling Presence" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Morale</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Morale phase. Add 1 to the result of Nerve tests taken for enemy models within 3&quot; of any SISTERS OF SILENCE models from your kill team.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7f0a-3734-6f4d-ec6b" name="Decapitating Strikes" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a VIGILATOR model from your kill team to attack in the Fight phase. Until the end of the phase, when resolving an attack made with an executioner greatblade that model is equipped with, add 1 to the wound roll.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="256a-cf3b-b26a-5191" name="Purgation Sweep" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a WITCHSEEKER model from your kill team to attack in the Shooting phase. Until the end of the phase, change the Type characteristic of the flamer that model is equipped with to Assault 6.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fe7c-416d-015e-e2ad" name="Punishment Fire" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a PROSECUTOR model from your kill team to attack in the Shooting phase. Until the end of the phase, change the Type and Range characteristic of the boltgun that model is equipped with to Assault 3 and 18&quot; respectively, and when making an attack with that model, it does not suffer any penalties to its hit rolls.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
   <sharedInfoGroups>
     <infoGroup id="d481-5c91-8369-5a85" name="Sisters" hidden="false">
       <profiles>

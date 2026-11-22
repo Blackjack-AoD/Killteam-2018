@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b850-8976-bc1a-d579" name="Gellerpox Infected" revision="4" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b850-8976-bc1a-d579" name="Gellerpox Infected" revision="5" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme></readme>
   <categoryEntries>
     <categoryEntry id="1818-1561-421c-4b61" name="Nurgle" hidden="false"/>
@@ -998,6 +998,70 @@
     <profile id="bfdd-9b52-99f0-cef9" name="Vermin" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
       <characteristics>
         <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to Injury rolls made for this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="59c2-9061-7954-e112" name="Corruption and Decay" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Fight phase. Choose an enemy model within 3&quot; of a model from your kill team. Until the end of the phase, subtract 1 from that enemy models Toughness characteristic.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ee9b-0604-02ea-3f97" name="Rancid Vomit" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase. Choose a NIGHTMARE HULK model from your kill team and then choose an enemy model within 6&quot; of and visible to it. Roll three D6; for each roll of 5+ that enemy model suffers 1 mortal wound.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e4b2-4509-f978-4ee4" name="Verminoid Infestation" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">3</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Set up a MUTOID VERMIN model on the battlefield anywhere that is wholly within 6&quot; of a GELLERPOX INFECTED model from your kill team and more than 6&quot; from any enemy models. This MUTOID VERMIN model is added to your kill team until the end of the mission, but is ignored for the purposes of determining whether your kill team is broken. At the end of the battle, remove all models added to your kill team through this Tactic before determining who has won the mission.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="758b-df9c-c989-7eac" name="Gellershift" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic in the Movement phase before making a normal move with a GELLERPOX MUTANT from your kill team. Remove that model from the battlefield, then set it up anywhere on the battlefield that is more than 4&quot; from any enemy models. It cannot move further in this phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1533-bf64-f849-53c6" name="Twisted Blessings" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Choose a NIGHTMARE HULK model from your kill team that has one or more flesh wounds and roll a D6; on a 4+ one flesh wound is removed from that model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a755-a258-be0e-14dc" name="Machine Glitch" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a player attempts to open or close a door if a GLITCHLING from your Kill Team that is not shaken is within 1&quot; of that door or doorway. Add 3 to your dice result when rolling off to determine if that door opens (or remains closed) or if it closes (or remains open).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8024-943e-c575-db42" name="Insane Gibbering" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Psychic</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Vulgrar Thrice-Cursed</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Psychic phase if your kill team includes VULGRAR THRICE-CURSED. Until the end of the phase, subtract 1 from Psychic tests taken for enemy PSYKERS whilst they are within 18&quot; of your VULGRAR THRICE-CURSED.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4849-ed64-ccd0-ce2b" name="Lord of Resentment" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Vulgrar Thrice-Cursed</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase if your kill team includes VULGRAR THRICE-CURSED. This model gains the following aura ability until the end of the battle round: As long as this model is not shaken, you can re-roll hit rolls of 1 made for friendly GELLERPOX INFECTED models within 6&quot; this model.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -5,7 +5,12 @@ BattleScribe / New Recruit data for Kill Team (2018): the game system and 27 fac
 November 2026.
 
 - `bsdata-original` (tag): the files exactly as BSData left them.
-- `main`: category-link clean-up, and a **Tactic** profile type for adding tactics (below).
+- `main`: category-link clean-up, a **Tactic** profile type, and the tactics themselves (below).
+
+This repository is **private**: it's a personal reference copy, holding rules text from a personally saved copy of
+Wahapedia's Kill Team (2018) pages. 402 tactics: every faction's own (including Commander and killzone tactics, with
+`Requires` set to the Commander or killzone) and 6 generic ones in the game system. The core book's other generic and
+specialist tactics weren't in that saved copy.
 
 ## Adding tactics
 

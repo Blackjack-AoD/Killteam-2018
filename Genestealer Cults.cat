@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5479-cc66-3156-2e54" name="Genestealer Cults" revision="23" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5479-cc66-3156-2e54" name="Genestealer Cults" revision="24" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme></readme>
   <publications>
     <publication id="5479-cc66-pubN67382" name="Core Manual"/>
@@ -4188,6 +4188,251 @@
     <profile id="d31e-3295-be26-44e4" name="Unquestioning Loyalty" publicationId="5479-cc66-pubN77125" page="" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
       <characteristics>
         <characteristic name="Description" typeId="b373-019d-503a-1124">Roll a D6 each time you use the Look Out, Sir! Commander Tactic on this model. On a 2+, you gain a Command Point.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c2a7-c06d-fe91-e3a5" name="Industrial Brutality" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic after making attacks with a model armed with a heavy rock drill, heavy rock saw or heavy rock cutter in the Fight phase. Roll a D6. On a 4+ that model may immediately fight again.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fbad-6600-7a0c-3e50" name="Unnatural Senses" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team is declared as a target of a charge. That model may fire Overwatch at the charging model, even if the charging model is not visible to it. The target is treated as obscured.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fdfe-292d-39b6-0b47" name="Density Analysis Lenses" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model in your kill team to shoot in the Shooting phase. Add 1 to hit rolls for that model against targets which are obscured.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f51f-43a1-dba3-cc23" name="Inhuman Reflexes" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team fails a Falling test. It doesn’t suffer falling damage and won’t fall on another model. If it would, instead place this model as close as possible to the point where it would have landed. This can bring it within 1&quot; of an enemy model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3c55-e1fc-2af3-59cb" name="Frenzied Hammering" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when an ABERRANT from your kill team armed with a power hammer attacks in the Fight phase. Increase that model’s Attacks characteristic by D3 until the end of the phase, but subtract 1 from hit rolls for that model’s attacks until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="61ea-07d8-9dcd-5343" name="Strength of Faith" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Psychic</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team suffers a mortal wound in the Psychic phase. Roll a D6 for that mortal wound, and each other mortal wound suffered by that model until the end of the phase. On a roll of 5+ that wound is ignored and has no effect.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6611-9a67-c218-aa07" name="Seismic Blast" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model in your kill team to shoot with the short-wave profile of a seismic cannon. If an attack for the weapon hits, roll a dice for each other model within 2&quot; of the target model. On a 5+ that model is shaken.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8bf0-c8ea-dcbe-c658" name="Mesmerising Gaze" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the beginning of the Fight phase. Pick an enemy model within 1&quot; of a model from your kill team and roll a dice. On a 4+ subtract 1 from that model’s Attacks characteristic (to a minimum of 1) until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b59b-869f-8802-9a92" name="Acidic Spit" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the beginning of the Shooting phase. Pick an enemy model within 1&quot; of a model from your kill team and roll a dice. On a 5+ that enemy model suffers 1 mortal wound.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f83f-f050-69fe-c9c5" name="Raise the Icon" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Fight phase. Pick a model from your kill team equipped with a cult icon. Increase the range of that model’s Cult Icon ability to 12&quot; until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="92e4-c617-53b5-1ab1" name="I Like to Keep This Handy…" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase. Pick a model from your kill team armed with a shotgun. Change the shotgun’s Type to Pistol 2 until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1fa3-3b9a-6c98-5d8e" name="Toxin Gland" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you pick a HYBRID METAMORPH from your kill team to fight in the Fight phase. Add 1 to wound rolls for that model’s rending claw or metamorph talon until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c596-2227-45c2-4c05" name="Cult Assassin" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the beginning of the first battle round, if a SANCTUS from your kill team is on the battlefield and not shaken. That model can immediately make a ranged attack as if it were the Shooting phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="67eb-287d-a263-a1a9" name="Blaze of Glory" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Kelermorph</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you pick a KELERMORPH from your kill team to shoot in the Shooting phase. Instead of shooting normally, you can make a single attack with one of this model’s ranged weapons against each enemy model within 8&quot; that is an eligible target.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="689a-cf87-bbce-fc5f" name="Cult Nexos" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase, if a NEXOS from your kill team is on the battlefield and not shaken, and you have any models in Reserve. Choose up to three models from your kill team that were set up in Reserve, and set them up within 1&quot; of the edge of the battlefield, and more than 5&quot; away from any enemy models.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fc83-8e8b-1fa3-a9d2" name="Genomic Enhancement" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase, if a BIOPHAGUS from your kill team is on the battlefield and not shaken. Choose a friendly ABERRANT model within 2&quot; of the BIOPHAGUS and increase its Strength, Toughness or Attacks characteristic by 1 until the end of the mission. You cannot choose the same ABERRANT twice with this Tactic.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4d37-b707-b449-168d" name="Sudden Strike" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase if a LOCUS from your kill team is on the battlefield, is within 6&quot; of an enemy model, did not Advance, Fall Back, Retreat, make a charge attempt or arrive from Reserve in this turn, and is not shaken or within 1&quot; of an enemy model. The LOCUS can immediately make a pile-in move as described in the Fight phase, except that it can move up to 6&quot; (rather than 3&quot;).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8b2e-848f-5047-24d4" name="Corrosive Fuel" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model from your kill team to shoot with a hand flamer. Improve the Armour Penetration characteristic of that weapon to -1, and its Damage characteristic to 2 until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3ad2-8847-c2c8-9f90" name="Blinding Acid Spit" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team is chosen as the target of an attack in the Fight phase. Roll a dice; on a 4+ subtract 1 from hit rolls made for the attacking model until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bd27-d16e-dd27-1eae" name="Plant the Flag" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team equipped with a cult icon takes an enemy model out of action in the Fight phase. Friendly models within 6&quot; of that model do not need to take Nerve tests until the end of the battle round.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2b85-38c3-efa9-a526" name="The Cult Innumerable" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">3</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team (other than a specialist) is taken out of action. You can set up that model again in your deployment zone, and more than 9&quot; from any enemy models. The model is still treated as a casualty at the end of the battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8eb2-39da-cef2-dd80" name="Messy Demise" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team takes an enemy model out of action with an attack made with a heavy rock saw. Roll a dice for each enemy model within 3&quot; of the model that made the attack. On a roll of 5+ the model you are rolling for is shaken.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e48c-e25a-13d2-f86a" name="Ensnaring Strike" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you pick a model in your kill team armed with a lash whip and bonesword to fight in the Fight phase. Until the end of the phase, if that model scores any hits, you can pick one melee weapon their target is armed with. The target model may not use that melee weapon in this phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="63de-d747-39aa-7940" name="Secret Lair" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Killzone: Sector Fronteris</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase of battle round 1, 2 or 3. Pick a model from your kill team within 3&quot; of a Ryza-pattern ruin hatchway and remove that model from the battlefield. At the end of the subsequent Movement phase, set up that model within 3&quot; of any Ryza-pattern ruin hatchway, and more than 9&quot; from any enemy models. If you cannot set up that model in this way, it remains in hiding; follow these rules again at the end of the next Movement phase. If this model has not been set up again before the end of the mission, it is taken out of action.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="abeb-aae5-bf57-dc96" name="Cult Demagogue" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Primus</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase, if your kill team includes a PRIMUS. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, you can add 1 to hit rolls in the Fight phase for friendly models that are within 6&quot; of this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0eae-f12d-dd80-da51" name="Meticulous Planning" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Primus</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the first battle round, if your kill team includes a PRIMUS. Roll a D6 for each model from your kill team that did not move as a result of the Cult Ambush ability. On a roll of 5+ you can move that model as described in its Cult Ambush ability.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6f0e-54d2-be83-3bac" name="Nexus of Devotion" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Acolyte Iconward</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase, if your kill team includes an ACOLYTE ICONWARD. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, you can roll a D6 each time a friendly model within 6&quot; of this model loses a wound; on a 6 the wound is not lost. If a model already has an ability with a similar effect, you can choose which effect applies and re-roll 1s when making these rolls.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7ad5-975c-c354-4743" name="Proclamator Hailer" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Clamavus</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the battle round, if your kill team includes a CLAMAVUS. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, add 1 to all Advance and charge rolls made for models from your kill team that are within 6&quot; of any friendly models with this ability, and subtract 1 from all Nerve tests taken for models from your kill team that are within 6&quot; of any friendly models with this ability.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f372-d7e7-63c9-f8e6" name="Unsettling Presence" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the battle round, if your kill team includes a COMMANDER. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, enemy models within 6&quot; of this model have -1 Leadership.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bebd-8edb-9544-842a" name="Rabble Rouser" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Acolyte Iconward</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase, if your kill team includes an ACOLYTE ICONWARD. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, all friendly models within 6&quot; of this model can use the Acolyte Iconward’s Leadership instead of their own.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

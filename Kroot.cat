@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="26db-d625-117a-0eba" name="Kroot" revision="11" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="26db-d625-117a-0eba" name="Kroot" revision="12" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme></readme>
   <categoryEntries>
     <categoryEntry id="1a7b-f45a-e2e4-956e" name="Kroot Hound" hidden="false"/>
@@ -486,4 +486,54 @@
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="3157-23e4-ef60-59f9" name="Unfettered Aggression" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of that phase, add 1 to that model’s Attacks characteristic.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="af20-80eb-9a7d-1f6e" name="Primal Savagery" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Fight phase. Pick a KROOTOX RIDER from your kill team that is within 1&quot; of an enemy model – your model can immediately fight again.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="69a3-a926-16fa-1bb7" name="Prestigious Trophy" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a KROOT CARNIVORE from your kill team takes an enemy Leader out of action in the Fight phase. That KROOT CARNIVORE automatically passes Nerve tests until the end of the battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="767e-bd1c-da9e-4a26" name="Hyper-evolution" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team takes an enemy model out of action in the Fight phase, and is not within 1&quot; of any other enemy models. This model may not move in the consolidate step. Add 1 to this model’s Move and Strength characteristics until the end of the battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d383-cc7a-73d1-078d" name="Agile Hunter" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team moves in the Movement phase. This model can leap over gaps less than 4&quot; across, instead of less than 2&quot; across, until the end of that phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="69e9-46e0-440a-d7e4" name="Tearing Jaws" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic before you make an Injury roll for a model whose wounds were reduced to 0 by an attack made by a KROOT HOUND. Roll two D6 for that injury roll and use the highest result.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </catalogue>

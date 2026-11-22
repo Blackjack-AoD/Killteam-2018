@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ff2c-d2cf-bc85-3c79" name="Adeptus Mechanicus" revision="33" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ff2c-d2cf-bc85-3c79" name="Adeptus Mechanicus" revision="34" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme></readme>
   <publications>
     <publication id="ff2c-d2cf-pubN65537" name="Kill Team - Core Manual, Kill Team - Commanders"/>
@@ -3603,6 +3603,209 @@ Re-roll hit rolls of 1 for models in your kill team in the Shooting phase.</desc
     <profile id="9fcd-2caa-bb62-b74f" name="Fanatical Devotion" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
       <characteristics>
         <characteristic name="Description" typeId="b373-019d-503a-1124">Each time a model with this ability loses a wound, roll a D6; on a 5+ the model does not lose that wound.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="db03-f85a-a863-fb82" name="Conqueror Doctrina Imperative" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model in your kill team to fight in the Fight phase. Add 1 to hit rolls for the model until the end of the phase. If the model is within 6&quot; of a friendly model equipped with an enhanced data-tether, you can add 2 to the hit rolls instead.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="55eb-4c26-3869-c9bc" name="Dunestrider" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic in the Movement phase when a model from your kill team Advances. Roll two dice and pick which result to use when making the Advance roll.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6076-2c51-d069-f249" name="Protector Doctrina Imperative" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model in your kill team to shoot in the Shooting phase. Add 1 to hit rolls for the model until the end of the phase. If the model is within 6&quot; of a friendly model equipped with an enhanced data-tether, you can add 2 to the hit rolls instead.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="103f-b431-5b30-5793" name="Gloria Mechanicus" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic after determining which Canticle of the Omnissiah is in effect this battle round. Randomly determine a Canticle of the Omnissiah – that Canticle is in effect instead.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6817-2942-b487-56e0" name="Infiltrators" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Choose up to three SICARIAN INFILTRATOR models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5&quot; away from any enemy models.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7473-c56b-544c-c446" name="Trauma Override Protocol" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase. Pick a model from your kill team which has an invulnerable save. Until the start of the next Movement phase, that model’s invulnerable save is improved by 1 (to a maximum of 3+).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="34d4-9844-96c0-5d63" name="Hyper-penetrative Shot" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you pick a model from your kill team armed with a transuranic arquebus to shoot. Until the end of the phase, attacks made by this model with this weapon do not suffer the penalties to hit rolls or Injury rolls for the target being obscured.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f2ba-5aca-f5c2-1f85" name="Divine Current" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase. Choose a model from your kill team armed with electrostatic gauntlets. Until the end of that phase, change the Range characteristic of that weapon to 18&quot;.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4069-8662-3fef-fb32" name="Transonic Attunement" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic in the Fight phase when a model from your kill team armed with transonic blades, a transonic razor or a chordclaw is chosen to attack. Until the end of the phase, add 1 to wound rolls for attacks made by that model with any of these weapons.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0a96-fe74-0710-6ff4" name="Scryer-skull" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase if an opponent picked the Plant Traps strategy in the Scouting phase. Pick a piece of terrain within 6&quot; of your Leader. Your opponents must reveal to you whether or not they have booby-trapped that piece of terrain.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1685-5963-dcdc-0242" name="Neurostatic Shock" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Morale</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Morale phase. Pick a SICARIAN INFILTRATOR from your kill team that is not shaken. Until the end of the phase, subtract 1 from the Leadership characteristic of enemy models that are within 3&quot; of that model. This is cumulative with the Neurostatic Aura ability.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4ab2-a492-381b-bcd4" name="Auto-tracking Software" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic in the Movement phase when an enemy model targets a model from your kill team when making a charge attempt. Until the end of the phase, when the model from your kill team fires Overwatch, they require a 5+ (rather than 6) for a successful hit roll, irrespective of the model’s Ballistic Skill or any modifiers.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e1d8-948f-e7fa-22e3" name="Defensive Interfacing" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Killzone: Sector Fronteris</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the battle round. Until the end of the battle round, you can re-roll hit rolls of 1 for attacks made by models from your kill team that are within 3&quot; of a Ryza-pattern ruin when they fire Overwatch.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="aa41-afa8-8edb-d82a" name="The Machine God’s Will" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Morale</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Morale phase. Ignore all modifiers to the first Nerve test you make this phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5c86-dd7f-9368-fa78" name="Auto-repair Protocols" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the beginning of the battle round if your kill team includes a COMMANDER that is not shaken. They recover 1 wound lost earlier in the battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="10eb-14e0-d268-990f" name="Reknit Circuitry" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Morale</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the beginning of the Morale phase. Choose a model from your kill team and remove D3 flesh wounds from that model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4be9-dc58-e5a0-757c" name="Zealous Disciples" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the battle round, before picking a Canticle of the Omnissiah. You may pick a Canticle to be in effect that has already been chosen in a previous battle round. This Tactic may only be used once per battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2d16-3049-473c-cd7b" name="Omnissiah’s Tears" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when an ELECTRO-PRIEST from your kill team suffers a flesh wound. Ignore any penalties to hit from flesh wounds for attacks made by that model for the rest of the battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8b0b-07ac-d9f8-2f49" name="Alpha Target Proximate" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Fight phase. Pick a model from your kill team. Until the end of the phase, re-roll wound rolls of 1 for that model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2d82-3e4b-a6e6-f850" name="Stabilisation Actuators" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic before you take a Falling test for a model from your kill team. You can re-roll the dice when taking this test, and when taking any further Falling tests for that model in this battle round.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1e1a-c359-437d-8cc9" name="Optimal Conditions" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase. Add 1 to charge rolls made for models in your kill team until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="38dc-c960-bc02-0485" name="Repair Artisan" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Tech-Priest Enginseer</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase if your kill team includes a TECH-PRIEST ENGINSEER. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, roll a D6 each time a friendly model within 3&quot; of this model loses a wound. On a 6 that wound is not lost. If a model already has an ability with a similar effect, you can choose which effect applies, and re-roll 1s when making these rolls.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3154-d5e9-b1c9-8830" name="Lord of the Machine Cult" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Tech-Priest Dominus</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase if your kill team includes a TECH-PRIEST DOMINUS. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, you can re-roll hit rolls of 1 in the Shooting phase for friendly models within 6&quot; of this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5ecb-2629-a56d-d845" name="Galvanic Pulse" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Tech-Priest Manipulus</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase if your kill team includes a TECH-PRIEST MANIPULUS. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, you can add 1 to all Move characteristics for friendly models that begin your turn in the Movement phase within 6&quot; of this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5398-972a-3c60-ddf0" name="Xenotech Divination" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Tech-Priest Dominus</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of a mission in which any of your opponents used any models that did not have the IMPERIUM or CHAOS keyword, if your kill team includes a TECH-PRIEST DOMINUS that is not out of action or shaken. If you do, roll a D6; on a 5+ you gain 1 Materiel. You can only use this Tactic once per mission.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7ac4-f90b-e0a6-ae72" name="T&apos;au Empire" revision="28" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7ac4-f90b-e0a6-ae72" name="T&apos;au Empire" revision="29" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme></readme>
   <categoryEntries>
     <categoryEntry id="580b-8df1-70dc-452b" name="Drone" hidden="false"/>
@@ -3601,6 +3601,217 @@
         <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-3</characteristic>
         <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
         <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e1ff-cf73-fa47-e26d" name="Uplinked Markerlight" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic after an enemy model has been hit by a markerlight, fired by a model from your kill team. Place D3+1 markerlight counters next to that model, instead of only 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4f8d-f769-3035-c731" name="Recon Sweep" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic in the Shooting phase when you pick a PATHFINDER from your kill team to shoot. Instead of shooting, that model can immediately make a normal move as if it were the Movement phase, but instead of moving up to their Move characteristic, they move up to 2D6&quot; instead.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f619-9e83-123f-0758" name="Breach and Clear" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic in your turn in the Shooting phase, when a FIRE WARRIOR BREACHER from your kill team targets an enemy model that is obscured. Re-roll failed wound rolls made for the FIRE WARRIOR BREACHER against that enemy model, until the end of this phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="920c-95c9-d073-bb67" name="Stimulant Injector" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team (other than a DRONE) loses a wound. Roll a D6 for that wound, and each other wound lost by that model for the rest of the phase; on a 5+ that wound is not lost.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ab75-534f-3b5c-1b1f" name="Manta Strike" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Choose up to three models that are any combination of BATTLESUITS that are not INFANTRY but can FLY, are MV1 Gun Drones, MV4 Shield Drones, or MV7 Marker Drones from your kill team that were set up in Reserve, and set them up anywhere on the battlefield that is more than 5&quot; away from any enemy models.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="00c5-bcfe-4625-05a2" name="Stealthy Hunters" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the beginning of the first battle round. Choose up to three KROOT CARNIVORE models from your kill team that were set up in Reserve, and set them up anywhere on the battlefield that is more than 9&quot; away from any enemy deployment zone.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9c5d-5721-b6bc-4c0b" name="Neuroweb System Jammer" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase. Pick an enemy model within 12&quot; of a model from your kill team. Until the end of the phase, that model’s controlling player must subtract 1 from hit rolls made for that model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7812-4b43-5941-596a" name="Stealth Fields" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the beginning of the first battle round. Choose up to three XV25 STEALTH BATTLESUIT models from your kill team that were set up in Reserve, and set them up anywhere on the battlefield that is more than 9&quot; away from any enemy deployment zone.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f3c5-17c0-b7d5-a2ca" name="Focused Fire" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic after a model from your kill team inflicts an unsaved wound on an enemy model in the Shooting phase. For the rest of the phase, you can add 1 to wound rolls for attacks made by other models from your kill team that target the same enemy model, so long as the attacking model is within 2&quot; of the model that inflicted the wound.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9daa-2451-e082-65a7" name="Support Turret Replacement" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Pick a friendly FIRE WARRIOR or FIRE WARRIOR BREACHER model whose DS8 Tactical Support Turret has been removed from the battlefield. You may immediately set up a new DS8 Tactical Support Turret within 2&quot; of that model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2565-65df-0d77-af35" name="Inheritors of the Galaxy" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Morale</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Killzone: Wall of Martyrs</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the beginning of the Morale phase, if models from your kill team are the only models on an Imperial Defence Line model. You can subtract 1 from any Nerve tests you take for those models in this phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1dfa-7043-e783-bf6b" name="Inspiring Sacrifice" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">0</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a COMMANDER from your kill team is taken out of action. You immediately gain D3 Command Points. This Tactic costs no Command Points and does not trigger any abilities that allow you to gain Command Points.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9cac-b81a-f918-434d" name="Tandem Hunting Pattern" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Ready, Fire! step of the Shooting phase. The first time it is your turn to select a Readied model to shoot with, you may instead select two Readied models from your kill team that are within 4&quot; of each other. You may resolve both models’ shooting attacks before any other player chooses a model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0db7-d78d-dec3-7e3e" name="Prudent Retreat" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic after a model from your kill team has fired Overwatch. The model Retreats (even if it has already moved in this phase).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="455e-f55a-985d-d7b2" name="The Baited Trap" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic before a model from your kill team fires Overwatch. Until the end of the phase, that model’s Overwatch shots are successful on rolls of 4+ instead of rolls of only 6.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="13a9-46c6-2491-aa00" name="Multi-spectrum Sensor Suite" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model in your kill team to shoot in the Shooting phase. Enemy models gain no benefit for being obscured against shots made by that model this phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fe7f-6293-e3a2-fbb5" name="Volley Fire" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Cadre Fireblade</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the battle round, if your kill team includes a CADRE FIREBLADE. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, friendly models within 6&quot; of this model may fire an extra shot with pulse pistols, pulse carbines and pulse rifles when shooting at a target within half the weapon’s range.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1468-5bd0-b67c-f122" name="Failure Is Not an Option" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Ethereal</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase if your kill team includes an ETHEREAL. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, friendly models within 6&quot; of this model can use this model’s Leadership characteristic instead of their own.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f018-8bdf-69a4-ce7e" name="Storm of Fire" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Ethereal</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase, if your kill team includes an ETHEREAL. That model gains the following aura ability until the end of the phase:
+As long as this model is not shaken, you can re-roll hit rolls of 1 for friendly models within 6&quot; of this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f374-6f85-c590-f75a" name="Sense of Stone" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Ethereal</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase, if your kill team includes an ETHEREAL. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, roll a D6 each time a friendly model within 6&quot; of this model loses a wound. On a 6 that wound is not lost. If a model already has an ability with a similar effect, you can choose which effect applies and re-roll 1s when making these rolls.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a01a-4fcc-2538-1ee2" name="Zephyr’s Grace" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Ethereal</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase, if your kill team includes an ETHEREAL. That model gains the following aura ability until the end of the phase:
+As long as this model is not shaken, you can choose to re-roll any Advance or charge rolls for friendly models within 6&quot; of this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="24fc-ea64-a822-5f0f" name="Master of War" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Commander in XV85 Enforcer Battlesuit</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the battle round if your kill team includes a Commander in XV85 Enforcer Battlesuit. Choose one of the following aura abilities. That model gains that ability until the end of the battle round:
+Mont’ka: As long as this model is not shaken, friendly models can shoot in the Shooting phase as if they had not moved in the preceding Movement phase whilst within 3&quot; of this model, and you can add 1 to hit rolls for their shooting attacks that target enemy models that are not at long range.
+Kauyon: As long as this model is not shaken, friendly models that begin the Movement phase within 3&quot; of this model cannot move for any reason, but you can re-roll failed hit rolls for these models’ attacks.
+You can only use this Tactic once per battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="eb35-27fd-b916-e246" name="Fighting Retreat" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">0</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Darkstrider</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase, if your kill team includes Darkstrider. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, friendly models within 3&quot; of this model in the Shooting phase may attack with ranged weapons, even if they Fell Back or Retreated this battle round.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="85ce-2584-5c15-660e" name="Structural Analyser" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Darkstrider</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase, if your kill team includes Darkstrider. That model gains the following aura ability until the end of the battle round:
+Pick an enemy model visible to Darkstrider. As long as Darkstrider is not shaken, add 1 to wound rolls for shooting attacks made by friendly models within 6&quot; of Darkstrider in the Shooting phase, that target the enemy model you picked.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="af13-7397-5951-6be3" name="Voice of the Greater Good" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Cadre Fireblade</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase, if your kill team includes a CADRE FIREBLADE. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, all friendly models within 6&quot; of this model can use this model’s Leadership characteristic instead of their own.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

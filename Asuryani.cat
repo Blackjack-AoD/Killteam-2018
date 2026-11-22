@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a796-a947-905e-205c" name="Asuryani" revision="30" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a796-a947-905e-205c" name="Asuryani" revision="31" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme></readme>
   <categoryEntries>
     <categoryEntry id="efd1-273e-3910-f3e8" name="Warhost" hidden="false"/>
@@ -3321,6 +3321,176 @@
     <profile id="7ee8-e49e-09f8-b134" name="Acrobatic" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
       <characteristics>
         <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll failed charge rolls for this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="47cc-8505-5321-18a3" name="Matchless Agility" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic in the Movement phase when a model from your kill team Advances. Add 6&quot; to the model's Move characteristic for that Movement phase instead of rolling a dice.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="03b3-7fab-8f24-249a" name="Phantasm" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the beginning of the first battle round. Pick a model from your kill team, and set it up again anywhere in your deployment zone.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="37f4-d76d-5db4-f014" name="Asurmen's Blessing" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a DIRE AVENGER from your kill team to shoot in the Shooting phase. You can re-roll failed hit rolls for that model until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="316d-db85-9ca5-e3ca" name="Feigned Retreat" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic after a model from your kill team Falls Back. That model can still shoot this battle round.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4914-9cc5-4e95-04d0" name="Fire and Fade" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic after a model from your kill team shoots in the Shooting phase. The model can immediately make a normal move of up to 7&quot;, as if it were the Movement phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c5ad-d0af-a288-440d" name="Rune of Ynnead" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team is taken out of action. Roll a D6. On a 4+ that model suffers a flesh wound instead.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1add-7bea-ac6e-9233" name="Masters of Stealth" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Choose up to three STRIKING SCORPION models from your kill team that were set up in Reserve, and set them up anywhere on the battlefield that is more than 5&quot; away from any enemy models.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b43e-ea90-63dc-9c2f" name="Appear Unbidden" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the beginning of the first battle round. Choose up to three RANGER models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 9&quot; away from any enemy deployment zone.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4cfd-5eb1-b6b3-89fc" name="Bring Forth the Torch" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase. Until the end of that phase, when rolling to determine the number of attacks made by a flamer carried by a model in your kill team, treat rolls of a 1 or 2 as 3 instead.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2077-d667-62db-7330" name="Celestial Shield" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic in the Shooting phase, when a Guardian Defender from your kill team is chosen as the target for an attack. Until the end of the phase, that model has a 4+ invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="247c-e1b4-72c6-7f04" name="Psychic Bond" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a COMMANDER from your kill team attempts to manifest a psychic power, before taking the Psychic test. Add 1 to the result of that Psychic test for each friendly model (other than shaken models) within 3&quot; of the model attempting to manifest the psychic power.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a1d7-1bfd-327b-b853" name="Warriors of the Webway" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Choose up to three models from your kill team that were set up in Reserve. Set one of those models up anywhere on the battlefield that is more than 5&quot; away from any enemy models, then set up any remaining models within 2&quot; of that model, and more than 5&quot; away from any enemy models.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fba5-57a8-62b9-8bcd" name="Appear Unbidden" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the beginning of the first battle round. Choose up to three RANGER models from your kill team that were set up in Reserve, and set them up anywhere on the battlefield that is more than 9&quot; away from any enemy deployment zone.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8718-87e9-34f2-c7b4" name="The Great Enemy" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">You can use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of that phase, you can re-roll wound rolls for attacks made by that model that target an enemy model with the SLAANESH keyword.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d1ba-9922-ebf3-b7b6" name="Supreme Disdain" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of the phase, each time you roll an unmodified hit roll of 6 for that model’s attack, that model can immediately make another attack using the same weapon that targets the same target. These extra attacks cannot generate any additional attacks.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fb5e-43df-f936-fbfa" name="Our Time of Need" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic in the Shooting phase when you choose a Heavy Weapon Platform from your kill team to shoot. You can re-roll hit rolls for attacks made by that Heavy Weapon Platform until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e908-cbed-2324-d51a" name="Divine the Future" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">3</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Farseer</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Fight phase. Pick a FARSEER (other than a shaken model) from your kill team. Enemy models within 6&quot; of that FARSEER cannot be chosen to fight in the Hammer of Wrath section of that phase (even if they have charged) – they can only be chosen to fight in the Fight for your Lives section of that phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a196-ad3e-dd0e-b857" name="Forewarned" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">3</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Farseer</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Pick a FARSEER (other than a shaken model) from your kill team. All friendly models within 6&quot; of that FARSEER that are not Readied and did not Advance, Charge or Fall Back this battle round are now Readied.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5af1-d8d5-93fb-aa48" name="Wayforger" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Illic Nightspear</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase, if your kill team includes Illic Nightspear and that model is not shaken. That model becomes Readied, and for the purposes of making shooting attacks in this phase, that model is considered to have remained stationary in the preceding Move phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0b3c-3b79-807e-171e" name="The Path of Command" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Autarch</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the battle round, if your kill team includes an AUTARCH. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, you can re-roll hit rolls of 1 for friendly models within 6&quot; of this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d948-420f-75c2-fd17" name="Spirit Mark" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Spiritseer</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the battle round, if your kill team includes a SPIRITSEER. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, you can re-roll hit rolls of 1 for friendly SPIRIT HOST models that target enemy models within 6&quot; of this model.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

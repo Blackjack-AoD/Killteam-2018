@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3591-2aa0-250c-ddeb" name="Drukhari" revision="26" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="43" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3591-2aa0-250c-ddeb" name="Drukhari" revision="27" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="43" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="4a23-eb9f-45cc-d6da" name="Wych" hidden="false"/>
     <categoryEntry id="b4b3-1353-2d65-cf24" name="Kabalite Warrior" hidden="false"/>
@@ -3297,6 +3297,154 @@
     <profile id="4d55-aa3a-6592-0590" name="Shrouded from Sight" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
       <characteristics>
         <characteristic name="Description" typeId="b373-019d-503a-1124">Subtract 1 from hit rolls for attacks that target this model. In addition, this model has a 5+ invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0855-3004-714e-b2d1" name="Fire and Fade" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic after a model from your kill team shoots in the Shooting phase. The model can immediately make a normal move of up to 7&quot;, as if it were the Movement phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7735-2a08-6786-bcf6" name="Pray They Don't Take You Alive" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic if a model from your kill team takes an enemy Leader out of action in the Fight phase. For the remainder of the battle, models in that enemy Leader’s kill team must subtract 1 from their Leadership characteristic.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1576-69c5-5c9f-0ad3" name="Cruel Deception" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic after a model from your kill team Falls Back. That model can still shoot this battle round.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="09bc-14d1-48c8-55e1" name="Torment Grenade" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model in your kill team to shoot with a phantasm grenade launcher. If an enemy model is hit by any attacks made with that weapon this phase then, in addition to the normal effects, roll 3D6. If the result is higher than the target’s Leadership characteristic, it suffers 1 mortal wound.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="04cb-779d-e06a-ef22" name="From Out of the Shadows" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Choose up to three MANDRAKE models from your kill team that were set up in Reserve, and set them up anywhere on the battlefield that is more than 5&quot; away from any enemy models.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="38fd-3751-d9d5-6b5d" name="Hyper Stimm" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the battle round. Choose a model from your kill team that has the Combat Drugs ability. Until the end of the battle round, the bonus that model receives from its Combat Drugs is doubled. At the end of the battle round, roll a D6. If you roll a 1, the model suffers a mortal wound.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bf78-3f0c-b95d-4d86" name="Architect of Pain" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the battle round. Choose a model from your kill team that has the Power From Pain ability. Until the end of the battle round, that model treats the current battle round as being 1 higher than it actually is when determining what bonuses it gains from the Power From Pain table.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b92f-813a-92db-11ed" name="Lightning-fast Reactions" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team is chosen as the target of an enemy attack in the Shooting or Fight phase. Your opponent(s) must subtract 1 from hit rolls that target this model for the rest of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f7b9-1827-660e-0125" name="Bloodied Grace" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a WYCH from your kill team would consolidate as part of fighting in the Fight phase. You may move them up to 6&quot;, instead of up to 3&quot;.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8e1b-a37a-ad47-7511" name="Hunt from the Shadows" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team is chosen as the target of an enemy attack in the Shooting phase and it is obscured. Until the end of the phase, add 1 to that model’s saving throws.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5ae7-e1ab-e060-4584" name="The Taste of Pain" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team suffers a flesh wound. Until the end of that phase, add 1 to the Attacks characteristic of that model, and ignore the penalty to that model’s hit rolls from any flesh wounds it has suffered.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f084-600a-41b6-818d" name="Profane the Ruins" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Killzone: Death World Forest</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the beginning of the battle round. Choose an Eldritch Ruin. Until the end of the battle round, models from your kill team treat the current battle round as being 1 higher than it actually is when determining what bonuses they gain from the Power From Pain table, whilst they are within 1&quot; of that ruin.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cbb4-aa33-eeda-6e03" name="Murderous Rivalry" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Hammer of Wrath section of the Fight phase. The first time it is your turn to choose a model that charged to fight with, you can instead choose two models from your kill team that ended their charge moves within 4&quot; of each other. You can resolve both models’ attacks before any other player chooses a model to fight with.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8d19-1d46-f48b-0ffd" name="Acrobatic Leap" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Succubus</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a SUCCUBUS from your kill team to move in the Movement phase. For the duration of the phase, that model can move as if it could FLY.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d0ca-d429-2241-1747" name="Overlord" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Archon</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase, if your kill team includes an ARCHON. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, you can re-roll hit rolls of 1 for friendly models within 6&quot; of this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="862e-f35e-f99b-dd70" name="Bride of Death" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Succubus</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Fight phase, if your kill team includes a SUCCUBUS. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, you can re-roll hit rolls of 1 for friendly models within 6&quot; of this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0187-cf75-fdc6-e74b" name="Master of Pain" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Haemonculus</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase, if your kill team includes a HAEMONCULUS. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, add 1 to the Toughness characteristic of friendly models within 6&quot; of this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="949a-7be7-625d-0ebc" name="Dark Majesty" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the battle round, if your kill team includes a COMMANDER. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, models from your kill team, within 6&quot; of this model, ignore the penalty to their hit rolls from one flesh wound they have suffered.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

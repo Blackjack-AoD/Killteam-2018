@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="aff2-95a5-3b50-cc8f" name="Adepta Sororitas" revision="11" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="43" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="aff2-95a5-3b50-cc8f" name="Adepta Sororitas" revision="12" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="43" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="a486-00fc-27d4-1d2f" name="Battle Sister" publicationId="69e0-b697-c118-d32d" page="107" hidden="false"/>
     <categoryEntry id="947a-3d06-b5a3-0b87" name="Sister Repentia" publicationId="69e0-b697-c118-d32d" page="107" hidden="false"/>
@@ -1186,6 +1186,56 @@ In addition, models with this ability can attempt to deny one psychic power in e
     <profile id="7a48-8075-2ef8-dc0b" name="Berzerk Killing Machine" publicationId="69e0-b697-c118-d32d" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
       <characteristics>
         <characteristic name="Description" typeId="b373-019d-503a-1124">Each time a model with this ability loses a wound, roll a D6, on a 5+ the model does not lose that wound.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="209e-a975-887d-09df" name="Blessed Bolts" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you pick an ADEPTA SORORITAS model from your kill team to shoot with a storm bolter. Change the Armour Penetration characteristic of that model’s storm bolter to -2 and the Damage characteristic to 2, until the end of the battle round.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="675c-c5fb-0716-a8ef" name="Eviscerating Blow" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you pick a SISTER REPENTIA to attack in the Fight phase. Change the Damage characteristic of that model’s penitent eviscerator to 3, until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ab9e-8c69-a0a3-5949" name="Frenzied Thrashing" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you pick an ARCO-FLAGELLANT model from your kill team to make attacks in the Fight phase. Add 1 to the Attacks characteristic of this model for each enemy model within 1&quot; of it when it is selected to Fight, until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4c4d-5011-81d7-ec3e" name="Burn the Heretic!" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you pick an ADEPTA SORORITAS model from your kill team to shoot with a flamer. You can re-roll the dice to determine the number of attacks made by this model’s flamer, until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6f37-6bc2-1ed4-da5f" name="Lead the Righteous" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Canoness</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase if your kill team includes a CANONESS. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, you can re-roll hit rolls of 1 for friendly models within 6&quot; of this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8c68-7ecc-88be-8984" name="Fervent Whipping" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Repentia Superior</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase if your kill team includes a REPENTIA SUPERIOR. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, you can reroll wound rolls of 1 for attacks made with melee weapons by friendly SISTER REPENTIA models that are within 6&quot; of this model.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

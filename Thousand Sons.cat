@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7e0e-5010-f3b4-dc1d" name="Thousand Sons" revision="14" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7e0e-5010-f3b4-dc1d" name="Thousand Sons" revision="15" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme></readme>
   <publications>
     <publication id="7e0e-5010-pubN66856" name="Kill Team"/>
@@ -1861,6 +1861,153 @@
     <profile id="a80f-e649-93df-2acd" name="Terminator Armour" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
       <characteristics>
         <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="18d4-50a1-aea1-a7da" name="Sorcerous Focus" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Psychic</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of your turn in the Psychic phase. Pick a PSYKER model from your kill team that is within 2&quot; of at least two other models from your kill team. Add 6&quot; to the range of this model’s Psybolt psychic power, until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1a63-a5d7-0a15-1cf3" name="Veterans of the Long War" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a RUBRIC MARINE or SCARAB OCCULT TERMINATOR from your kill team is chosen to attack in the Shooting or Fight phase. You can add 1 to wound rolls for the model’s attacks that target IMPERIUM models, until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bc71-b232-6e7e-caaa" name="Malicious Familiar" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Pick an enemy model within 1&quot; of your Leader and roll a D6. On a 4+ that enemy model suffers 1 mortal wound.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="08df-d4c2-c59e-91af" name="Immovable Automaton" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a Rubric Marine, Rubric Marine Gunner, Scarab Occult Terminator or Scarab Occult Gunner from your kill team is taken out of action. Roll a D6. On a 4+ that model suffers a flesh wound instead.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fcad-09e5-d6bd-f575" name="Cycle of Slaughter" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Fight phase. Pick a TZAANGOR from your kill team – that model can immediately fight an additional time.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="85da-7337-6aef-5fb4" name="Hungering Warpflame" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic in the Shooting phase, when you choose a model in your kill team to shoot with a warpflamer or warpflame pistol. Until the end of the phase, you can roll two dice when determining the number of attacks made by that weapon, and pick the highest result.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8019-9c53-c14c-c3b5" name="Teleport Strike" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Choose up to three TERMINATOR models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5&quot; away from any enemy models.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c142-0c7c-2ddb-34e1" name="Vengeance for Prospero" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Fight phase. Until the end of the phase, the Death to the False Emperor ability generates additional attacks on hit rolls of 4+ instead of 6+ for attacks made by models from your kill team that target a SPACE WOLVES model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="eb4e-3844-b4fd-bb80" name="Guided by the Past" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model from your kill team to shoot in the Shooting phase, or fight in the Fight phase. Until the end of that phase, you can re-roll hit rolls for attacks made by this model that target enemy models that have already been chosen to shoot or fight this phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9c5c-918b-89eb-5bef" name="Webway Infiltration" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Choose up to three models from your kill team that were set up in Reserve. Set one of those models up anywhere on the battlefield that is more than 5&quot; away from any enemy models, and then set up any remaining models within 2&quot; of that model, and more than 5&quot; away from any enemy models.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e90d-0bc8-2082-5e62" name="Power of the Cabal" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team attempts to manifest a psychic power, before taking the Psychic test. Add 1 to the result of that Psychic test for each friendly model (other than shaken models) within 3&quot; of the model attempting to manifest the psychic power.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a5a0-d9bd-0815-3cbb" name="Boon of Tzeentch" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Psychic</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic in the Psychic phase, if the roll for a Psychic test made for a friendly COMMANDER was exactly 9.
+That model can attempt to manifest 1 additional psychic power this phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bee5-f9db-19b3-8245" name="Ritual Slaughter" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of a Shooting phase or Fight phase, if exactly 9 enemy models have been taken out of action during the course of the battle.
+Until the end of that phase, re-roll failed wound rolls for attacks made by models from your kill team.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a056-27fb-5460-7ed1" name="Guided by the Future" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model from your kill team to shoot in the Shooting phase, or fight in the Fight phase. Until the end of that phase, you can re-roll hit rolls for attacks made by this model that target enemy models that have not yet been chosen to shoot or fight this phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5cfd-b676-32d3-eefb" name="Soul Flare" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a COMMANDER PSYKER from your kill team is taken out of action. Before removing that model from the battlefield, roll a D6 for each enemy model within 9&quot; of that model. On a 6, the model being rolled for suffers a mortal wound.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="38f1-d209-ba7d-5851" name="Empyric Translocation" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Exalted Sorcerer</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase, if an EXALTED SORCERER from your kill team (other than a shaken model) is on the battlefield. Pick one other model from your kill team, remove it from the battlefield, then set it up within 3&quot; of the Exalted Sorcerer and more than 5&quot; from enemy models. The model set up in this way is not considered to have been within 1&quot; of any enemy models at the start of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="204d-b7c0-f3b4-e23c" name="Architect of Fate" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">3</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Exalted Sorcerer</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase. Pick an EXALTED SORCERER (other than a shaken model) from your kill team. All enemy models within 9&quot; of that model that are Readied are no longer Readied.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b3f7-7886-ef84-bcfa" name="Bestial Prophet" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Tzaangor Shaman</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase or the Fight phase, if your kill team includes a TZAANGOR SHAMAN. That model gains the following aura ability until the end of that phase.
+As long as this model is not shaken, add 1 to hit rolls for attacks made by friendly TZAANGORS whilst they are within 6&quot; of this model.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

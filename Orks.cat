@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a34e-d16c-80ff-06bf" name="Orks" revision="37" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="43" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a34e-d16c-80ff-06bf" name="Orks" revision="38" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="43" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="2a73-3eb4-3c77-db12" name="Ork Boy" hidden="false"/>
     <categoryEntry id="d9e4-66e2-9d74-a149" name="Burna Boy" hidden="false"/>
@@ -3657,6 +3657,171 @@
         <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
         <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
         <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time the bearer fights, it can make 1 additional attack with this weapon.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f48f-c780-267c-501c" name="Krump ’em!" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model in your kill team to fight in the Fight phase. Increase the Strength characteristic of that model by 1 until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2f77-4902-4fea-673a" name="Dakka Dakka Dakka" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic after a model from your kill team shoots in the Shooting phase. You can immediately shoot an additional time with that model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4b7c-ca4f-d74f-a599" name="Grot Shield" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase. Pick a model from your kill team that is within 2&quot; of a GRETCHIN model. Until the end of the phase, while that Gretchin model is on the battlefield, any attacks which target the chosen model are resolved against that Gretchin model instead.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5f54-8f5c-ec7b-30bd" name="Gnasher Squig" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Fight phase. Pick an enemy model that is within 1&quot; of any of your models and roll a D6. On a 4+, that enemy model suffers 1 mortal wound.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f20d-2f09-1dcf-875d" name="Just a Flesh Wound" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team is taken out of action. Roll a D6. On a 4+ that model suffers a flesh wound instead.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0ca4-0b7b-c229-a74f" name="Mek’s Special Stikkbomb" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model from your kill team to attack with a stikkbomb. Until the end of the phase, change the weapon’s type to Grenade D3 and add 1 to its Strength and Damage characteristics.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f003-4a01-cb50-2411" name="Kunnin’ Infiltrators" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Choose up to three KOMMANDO models from your kill team that were set up in Reserve, and set them up anywhere on the battlefield that is more than 5&quot; away from any enemy models.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d33c-a0e6-ee00-03db" name="Indiscriminate Dakka" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic after firing Overwatch with one of your models. You can immediately fire Overwatch again.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bc25-b381-710b-6816" name="Itchin’ for a Fight!" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model in your kill team to fight in the Fight phase. You can make one additional attack with that model for each enemy model within 1&quot; of it.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4858-c316-d66a-a393" name="Dead ’ard" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team suffers a mortal wound. Roll a D6 for that mortal wound, and each other mortal wound suffered by that model for the rest of the phase: on a 5+ the mortal wound is ignored and has no effect.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d31c-59c1-d37b-d537" name="Pyromaniak" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose for a model to shoot with a burna. The burna makes D6 attacks instead of D3 this phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f743-ce13-ef46-c6f4" name="’ere We Go, ’ere We Go!" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic after making a charge roll for one of your models. Re-roll one of the dice.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5f6e-419d-cafb-18d6" name="Waaagh!" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when it is your turn to move in the Movement phase, and your Leader is on the battlefield and not shaken. For the duration of that phase, add 1&quot; to the Move characteristic of all models in your kill team, and add 1 to their Advance and charge rolls.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="38a0-7f0f-4ae5-cca9" name="Joyride" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Killzone: Sector Munitorum</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model from your kill team to make a normal move in the Movement phase, and that model is within 1&quot; of a Galvanic Servohauler. When you move that model in this phase, simultaneously move the Galvanic Servohauler as if it were a friendly model. Both models are considered to have a Move characteristic of 2D6&quot; in this phase (roll once for both models), cannot Advance, cannot move vertically, and must end their moves within 1&quot; of each other.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2e6d-30a9-ff61-3f6b" name="Breakin’ Heads" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Warboss</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of any phase. Pick another friendly model within 3&quot; of a WARBOSS from your kill team that is not shaken. That model suffers 1 mortal wound, and friendly models within 6&quot; of the WARBOSS are no longer shaken; remove their shaken tokens.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ad41-1789-a04b-be88" name="Mega-waaagh!" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Warboss</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the battle round if your kill team includes a WARBOSS. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, you may roll 3D6 instead of 2D6 when making charge rolls for friendly models within 6&quot; of this model, and discard the lowest result.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="92a7-5a48-57df-d03b" name="Kustom Force Field" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Big Mek</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the battle round, if your kill team includes a BIG MEK with a kustom force field (0 pts). That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, friendly models within 6&quot; of this model have a 5+ invulnerable save against shooting attacks.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a73e-2790-d4f1-d524" name="Dok’s Tools" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Painboy</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the battle round, if your kill team includes a PAINBOY. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, roll a D6 each time a friendly model within 3&quot; of this model loses a wound. On a 6+ that wound is not lost (if a model already has an ability with a similar effect, you can choose which effect applies and re-roll 1s when making these rolls). In addition, as long as this model is not shaken at the end of the Movement phase, you can remove one flesh wound from a friendly model within 3&quot; of this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f47f-f41f-2d41-018f" name="Red Skull Kommandos" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Boss Snikrot</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Fight phase, if your kill team includes Boss Snikrot. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, you can re-roll hit rolls of 1 for friendly KOMMANDOS within 6&quot; of this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7e81-4bc8-4416-40d2" name="Duff’em Up" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the battle round, if your kill team includes a COMMANDER. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, add 1 to the Strength characteristic of friendly models that are within 3&quot; of this model.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

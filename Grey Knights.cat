@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="af25-b676-5b53-c0dd" name="Grey Knights" revision="24" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="af25-b676-5b53-c0dd" name="Grey Knights" revision="25" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="42" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme></readme>
   <categoryEntries>
     <categoryEntry id="5fc1-6211-fd6d-0475" name="Paladin" hidden="false"/>
@@ -1996,6 +1996,146 @@
     <profile id="d3ec-68b4-1c01-3af9" name="Crux Terminatus" hidden="false" typeId="0883-432d-b2ca-f11a" typeName="Wargear">
       <characteristics>
         <characteristic name="Ability" typeId="8b56-49a8-40e5-242a">This model has a 5+ invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ca51-53f8-4592-26ba" name="Psybolt Ammunition" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model in your kill team to shoot with a storm bolter. The weapon’s Strength characteristic is 5 and its Armour Penetration characteristic is -1 until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="aae6-fefe-aa72-f9c6" name="Psychic Channelling" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when taking a Psychic test for a model from your kill team. Roll three dice rather than two and use the two highest rolls.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ddb6-1182-c695-6777" name="Honour the Chapter" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Fight phase. Pick a model from your kill team. That model can immediately fight an additional time.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="710a-f602-1128-fe57" name="Heed the Prognosticars" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the battle round. Pick a model from your kill team and add 1 to its saving throws until the end of the battle round.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="31e4-850d-7f7b-5d91" name="Teleport Strike" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Choose up to three TERMINATOR models from your kill team that were set up in Reserve, and set them up anywhere on the battlefield that is more than 5&quot; away from any enemy models.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9bbb-7056-1288-07e1" name="Canticles of Warding" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team suffers a mortal wound. Roll a D6 for that mortal wound, and each other mortal wound inflicted on that model for the rest of the phase. On a 5+ that mortal wound is ignored.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6052-dcdc-e23f-361f" name="Stillness of Spirit" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the battle round. Choose a COMMANDER from your kill team. Add 1 to that COMMANDER’S invulnerable saving throws until the start of the next battle round.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e282-aae4-0681-29c4" name="Psychic Onslaught" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model in your kill team to shoot with a Psilencer or a Psycannon. Until the end of the phase, improve the Strength and Armour Penetration characteristics of that weapon by 1. For example, a Psilencer (S4, AP0) would become S5, AP-1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f171-3827-2182-15e9" name="Psychic Communion" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team attempts to manifest a psychic power, before taking the Psychic test. Add 1 to the result of that Psychic test for each friendly model (other than shaken models) within 3&quot; of the model attempting to manifest the psychic power.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8f84-ac3b-95da-2d26" name="Rite of Exorcism" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic before a model from your kill team takes a Deny the Witch test.
+If that Deny the Witch test is successful, the psyker that attempted to manifest the negated power suffers 1 mortal wound.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d7e0-d81b-c86e-2308" name="The Six Chants of Denial" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">3</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Librarian</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a LIBRARIAN from your Kill Team makes a Deny the Witch test against a manifested psychic power. Do not roll 2D6. Instead, that power is successfully resisted and its effects are negated.
+This Tactic can only be used once per battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="64ec-01e4-dcb8-38aa" name="Leave No Witnesses" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model from your kill team to fight in the Fight phase, if there is only one enemy model within 6&quot; of that model. Until the end of the phase, re-roll failed wound rolls for attacks made by the model you chose.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="71fb-942c-71a0-7199" name="Mental Fortitude" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">3</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Psychic</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of your turn in the Psychic phase. Pick a PSYKER model from your kill team. Add 6&quot; to the range of this model’s Psybolt psychic power until the end of the phase.
+This tactic can only be used once per battle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2b30-0c4c-e653-c39f" name="Ceaseless Vigil" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase. Add 1 to hit rolls for attacks made by models from your kill team that target an enemy model that was set up from Reserve this battle round.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1d29-ce30-988e-eae0" name="Psychic Locus" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Psychic</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Brother-Captain</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Psychic phase if your kill team includes a BROTHER-CAPTAIN. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, the Psybolt psychic power affects the closest enemy model within 36&quot; (rather than 12&quot; or 18&quot;) of and visible to the psyker, when manifested by friendly models within 6&quot; of this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3195-79dd-f582-a270" name="Vengeful Strike" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Brotherhood Champion</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a BROTHERHOOD CHAMPION from your kill team is taken out of action in the Fight phase. Do not remove that model from the battlefield. Your opponent should finish resolving any attacks that target other models. Then the Brotherhood Champion can immediately fight, even if it has already been picked to fight in that phase. Then remove the Brotherhood Champion from the battlefield.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="aa30-0767-ee61-ebbc" name="Clarity of Vision" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Brother-Captain</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a BROTHER-CAPTAIN from your kill team to make a shooting attack. Until the end of the phase, add 1 to hit rolls for shooting attacks made by that model.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6112-edb9-977c-198e" name="Adeptus Astartes" revision="41" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="43" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6112-edb9-977c-198e" name="Adeptus Astartes" revision="42" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" library="false" gameSystemId="a467-5f42-d24c-6e5b" gameSystemRevision="43" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="31b9-6ae7-0eb3-cc3c" name="Incursor Fire Team" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -3577,6 +3577,188 @@
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile id="3c41-cc2a-3c53-a280" name="Death to the Traitors!" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model from your kill team to fight in the Fight phase. Until the end of that phase, each time you make a hit roll of 6+ for that model, and the target is a HERETIC ASTARTES model, you can immediately make an extra attack against the same model using the same weapon. These attacks cannot themselves generate any further attacks.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0a84-2d32-08f2-5c25" name="Armour of Contempt" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when a model from your kill team suffers a mortal wound. Roll a D6 for that mortal wound, and each other mortal wound suffered by that model for the rest of the phase; on a 5+ the mortal wound is ignored and has no effect.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1064-ece2-dce3-2081" name="Masterful Marksmanship" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic in the Shooting phase when you choose an INTERCESSOR from your kill team to shoot with a stalker bolt rifle. Until the end of that phase, you can add 1 to hit and wound rolls for that model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a368-4e15-6f31-cee6" name="Honour the Chapter" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Fight phase. Pick a model from your kill team. That model can immediately fight an additional time.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="08b9-9cf2-8737-59f6" name="Hellfire Shells" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a model in your kill team to shoot with a heavy bolter. You can only make a single hit roll for the weapon this phase, however, if it hits, the target suffers D3 mortal wounds instead of the normal damage.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c599-302a-7579-b9dc" name="Shock and Awe" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you declare a REIVER from your kill team will attempt to charge. Before any Overwatch attacks are made, you can make a single shooting attack using this model’s shock grenades against a target of the charge. If the attack is successful, that target may not fire Overwatch this phase in addition to the normal effects of the grenade.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9ab0-9a71-a391-7eb0" name="Grav-chute Descent" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Choose up to three GRAV-CHUTE models from your kill team that were set up in Reserve, and set them up anywhere on the battlefield that is more than 5&quot; away from any enemy models.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="05d2-bba6-c417-d4d2" name="Jump Pack Assault" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Choose up to three JUMP PACK models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5&quot; away from any enemy models.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bfd5-29d3-1437-dd15" name="Angel of Death" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic after choosing a model that charged in this battle round to fight with. Add 1 to that model’s Attacks characteristic for this phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="39ff-44bd-2a27-21de" name="Teleport Strike" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Choose up to three TERMINATOR models from your kill team that were set up in Reserve and set them up anywhere on the battlefield that is more than 5&quot; away from any enemy models.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f1a8-7271-33b8-813a" name="Smoke Grenades" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the beginning of the Shooting phase. Choose an INFILTRATOR or a SUPPRESSOR SERGEANT from your kill team that isn’t shaken. That model cannot make shooting attacks in this phase, but until the end of the phase all models within 3&quot; of it are considered to be obscured to models that target them with shooting attacks.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ada6-d46b-6e13-4fef" name="Death Denied" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">3</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when one of your models is taken out of action. That model suffers a flesh wound instead.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9d80-2ba4-968d-d8ba" name="Alchomite Detonation" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Killzone: Sector Mechanicus</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the end of the Movement phase. Choose an Alchomite Stack that is within 1&quot; of at least one model from your kill team that is not shaken. At the end of the following Movement phase, roll a dice for each model within 3&quot; of that Alchomite Stack. On a 4+, that model suffers 1 mortal wound. Then remove the Alchomite Stack. Any models that were standing on that terrain are placed on the battlefield directly below where they were standing.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9c3d-daa7-567c-c54a" name="Psychological Warfare" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Morale</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Morale phase. Choose a REIVER from your kill team that took an enemy model out of action in the preceding Fight phase and is not shaken. Add 1 to any Nerve tests made this phase for enemy models within 6&quot; of the model you chose.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3192-756e-f4cd-626b" name="Adaptive Strategy" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic as soon as your kill team is broken. You immediately generate D3 Command Points.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5355-0dff-793d-0ca8" name="Auspex Scan" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a Readied model to shoot with. Ignore hit roll modifiers for the target being at long range or obscured this phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4b15-a42f-73c4-1d3c" name="Champion of Humanity" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">2</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic when you choose a COMMANDER to fight in the Fight phase. Choose hit or wound rolls. You can re-roll all failed rolls of the type you chose for that model’s attacks that target enemy COMMANDERS until the end of the phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0819-ad85-4a18-d813" name="Battle-brothers" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">-</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">-</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic after failing a saving throw for a model that is within 3&quot; of another friendly model that is not shaken. No damage is inflicted upon the target model, but one friendly model of your choice, that is within 3&quot; of the target model and not shaken, suffers a number of mortal wounds equal to the Damage characteristic of the weapon used in the attack.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6665-3b54-9554-c055" name="Rites of Battle" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Primaris Captain or Captain with Master-crafted Heavy Bolt Rifle or Captain in Gravis Armour or Captain in Phobos Armour or Captain in Terminator Armour</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase if your kill team includes a CAPTAIN. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, you can re-roll hit rolls of 1 for friendly models within 6&quot; of this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ee37-fcf8-28f9-4014" name="Tactical Precision" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Shooting</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Primaris Lieutenant or Lieutenant in Reiver Armour or Lieutenant in Phobos Armour</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Shooting phase if your kill team includes a LIEUTENANT. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, you can re-roll wound rolls of 1 for friendly models within 6&quot; of this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5d02-f3ca-39f2-75b2" name="Litanies of Hate" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Fight</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Primaris Chaplain or Chaplain in Terminator Armour</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Fight phase if your kill team includes a CHAPLAIN. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, you can re-roll failed hit rolls in the Fight phase for friendly models within 6&quot; of this model.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="dae8-461a-51b3-24c8" name="Spiritual Leader" hidden="false" typeId="f047-9443-8abf-4d07" typeName="Tactic">
+      <characteristics>
+        <characteristic name="CP" typeId="4437-4b63-0996-9977">1</characteristic>
+        <characteristic name="Phase" typeId="51a1-bfc7-d6c9-3414">Movement</characteristic>
+        <characteristic name="Requires" typeId="4e37-d12d-8b6f-53ec">Primaris Chaplain or Chaplain in Terminator Armour</characteristic>
+        <characteristic name="Description" typeId="03f9-a9e3-0178-543f">Use this Tactic at the start of the Movement phase if your kill team includes a CHAPLAIN. That model gains the following aura ability until the end of the battle round:
+As long as this model is not shaken, friendly models within 6&quot; of this model can use this model’s Leadership characteristic instead of their own.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
   <catalogueLinks>
     <catalogueLink id="1932-beaa-882a-e60f" name="Space Marines" targetId="fce0-30e5-a4fc-8736" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
