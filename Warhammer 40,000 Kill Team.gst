@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="a467-5f42-d24c-6e5b" name="Warhammer 40,000: Kill Team (2018)" revision="43" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="a467-5f42-d24c-6e5b" name="Warhammer 40,000: Kill Team (2018)" revision="44" battleScribeVersion="2.03" authorName="@Mad-Spy" authorContact="https://discord.gg/Y5x9UnErYN" authorUrl="https://bsdata.net/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="a467-5f42-pubN89361" name="Core Manual"/>
     <publication id="a467-5f42-pubN90767" name="Rogue Trader"/>
@@ -55,6 +55,13 @@
         <characteristicType id="998f-87b1-cc06-fb7e" name="Manifest"/>
         <characteristicType id="cb14-ded3-0978-88b8" name="Deny"/>
         <characteristicType id="67ce-9d6c-052c-d1eb" name="Powers known"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="f047-9443-8abf-4d07" name="Tactic">
+      <characteristicTypes>
+        <characteristicType id="4437-4b63-0996-9977" name="CP"/>
+        <characteristicType id="51a1-bfc7-d6c9-3414" name="Phase"/>
+        <characteristicType id="03f9-a9e3-0178-543f" name="Description"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
